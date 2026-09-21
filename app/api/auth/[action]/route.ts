@@ -36,7 +36,7 @@ export async function POST(request:Request,context:{params:Promise<{action:strin
       await rateLimit(request,'login',12,parsed.data.email);
       let tokens:AuthTokens;
       try{tokens=await supabaseRequest('/auth/v1/token?grant_type=password',{method:'POST',body:parsed.data});}
-      catch(error){if(error instanceof AccountError&&error.status===400)throw new AccountError(400,'Email atau password belum sesuai. Gunakan Lupa Password bila diperlukan.','invalid_credentials');throw error;}
+      catch(error){if(error instanceof AccountError&&error.code==='invalid_credentials')throw new AccountError(400,'Email atau password belum sesuai. Gunakan Lupa Password bila diperlukan.','invalid_credentials');throw error;}
       const session=await validatedTokens(tokens);await initializeCustomer(session);
       const response=result({ok:true});setSession(response,request,tokens);return response;
     }

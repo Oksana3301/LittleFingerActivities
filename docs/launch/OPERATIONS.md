@@ -30,9 +30,12 @@ node scripts/validate-workbook.mjs
 node scripts/validate-narration.cjs
 node scripts/verify-daily-report.cjs
 node scripts/verify-parent-voice.cjs
+node scripts/verify-auth-flows.cjs
 ```
 
 Run the two `supabase/tests/*.sql` scripts against the intended project as privileged transaction-only tests; they end with rollback. The live BFF script needs two explicitly disposable confirmed Auth users named `lf-qa-<hex>@example.invalid` and an external JSON fixture file, never committed. It runs phases `pending`, `active`, then `expired`; privileged fixture changes between phases must target only those exact IDs. Its optional `LF_TEST_HTTP=python` transport uses real HTTPS through the managed runtime proxy. Delete the test Auth users and temporary credential/state files afterward.
+
+`verify-auth-flows.cjs` checks signup, verified/unverified login, callback routing and client failures with controlled Auth responses. It sends no email and does not establish SMTP readiness. The account UI distinguishes configuration loading/failure from a closed registration service, lets visitors retry the status check, preserves only the entered email in tab session storage for verification, and directs unverified logins to verification. A failed recovery callback returns to password recovery. Credentials are never stored in browser storage.
 
 If cloud saving fails or another device has advanced the revision, export the current family workbook from parent settings before reloading. Do not blindly retry a stale revision or replace a nonempty child's history. Device imports require the parent to confirm the child and begin only at revision zero.
 

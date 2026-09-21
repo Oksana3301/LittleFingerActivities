@@ -24,8 +24,10 @@ export async function supabaseRequest(path:string, options:{method?:string;body?
   if(!response.ok){
     const code=String(data?.error_code||data?.code||'upstream_error');
     if(response.status===429)throw new AccountError(429,'Terlalu banyak percobaan. Tunggu beberapa menit lalu coba lagi.','rate_limited');
+    if(code==='invalid_credentials')throw new AccountError(400,'Email atau password belum sesuai. Periksa kembali atau gunakan Lupa Password.','invalid_credentials');
     if(code==='email_not_confirmed')throw new AccountError(403,'Verifikasi email terlebih dahulu melalui tautan yang dikirim.','email_not_confirmed');
     if(code==='email_address_not_authorized'||code==='unexpected_failure')throw new AccountError(503,'Email verifikasi belum dapat dikirim. Pendaftaran belum selesai. Silakan coba lagi nanti.','email_delivery_unavailable');
+    if(code==='weak_password')throw new AccountError(400,'Pilih password yang lebih kuat, minimal 12 karakter dan belum digunakan di layanan lain.','weak_password');
     if(response.status===401||code==='bad_jwt'||code==='refresh_token_not_found')throw new AccountError(401,'Silakan masuk kembali.','session_expired');
     if(response.status===403||code==='42501')throw new AccountError(403,'Akun ini tidak memiliki akses untuk tindakan tersebut.','forbidden');
     if(code==='P0001'||code==='23505')throw new AccountError(409,'Data telah berubah atau tindakan ini sudah diproses. Muat ulang sebelum mencoba lagi.','conflict');

@@ -1,11 +1,12 @@
 import {authCookie,initializeCustomer,privateHeaders,rpc,setSession,supabaseRequest,verifierCookie,type AuthTokens} from '../../../lib/customer-auth';
 export const dynamic='force-dynamic';
 export async function GET(request:Request){
-  const target=new URL('/verify-email?error=expired',request.url);
+  let target=new URL('/verify-email?error=expired',request.url);
   try{
     const code=new URL(request.url).searchParams.get('code');
     const proof=await authCookie('lf-verifier');
-    if(!code||code.length>2048||!proof||!/^\w+:[a-f0-9]{96}$/.test(proof))throw new Error('missing_proof');
+    if(proof?.startsWith('recovery:'))target=new URL('/forgot-password?error=expired',request.url);
+    if(!code||code.length>2048||!proof||!/^(signup|recovery):[a-f0-9]{96}$/.test(proof))throw new Error('missing_proof');
     const [flow,verifier]=proof.split(':');
     const tokens=await supabaseRequest('/auth/v1/token?grant_type=pkce',{method:'POST',body:{auth_code:code,code_verifier:verifier}}) as AuthTokens;
     const user=await supabaseRequest('/auth/v1/user',{token:tokens.access_token});
