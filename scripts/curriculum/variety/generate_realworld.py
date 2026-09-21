@@ -261,7 +261,7 @@ def run(site,out):
  bundle=out/'bundles';bundle.mkdir(parents=True,exist_ok=True)
  for cat in sorted(POOLS):
   pool=POOLS[cat];assert all(a in CLUES for a in pool[:4]),cat
-  originals=json.loads((site/f'public/worksheets/{cat}.json').read_text());records=copy.deepcopy(originals)
+  originals=json.loads((site/f'content/worksheets/{cat}.json').read_text());records=copy.deepcopy(originals)
   assert len(records)==24
   for slot in range(8):
    if slot==0: rounds=[clue_round(pool,r) for r in range(4)]

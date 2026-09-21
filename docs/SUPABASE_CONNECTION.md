@@ -1,66 +1,47 @@
-# Littlefinger Supabase connection
+# Littlefinger account integration
 
-Project: `eamewoihspijkbsmegod` (Little Finger Activities, Singapore).
+Updated 21 September 2026. Project: `eamewoihspijkbsmegod` (Little Finger Activities, Singapore).
+
 Site: https://little-world-playroom.atikadewi.chatgpt.site
-Requested GitHub repository: https://github.com/Oksana3301/LittleFingerActivities
+Source mirror: https://github.com/Oksana3301/LittleFingerActivities
 
-## Current scope
+## Implemented
 
-This revision connects the existing Site to Supabase and applies the account database foundation. It does **not** release the new email/password customer portal or replace the existing identity/storage flows. The existing activity collection, illustrations, narration, local learning report, D1 preorder records and private R2 parent recordings remain intact.
+The existing Site now contains an email/password account BFF, child profiles, cloud workbooks, annual access enforcement, manual owner activation/renewal, and explicit parent-recording linking. Existing artwork, activity IDs, optional faith content, four narration languages, local preview history, preorder leads and private R2 audio remain.
 
-Production configuration contains `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY`. The publishable key was retrieved from the selected project; the project reference itself is not an API key. No service-role or secret key is committed. `.env.example` documents variable names only. Runtime values are supplied by the hosting environment, and local `.env.local` is ignored.
+`SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` are hosting environment values. No service-role or secret key is required or committed. Runtime configuration is server-only. Sessions are kept in HttpOnly, Secure, SameSite=Lax, host-only cookies in production. The browser receives account summaries, never Auth tokens. Mutations require same-origin JSON with bounded bodies; Auth operations use shared D1 rate limits.
 
-`lib/supabase/connection.ts` is server-only. `/api/admin/integrations` validates the existing trusted owner identity before checking Auth reachability and the schema marker. It returns sanitized status with private/no-store caching; it never returns keys or family records. A healthy marker proves connection and schema version, not that the launch funnel is complete.
+Registration and recovery use PKCE. A verified email alone is insufficient: session checks also require a live Supabase session. Logout globally revokes the session and clears cookies. Role and subscription checks use database-controlled values, never editable user metadata. Signup creates pending access, not a paid subscription. Owner provisioning requires an address in the private owner allowlist.
 
-## Database
+The default `CUSTOMER_EMAIL_READY=false` closes registration, resend and recovery with a visible explanation and links to the existing preorder interest form. Login remains available for confirmed accounts. SMTP and real email callback delivery are not yet verified; this release is not a completed public customer onboarding launch.
 
-The controlled migration creates:
+## Data and content boundaries
 
-- `profiles`, `children`, `activity_progress`: owner-only access with column restrictions and a child/parent composite foreign key.
-- `account_access`: server-controlled account status/admin role, readable only by the account owner.
-- `subscriptions`: owner-readable, no normal-user mutation of price, status or access dates.
-- `marketing_leads`: no anonymous or ordinary-user table access.
-- `admin_audit_logs`: service insert/read only, update/delete/truncate blocked.
-- `private.legacy_voice_links`: reserved for explicit, dual-authenticated identity linking. Empty; no recording has been reassigned.
+- All public account tables have RLS and explicit grants. Each family's children, subscriptions and workbooks are isolated.
+- `family_workbooks` stores the existing settings, progress and daily-report data per child. Writes use optimistic revisions; a stale device cannot silently overwrite another device. Failed saves show an export/reload instruction. Browser navigation warns while changes remain unsaved.
+- After access expires, parents can read their retained history. Premium payloads and cloud writes are denied. Renewal before expiry adds 365 days to the old expiry; renewal after expiry starts a fresh 365 days.
+- Premium category and legacy activity payloads live in `content/` and are served by guarded API routes. The public index contains cover metadata and empty answer keys. Six specified previews plus the introduction remain free. Generator paths preserve this boundary.
+- Existing browser history is imported only after an explicit parent confirmation into an empty child profile. It is never silently assigned to a new account.
+- Parent voice remains in D1/R2. A new D1 mapping associates the verified customer with the old ChatGPT owner only when both identities authenticate and the parent confirms. Email equality does not link recordings. Competing or nonempty destination collections are rejected.
 
-RLS is enabled on every new table. The non-exposed private session helper checks verified email, a matching live Auth session, and session expiration. The public entitlement RPC runs with caller privileges and checks current active account/subscription status and start/expiry boundaries. Missing records fail closed. Expired subscriptions retain access to their owner's history, while progress writes require active entitlement.
+The full GitHub repository is public at the owner's requested destination. Its contents include the worksheet bank, so repository access is a separate commercial launch decision from website access control.
 
-No signup trigger auto-grants a subscription or administrator role. Future server operations must provision account status deliberately. The migration preserves Supabase's existing RLS event trigger while revoking unnecessary direct API execution of its privileged function.
+## Migrations and operational access
 
-Migration was created with CLI 2.117.0, applied through the Supabase connector, and the local filename reconciled to the exact server-returned migration version. Do not apply it again to this project.
+Applied Supabase migrations are checked in under `supabase/migrations/`. Do not reapply them to this project. The customer portal migration was generated with Supabase CLI 2.117.0, applied through the connector and renamed to its actual server migration version.
 
-## Verification performed
+Activation requires a verified administrator, an active target account, a payment reference, an allowed amount and an idempotency key. Atomic writes preserve audit entries and complete pending requests. Repeated keys cannot double-extend access. Audit rows cannot be edited or deleted. The UI does not collect payment automatically.
 
-- Auth settings reachable; email enabled; email auto-confirm disabled; anonymous and phone login disabled.
-- Transaction-only SQL regression passed: own profile/child/subscription reads, allowed own-profile update, foreign-family denial, child ownership reassignment denial, role escalation denial, subscription mutation denial, private leads/audit denial.
-- Active entitlement allowed; pending, expired, suspended, unverified, mismatched-session and revoked-session entitlement denied.
-- Progress survives expiry and cannot be modified after expiry.
-- Incomplete subscription dates rejected and audit mutation rejected.
-- All test users/sessions/records rolled back. No emails sent.
-- Live REST checks: schema marker returned 200; anonymous profile and lead reads returned 401.
-- Owner-only integration route passed live read-only checks with real Supabase responses, including denial before fetch, outage/wrong-project failure, no key disclosure, anonymous table denial, and an unexposed private schema.
-- TypeScript and production build passed; existing large client-bundle warnings remain part of the premium-content migration work. No Supabase configuration or key was found in the emitted client JavaScript.
-- Security Advisor: no findings after migration.
-- Performance Advisor: informational unused-index notices only on this new, empty project; retained indexes support ownership joins, expiry queries, and future admin lookup. [Advisor explanation](https://supabase.com/docs/guides/database/database-linter?lint=0005_unused_index).
+The original `/admin` lead management still uses trusted Sites identity and server-only `LITTLEFINGER_OWNER_EMAIL`. New `/account/admin` uses the verified customer administrator. Do not merge their identities by email or publish lead exports.
 
-These are database integration tests, not end-to-end customer Auth tests. See `supabase/tests/account_isolation.sql`.
+## Verification and limits
 
-## Launch work still required
+Transactional SQL checks in `supabase/tests/account_isolation.sql` and `yearly_access.sql` cover family isolation, verified/live sessions, pending/expired/suspended denial, role and subscription mutation denial, exact activation/renewal windows, idempotency, audit immutability and revision conflicts. Fixtures roll back.
 
-The attached launch brief remains the next implementation milestone; the current production Site must not be described as a protected paid-access portal yet.
+`scripts/verify-customer-live.cjs` exercises actual BFF handlers with real disposable Supabase Auth/REST accounts. Its host adapters supply Next cookies and SQLite-backed D1; it is not a real emailed-link or deployed-browser acceptance test. It never sends email. Run only with the documented disposable fixture naming and clean up afterward.
 
-1. Configure and verify transactional SMTP delivery, approved Site/redirect URLs, CAPTCHA/Turnstile and privileged server operations. The current connector does not provide SMTP credentials or CAPTCHA keys. Email-confirmation settings alone do not prove deliverability.
-2. Implement a server-only Auth BFF with HttpOnly/Secure/SameSite cookies, CSRF/body limits, shared rate limits, recovery and revocation. Browser clients must not receive tokens. Preserve a clear failure state when a dependency is unavailable.
-3. Move premium worksheet/index/legacy payloads out of public assets and client bundles; expose only a bounded free preview. Enforce entitlement before every premium payload. The current public workbook is not yet gated.
-4. Build the marketing/account/admin routes and four-language copy. Reviewed draft strings are retained in `docs/launch/launch-i18n.ts`, not claimed as deployed UI.
-5. Add verified lead double opt-in, separate optional marketing consent, atomic/idempotent activation and renewal with audit, launch instructions, reminders, monitoring, and tested backup recovery.
-6. Explicitly link the old ChatGPT voice owner only after both identities authenticate. Import device-local progress only with parent confirmation into a chosen child/account; never silently associate shared-browser history by email.
-7. Run the full brief's real customer and admin end-to-end acceptance tests before replacing the production journey.
+The existing catalogue/narration checks cover 3,365 worksheets, 159 categories, 12,942 playable parts including the introduction and 79,269 four-language text checks. Daily-report and parent-voice regression suites remain available. Browser QA checks free completion/reporting, premium gating, account layouts and Arabic direction. No physical-device microphone or pronunciation certification is claimed.
 
-## GitHub handoff
+The Security Advisor reports intentional deny-all RLS on the unexposed `private.owner_allowlist`, and warns that leaked-password protection is disabled. Configure this with the Auth settings before launch if supported by the project plan: https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection
 
-The configured GitHub installation is limited to selected repositories and currently includes only the unrelated laundry repository. The requested new repository is readable because it is public, but a write attempt returned HTTP 403 `Resource not accessible by integration`. No GitHub file or commit was created.
-
-Owner action: open https://github.com/settings/installations/160833715, add `LittleFingerActivities` under repository access, and save. The `github` remote points to the requested repo; the existing Site `origin` remains unchanged. Push the complete reviewed source/assets after the installation can write; do not force-push or substitute a different repository.
-
-The repository is currently public. Publishing its full source also publishes the worksheet bank; website entitlement checks do not make a public source repository private. Choose repository visibility deliberately before a commercial launch.
+See `docs/launch/OPERATIONS.md` for the remaining email/provider setup and go-live sequence.

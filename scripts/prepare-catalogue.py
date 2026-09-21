@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-raw=json.loads((root/'app/data/activities.json').read_text())
+raw=json.loads((root/'content/activities.json').read_text())
 engines={'identify':'tap-identify','pair':'picture-pair','sort':'sort','sequence':'sequence','count':'count-one-to-one','compare':'compare-quantity','pattern':'pattern','memory':'memory-pairs','draw':'open-drawing','trace':'trace-path','checklist':'practical-life','story':'guided-story'}
 packs={'little-discoveries':'shapes-colors-size','abc-and-words':'alphabet-sounds','numbers-and-shapes':'early-math','everyday-adventures':'practical-life','feelings-and-friends':'social-emotional','ready-for-school':'kindergarten-readiness','rainy-day-play':'rainy-day','nature-noticing':'nature-weather'}
 common=[]

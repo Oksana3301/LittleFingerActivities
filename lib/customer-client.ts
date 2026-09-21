@@ -1,0 +1,28 @@
+'use client';
+export type ChildProfile={id:string;display_name:string;age_band:string;preferred_language:string};
+export type AccountOverview={user:{id:string;email:string}|null;profile:{full_name:string;preferred_language:string}|null;account:{account_status:string;admin_role:boolean}|null;subscription:{id:string;status:string;access_starts_at:string|null;access_expires_at:string|null;price_paid:number}|null;children:ChildProfile[];access:boolean};
+export const signedOut:AccountOverview={user:null,profile:null,account:null,subscription:null,children:[],access:false};
+export async function loadAccount():Promise<AccountOverview>{
+  let response=await fetch('/api/auth/session',{cache:'no-store'});
+  if(!response.ok)throw new Error('Akun belum dapat dimuat. Coba lagi.');
+  let data:any=await response.json();
+  if(data.refreshable){
+    const refreshed=await fetch('/api/auth/refresh',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});
+    if(refreshed.ok){response=await fetch('/api/auth/session',{cache:'no-store'});if(!response.ok)throw new Error('Akun belum dapat dimuat.');data=await response.json();}
+  }
+  return data;
+}
+let refreshing:Promise<Response>|null=null;
+export async function accountFetch(path:string,options:RequestInit={}){
+  const send=()=>fetch(path,{...options,credentials:'same-origin',cache:'no-store'});
+  let response=await send();
+  if(response.status===401&&!path.startsWith('/api/auth/')){
+    if(!refreshing)refreshing=fetch('/api/auth/refresh',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}',credentials:'same-origin'}).finally(()=>{refreshing=null;});
+    if((await refreshing).ok)response=await send();
+  }
+  return response;
+}
+export async function jsonAction(path:string,body:unknown,method='POST'){
+  const response=await accountFetch(path,{method,headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  const data:any=await response.json();if(!response.ok)throw new Error(data.error||'Permintaan belum berhasil.');return data;
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./littlefinger.css";
+import "./account.css";
 import catalogue from "../public/specs/workbook-catalogue-report.json";
 
 export const metadata: Metadata = {

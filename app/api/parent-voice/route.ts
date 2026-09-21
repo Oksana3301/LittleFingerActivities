@@ -1,4 +1,4 @@
-import {voiceDb,voiceBucket,voiceOwner,validVoiceLanguage,audioMime} from '../../../lib/parent-voice';
+import {voiceDb,voiceBucket,voiceOwner,validVoiceLanguage,audioMime,canSaveVoice} from '../../../lib/parent-voice';
 import {normalizeVoiceText,voiceTextKey} from '../../data/personalization';
 const headers={'Cache-Control':'private, no-store'};
 const fail=(error:string,status:number)=>Response.json({error},{status,headers});
@@ -14,6 +14,7 @@ export async function GET(request:Request){
 }
 export async function PUT(request:Request){
  const owner=await voiceOwner();if(!owner)return fail('Masuk untuk menyimpan rekaman pribadi.',401);
+ if(!await canSaveVoice())return fail('Aktifkan akses untuk menyimpan rekaman baru.',403);
  if(request.headers.get('origin')!==new URL(request.url).origin)return fail('Buka rekaman dari Littlefinger.',403);
  if(Number(request.headers.get('content-length')||0)>5_500_000)return fail('Maksimal 5 MB per rekaman.',413);
  try{const reader=request.body?.getReader();if(!reader)return fail('Audio belum dikirim.',400);const chunks:Uint8Array[]=[];let size=0;while(true){const part=await reader.read();if(part.done)break;size+=part.value.length;if(size>5_500_000){await reader.cancel();return fail('Maksimal 5 MB per rekaman.',413)}chunks.push(part.value)}const bytes=new Uint8Array(size);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length}const form=await new Response(bytes,{headers:{'Content-Type':request.headers.get('content-type')||''}}).formData(),file=form.get('audio'),language=String(form.get('lang')||''),text=normalizeVoiceText(String(form.get('text')||''));

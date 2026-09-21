@@ -45,6 +45,7 @@ const voice = loadSource('lib/parent-voice.ts', {
   'cloudflare:workers': {env},
   '../app/chatgpt-auth': {getChatGPTUser: async () => state.user},
   '../app/data/personalization': personalization,
+  './customer-auth': {customerSession:async()=>null,hasCustomerAccess:async()=>false},
 });
 const route = loadSource('app/api/parent-voice/route.ts', {
   '../../../lib/parent-voice': voice,

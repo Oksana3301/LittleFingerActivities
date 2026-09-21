@@ -15,14 +15,14 @@ for src in map(pathlib.Path,sys.argv[1:]):
  for p in sorted(directory.glob('*.json')):
   if p.stem not in known:continue
   assert p.stem not in used,p.stem;used.add(p.stem)
-  incoming=read(p);old=read(root/'public/worksheets'/p.name)
+  incoming=read(p);old=read(root/'content/worksheets'/p.name)
   assert [w['id'] for w in incoming]==[w['id'] for w in old],p.stem
   assert len(incoming)==24 and all(len(w['rounds'])==4 for w in incoming)
-  write(root/'public/worksheets'/p.name,incoming)
+  write(root/'content/worksheets'/p.name,incoming)
 assert used==known,{'missing':list(known-used)}
 records=[];coverage=[]
 for c in cats:
- p=root/'public/worksheets'/(c['id']+'.json');items=read(p)
+ p=root/'content/worksheets'/(c['id']+'.json');items=read(p)
  for w in items:w['activityKind']=kind(w)
  kinds=sorted({w['activityKind'] for w in items});renders=sorted({w['engine'] for w in items})
  assert len(kinds)>=4,(c['id'],kinds)

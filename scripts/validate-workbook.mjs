@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-const directory='public/worksheets';
+const directory='content/worksheets';
 const cats=JSON.parse(fs.readFileSync('app/data/worksheet-categories.json','utf8'));
 const records=cats.flatMap(c=>JSON.parse(fs.readFileSync(`${directory}/${c.id}.json`,'utf8')));
 const atlases=JSON.parse(fs.readFileSync('app/data/art-atlases.json','utf8'));

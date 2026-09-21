@@ -231,7 +231,7 @@ def main():
  spec=importlib.util.spec_from_file_location('adjective_source',src/'scripts/curriculum/generate_adjectives.py');mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
  result={};originals={}
  for cid in MOTOR+DRAWING:
-  originals[cid]=json.loads((src/'public/worksheets'/f'{cid}.json').read_text());data=clone(originals[cid]);original_engine=data[0]['engine'];other='draw' if original_engine=='trace' else 'trace'
+  originals[cid]=json.loads((src/'content/worksheets'/f'{cid}.json').read_text());data=clone(originals[cid]);original_engine=data[0]['engine'];other='draw' if original_engine=='trace' else 'trace'
   for i in range(12,24):
    block=(i-12)//4;seed=(i-12)%4*4
    engine=['pair','pattern',other][block];kind=['match','pattern',other][block]
@@ -239,7 +239,7 @@ def main():
    data[i]=patch(data[i],engine,kind,rounds)
   result[cid]=data
  for cid,a,b,title in mod.SPECS:
-  originals[cid]=json.loads((src/'public/worksheets'/f'{cid}.json').read_text());data=clone(originals[cid])
+  originals[cid]=json.loads((src/'content/worksheets'/f'{cid}.json').read_text());data=clone(originals[cid])
   if cid=='kind-descriptions':
    for i in range(4,12):
     engine='memory' if i<8 else 'pattern';data[i]=patch(data[i],engine,engine,[kindround(mod,(i-4)*4+r,engine) for r in range(4)])

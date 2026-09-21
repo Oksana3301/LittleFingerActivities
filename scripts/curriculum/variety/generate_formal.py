@@ -378,7 +378,7 @@ def main():
  owned=[c for c in categories if (c['group'] in ['visual','matching','literacy','numbers','patterns','memory'] and c['id']!='symmetry') or c['id'] in ['vehicle-count','build-blocks']]
  manifest={'revision':'variety-1','categories':[],'negativeFixtures':[]}
  for c in owned:
-  cat=c['id'];original=json.loads((SRC/'public/worksheets'/f'{cat}.json').read_text());data=cp(original)
+  cat=c['id'];original=json.loads((SRC/'content/worksheets'/f'{cat}.json').read_text());data=cp(original)
   for i in range(12,24):
    mode=(i-12)%4;batch=(i-12)//4;rounds=[make_round(cat,mode,batch*4+r) for r in range(4)]
    # The IDs and learning metadata remain stable; all inherited task fields are replaced.

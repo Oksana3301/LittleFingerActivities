@@ -52,7 +52,7 @@ for g in groups:
         kind=w.get('activityKind') or ('match' if w['engine']=='pair' else ('choose-many' if len(w['answer'])>1 else 'choose-one') if w['engine']=='identify' else w['engine'])
         w['activityKind']=kind
         kinds.append(kind)
-    write('public/worksheets/'+category+'.json',sheets)
+    write('content/worksheets/'+category+'.json',sheets)
     title={l:label+suffix for l,label,suffix in [(l,g['title'][l],{'id':' · Penemuan baru','en':' · New discoveries','zh':' · 新发现','ar':' · اكتشافات جديدة'}[l]) for l in ['id','en','zh','ar']]}
     categories.append({'id':category,'group':'learning','asset':g['asset'],'title':title,
       'description':{'id':'Tujuan belajar baru melalui pilihan, kreasi, dan eksplorasi bersama pendamping.',
@@ -67,7 +67,11 @@ assert len({(c['group'],c['subtopic']) for c in coverage})==len(coverage)
 assert all(i in ids or i=='telur-dan-hewan' for c in coverage for i in c['links']), 'Unknown coverage link'
 assert {c['id'] for c in categories}<={c for g in groups for c in g['categories']}, 'Ungrouped category'
 assert all(c in {x['id'] for x in categories} for g in groups for c in g['categories'])
-write('app/data/worksheet-index.json',old+added)
+# The browser catalogue contains covers only; playable content stays on the server.
+cover_fields=['id','category','title','engine','variant','age','ageRange','difficulty','instruction','activityKind','revision','partCount','duration','faith','skills']
+def cover(w):
+    return {**{k:w[k] for k in cover_fields if k in w},'options':w.get('options',[])[:3],'answer':[]}
+write('app/data/worksheet-index.json',[cover(w) for w in old+added])
 write('app/data/worksheet-categories.json',categories)
 write('app/data/discovery-taxonomy.json',taxonomy)
 write('app/data/learning-groups.json',groups)

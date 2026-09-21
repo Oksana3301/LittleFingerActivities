@@ -1,0 +1,6 @@
+'use client';
+import {useState} from 'react';
+import {Dialog,DialogContent,DialogDescription,DialogTitle,DialogTrigger} from '@/components/ui/dialog';
+import {Button} from '@/components/ui/button';
+import {jsonAction} from '../../lib/customer-client';
+export default function VoiceAccountLink(){const [error,setError]=useState(''),[busy,setBusy]=useState(false);return <div className="lf-voice-link"><Dialog><DialogTrigger asChild><button className="lf-secondary">Kaitkan rekaman lama dari ChatGPT</button></DialogTrigger><DialogContent><DialogTitle>Kaitkan koleksi rekaman lama?</DialogTitle><DialogDescription>Kedua akun sedang masuk. Konfirmasikan bahwa rekaman pada akun ChatGPT ini milik keluarga yang sama dengan akun email Littlefinger yang sedang digunakan. Pengaitan tidak dilakukan berdasarkan kesamaan alamat email.</DialogDescription>{error&&<p role="alert">{error}</p>}<Button disabled={busy} onClick={async()=>{setBusy(true);try{await jsonAction('/api/parent-voice/link',{confirmed:true});location.reload();}catch(e){setError(e instanceof Error?e.message:'Pengaitan belum berhasil.');}finally{setBusy(false);}}}>Ya, kaitkan koleksi keluarga ini</Button></DialogContent></Dialog></div>;}

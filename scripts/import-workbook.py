@@ -46,7 +46,7 @@ assets={'animal-names':'hen','produce-names':'carrot','garden-names':'watering-c
 categories=[]
 for c in curr['categories']:
  categories.append({**c,'asset':assets[c['id']],'age':c['ageRange'][0],'description':{'id':'24 lembar · 4 bagian singkat per lembar','en':'24 sheets · 4 short parts per sheet'}})
-pub=root/'public/worksheets';pub.mkdir(exist_ok=True)
+pub=root/'content/worksheets';pub.mkdir(exist_ok=True)
 for c in categories:
  (pub/(c['id']+'.json')).write_text(json.dumps([w for w in out if w['category']==c['id']],ensure_ascii=False,separators=(',',':')))
 index=[]

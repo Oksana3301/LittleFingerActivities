@@ -23,7 +23,7 @@ for c in coverage:
 count=0; fingerprints=set()
 for category in read('app/data/worksheet-categories.json'):
     if not category['id'].startswith('path-'):continue
-    data=read('public/worksheets/'+category['id']+'.json')
+    data=read('content/worksheets/'+category['id']+'.json')
     assert len(data)==category['worksheetCount']
     for w in data:
         count+=1

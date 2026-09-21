@@ -225,7 +225,7 @@ function audit(site,opts={}) {
  if(!unique(catIds))issue(errors,'CATEGORY_IDS','catalogue','Duplicate category IDs');
  const records=[];
  for(const c of cats) {
-  const filename=path.join(site,'public/worksheets',`${c.id}.json`);
+  const filename=path.join(site,'content/worksheets',`${c.id}.json`);
   if(!fs.existsSync(filename)){issue(errors,'MISSING_CATEGORY_FILE',c.id,filename);continue;}
   const rows=JSON.parse(fs.readFileSync(filename,'utf8')).map(w=>overlayRecords.get(w.id)||w);
   if(opts.overlays?.length)for(const w of rows)w.activityKind=inferredKind(w);

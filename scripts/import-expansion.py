@@ -19,9 +19,9 @@ for c in new_categories:
     assert all(len(w['rounds']) == 4 for w in records)
     if all('activityKind' in w for w in records): c['activityKinds'] = list(dict.fromkeys(w['activityKind'] for w in records))
     c['worksheetCount'] = len(records)
-    write(root / 'public/worksheets' / (c['id'] + '.json'), records)
+    write(root / 'content/worksheets' / (c['id'] + '.json'), records)
 categories = new_categories + categories
-records = [w for c in categories for w in read(root / 'public/worksheets' / (c['id'] + '.json'))]
+records = [w for c in categories for w in read(root / 'content/worksheets' / (c['id'] + '.json'))]
 assert len({w['id'] for w in records}) == len(records)
 index = []
 for w in records:

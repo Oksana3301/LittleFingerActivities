@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
-const a=JSON.parse(fs.readFileSync('app/data/activities.json'));
+const a=JSON.parse(fs.readFileSync('content/activities.json'));
 const c=JSON.parse(fs.readFileSync('public/specs/catalogue-common.json'));
 const schema=JSON.parse(fs.readFileSync('public/specs/activity.schema.json'));
 assert.equal(a.length,48);assert.equal(new Set(a.map(x=>x.id)).size,48);

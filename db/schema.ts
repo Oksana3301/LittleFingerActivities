@@ -4,3 +4,4 @@ export const siteSettings=sqliteTable('site_settings',{key:text('key').primaryKe
 export const submissionLimits=sqliteTable('submission_limits',{key:text('key').primaryKey(),count:integer('count').notNull(),expires:integer('expires').notNull()});
 
 export const voiceRecordings=sqliteTable('voice_recordings',{id:text('id').primaryKey(),owner:text('owner').notNull(),language:text('language').notNull(),textKey:text('text_key').notNull(),transcript:text('transcript').notNull(),objectKey:text('object_key').notNull(),mime:text('mime').notNull(),bytes:integer('bytes').notNull(),updatedAt:text('updated_at').notNull()},table=>[index('voice_owner_language').on(table.owner,table.language)]);
+export const voiceAccountLinks=sqliteTable('voice_account_links',{customerId:text('customer_id').primaryKey(),legacyOwner:text('legacy_owner').notNull().unique(),linkedAt:text('linked_at').notNull()});

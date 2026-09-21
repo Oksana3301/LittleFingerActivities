@@ -5,7 +5,7 @@ import numpy as np
 import argparse
 ap=argparse.ArgumentParser();ap.add_argument('--site',type=Path,default=Path(__file__).resolve().parents[2]);ap.add_argument('--report',type=Path,required=True);args=ap.parse_args()
 SITE=args.site
-records=[w for category in ['transport-play','picture-details','picture-puzzles','spatial-layouts','route-adventures'] for w in json.loads((SITE/'public/worksheets'/f'{category}.json').read_text())]
+records=[w for category in ['transport-play','picture-details','picture-puzzles','spatial-layouts','route-adventures'] for w in json.loads((SITE/'content/worksheets'/f'{category}.json').read_text())]
 atlases=json.loads((SITE/'app/data/art-atlases.json').read_text())
 asset_map={asset:(a,i) for a in atlases for i,asset in enumerate(a['assets'])}
 errors=[];warnings=[];stats=collections.Counter();images={};semsets=collections.defaultdict(list);roundsets=collections.defaultdict(list);pixelstats=[]
