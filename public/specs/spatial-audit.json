@@ -1,0 +1,96 @@
+{
+  "worksheets": 120,
+  "rounds": 480,
+  "engineCounts": {
+    "pair": 128,
+    "identify": 88,
+    "puzzle": 64,
+    "route": 64,
+    "memory": 24,
+    "placement": 48,
+    "sequence": 32,
+    "pattern": 16,
+    "trace": 16
+  },
+  "errors": [],
+  "warnings": [],
+  "sameCategoryDuplicateWorksheets": [],
+  "sameCategoryRepeatedRounds": [],
+  "lowestCropInk": [
+    {
+      "task": "transport-play-18/3.options[0]",
+      "asset": "helicopter",
+      "inkFraction": 0.1034
+    },
+    {
+      "task": "picture-puzzles-03/1.options[0]",
+      "asset": "tractor",
+      "inkFraction": 0.1058
+    },
+    {
+      "task": "picture-puzzles-02/1.options[0]",
+      "asset": "airplane",
+      "inkFraction": 0.1071
+    },
+    {
+      "task": "picture-puzzles-12/1.options[0]",
+      "asset": "trowel",
+      "inkFraction": 0.1095
+    },
+    {
+      "task": "transport-play-19/3.options[0]",
+      "asset": "scooter",
+      "inkFraction": 0.1097
+    },
+    {
+      "task": "picture-puzzles-04/1.options[0]",
+      "asset": "scooter",
+      "inkFraction": 0.117
+    },
+    {
+      "task": "picture-puzzles-12/0.options[2]",
+      "asset": "watering-can",
+      "inkFraction": 0.1192
+    },
+    {
+      "task": "transport-play-17/0.options[0]",
+      "asset": "bus",
+      "inkFraction": 0.1217
+    },
+    {
+      "task": "picture-puzzles-07/3.options[1]",
+      "asset": "goat",
+      "inkFraction": 0.1311
+    },
+    {
+      "task": "picture-puzzles-05/0.options[1]",
+      "asset": "excavator",
+      "inkFraction": 0.1439
+    },
+    {
+      "task": "transport-play-18/0.options[0]",
+      "asset": "fire-truck",
+      "inkFraction": 0.1443
+    },
+    {
+      "task": "transport-play-19/0.options[0]",
+      "asset": "airplane",
+      "inkFraction": 0.1472
+    },
+    {
+      "task": "picture-puzzles-10/2.options[2]",
+      "asset": "carrot",
+      "inkFraction": 0.1642
+    },
+    {
+      "task": "picture-puzzles-06/0.options[1]",
+      "asset": "cat",
+      "inkFraction": 0.1815
+    },
+    {
+      "task": "picture-puzzles-11/0.options[1]",
+      "asset": "tomato",
+      "inkFraction": 0.1836
+    }
+  ]
+}

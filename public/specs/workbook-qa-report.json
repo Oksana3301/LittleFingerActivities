@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-18",
+  "catalogue": {
+    "worksheets": 1344,
+    "categories": 56,
+    "rounds": 5376,
+    "structural_validation": "passed",
+    "semantic_validation": "passed"
+  },
+  "browser": {
+    "representative_engines_completed": [
+      "identify",
+      "compare",
+      "pair",
+      "count",
+      "sequence",
+      "pattern",
+      "memory",
+      "trace",
+      "draw"
+    ],
+    "additional_checks": [
+      "wrong selection feedback and retry",
+      "matching lines and next-round navigation",
+      "memory mismatch reset",
+      "count items cannot be counted twice",
+      "freehand pointer drawing, keyboard stamps, undo",
+      "sticker placement and reload persistence",
+      "caregiver note saved and read in journal",
+      "language switch and sticker settings"
+    ],
+    "responsive_iframe_checks": {
+      "390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      },
+      "768": {
+        "clientWidth": 753,
+        "scrollWidth": 753
+      },
+      "360": {
+        "clientWidth": 345,
+        "scrollWidth": 345
+      }
+    },
+    "limitations": [
+      "Responsive checks use iframe viewports, not physical devices.",
+      "Printed layouts reviewed in source; OS print output and file download completion were not browser-verified.",
+      "Optional WebMCP API was unavailable in the browser.",
+      "No independent educator, translation, or child usability review has occurred."
+    ]
+  },
+  "expansion": {
+    "worksheetsAdded": 480,
+    "categoriesAdded": 20,
+    "totalWorksheets": 1824,
+    "totalCategories": 76,
+    "totalRounds": 7296,
+    "structuralValidation": "passed",
+    "semanticValidation": "1920 additional rounds passed; zero errors",
+    "previousCatalogue": "all 56 original category files byte-for-byte unchanged",
+    "browserChecks": [
+      "planet answer and next-part navigation",
+      "family matching completion",
+      "body part completion",
+      "mobile social story completion",
+      "math story picture equation and completion",
+      "science category filter",
+      "category search-to-worksheet navigation",
+      "390px and 768px iframe layouts; no horizontal overflow"
+    ],
+    "corrections": [
+      "unambiguous touch instruction",
+      "varied first-round planet targets",
+      "singular/plural English math labels",
+      "mobile progress label no longer overlaps title"
+    ],
+    "limitations": [
+      "No physical-device, educator or child usability review.",
+      "New print layout checked in source; OS print output not tested."
+    ]
+  },
+  "vehicleHobbyExpansion": {
+    "worksheetsAdded": 384,
+    "categoriesAdded": 16,
+    "totalWorksheets": 2208,
+    "totalCategories": 92,
+    "totalRounds": 8832,
+    "engines": 10,
+    "structuralValidation": "passed",
+    "semanticValidation": "1536 new rounds passed; zero errors; negative answer mutations detected",
+    "browserChecks": [
+      "answer audio does not select the answer",
+      "question audio and unavailable-voice fallback",
+      "caregiver voice controls and tempo change",
+      "sort wrong group feedback, move and complete on phone",
+      "toy-card sequence completion",
+      "tool matching completion on tablet",
+      "memory audio appears only on revealed cards",
+      "390px phone layout with no horizontal overflow",
+      "reading speed setting persisted across navigation"
+    ],
+    "speechControlHarness": {
+      "checksPassed": 12,
+      "scope": [
+        "language matching and female preference",
+        "explicit voice override",
+        "unmute and manual play",
+        "same control stop",
+        "stale event isolation",
+        "error recovery",
+        "startup timeout",
+        "voices changed refresh",
+        "language switch cancellation",
+        "hidden tab cancellation",
+        "unmount cleanup"
+      ]
+    },
+    "limitations": [
+      "No installed voices in the test browser; audible playback and maternal voice quality could not be verified.",
+      "Device voice availability and voice character vary; no standardized female recording is provided.",
+      "Responsive layouts tested in iframe viewports, not physical devices.",
+      "No educator or child usability review."
+    ],
+    "previousCatalogue": "All 76 previous category files byte-for-byte unchanged"
+  },
+  "habitsAndMandarin": {
+    "worksheetsAdded": 288,
+    "categoriesAdded": 12,
+    "totalWorksheets": 2496,
+    "totalCategories": 104,
+    "totalRounds": 9984,
+    "structuralValidation": "passed",
+    "semanticValidation": "30,508 checks passed; all 12 mutation fixtures detected; every worksheet contains four distinct tasks",
+    "narrationCoverage": {
+      "worksheets": 2496,
+      "worksheetRoundsIncludingIntroduction": 9985,
+      "legacyActivities": 48,
+      "narrationChecks": 60549,
+      "uniqueMandarinStrings": 2495,
+      "missing": [],
+      "valid": true
+    },
+    "speechControlHarness": "25/25 pass using mocked device synthesis",
+    "browserChecks": [
+      "Mandarin question and label text on existing worksheets",
+      "independent UI English with Mandarin narration; UI Indonesian with Mandarin narration",
+      "audio language persists across worksheet and legacy navigation",
+      "answer speaker does not select answers",
+      "Indonesian and Mandarin speaker controls and unavailable-voice feedback",
+      "legacy activity question and picture narration, answer completion",
+      "toothbrushing identify completion",
+      "bath routine sequence completion",
+      "390px and768px iframe layouts: no horizontal overflow",
+      "polite-words incorrect feedback, retry and completion in Indonesian"
+    ],
+    "limits": [
+      "Device speech voices were unavailable in browser QA; audible Indonesian/Mandarin playback, pronunciation and maternal voice quality are unverified on physical devices.",
+      "40 representative translated instructions and edge-case labels received a second semantic review; not a full native-language editorial review.",
+      "Habit content has automated semantic checks; no independent educator or child usability testing."
+    ],
+    "previousCatalogue": "92 original category files byte-for-byte unchanged"
+  }
+}

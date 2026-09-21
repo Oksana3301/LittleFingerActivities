@@ -1,0 +1,2334 @@
+[
+  {
+    "group": "A",
+    "subtopic": "Namaku dan identitasku"
+  },
+  {
+    "group": "A",
+    "subtopic": "Bagian wajah"
+  },
+  {
+    "group": "A",
+    "subtopic": "Bagian tubuh"
+  },
+  {
+    "group": "A",
+    "subtopic": "Fungsi anggota tubuh"
+  },
+  {
+    "group": "A",
+    "subtopic": "Lima indra"
+  },
+  {
+    "group": "A",
+    "subtopic": "Tubuh bagian kanan dan kiri"
+  },
+  {
+    "group": "A",
+    "subtopic": "Anggota tubuh yang berpasangan"
+  },
+  {
+    "group": "A",
+    "subtopic": "Pertumbuhan dari bayi hingga anak"
+  },
+  {
+    "group": "A",
+    "subtopic": "Persamaan dan perbedaan manusia"
+  },
+  {
+    "group": "A",
+    "subtopic": "Kebiasaan menjaga tubuh"
+  },
+  {
+    "group": "A",
+    "subtopic": "Bagian tubuh privat"
+  },
+  {
+    "group": "A",
+    "subtopic": "Batasan tubuh dan izin menyentuh"
+  },
+  {
+    "group": "A",
+    "subtopic": "Mengenali sakit dan tidak nyaman"
+  },
+  {
+    "group": "A",
+    "subtopic": "Tubuhku bisa bergerak"
+  },
+  {
+    "group": "A",
+    "subtopic": "Gerakan kasar dan gerakan halus"
+  },
+  {
+    "group": "B",
+    "subtopic": "Senang, sedih, marah, takut"
+  },
+  {
+    "group": "B",
+    "subtopic": "Terkejut, malu, kecewa, bangga"
+  },
+  {
+    "group": "B",
+    "subtopic": "Mengenali ekspresi wajah"
+  },
+  {
+    "group": "B",
+    "subtopic": "Penyebab suatu perasaan"
+  },
+  {
+    "group": "B",
+    "subtopic": "Apa yang kulakukan saat marah"
+  },
+  {
+    "group": "B",
+    "subtopic": "Cara menenangkan diri"
+  },
+  {
+    "group": "B",
+    "subtopic": "Meminta bantuan"
+  },
+  {
+    "group": "B",
+    "subtopic": "Menunggu giliran"
+  },
+  {
+    "group": "B",
+    "subtopic": "Berbagi"
+  },
+  {
+    "group": "B",
+    "subtopic": "Meminjam dan mengembalikan"
+  },
+  {
+    "group": "B",
+    "subtopic": "Mengucapkan maaf"
+  },
+  {
+    "group": "B",
+    "subtopic": "Mengucapkan terima kasih"
+  },
+  {
+    "group": "B",
+    "subtopic": "Menghadapi penolakan"
+  },
+  {
+    "group": "B",
+    "subtopic": "Menghormati perbedaan"
+  },
+  {
+    "group": "B",
+    "subtopic": "Menjadi teman yang baik"
+  },
+  {
+    "group": "B",
+    "subtopic": "Menyelesaikan konflik sederhana"
+  },
+  {
+    "group": "B",
+    "subtopic": "Mengenali perilaku baik dan tidak baik"
+  },
+  {
+    "group": "B",
+    "subtopic": "Personal space"
+  },
+  {
+    "group": "B",
+    "subtopic": "Aman bersama orang baru"
+  },
+  {
+    "group": "B",
+    "subtopic": "Mengenali bullying sederhana"
+  },
+  {
+    "group": "C",
+    "subtopic": "Bangun tidur"
+  },
+  {
+    "group": "C",
+    "subtopic": "Merapikan tempat tidur"
+  },
+  {
+    "group": "C",
+    "subtopic": "Mandi dan membersihkan tubuh"
+  },
+  {
+    "group": "C",
+    "subtopic": "Menggosok gigi"
+  },
+  {
+    "group": "C",
+    "subtopic": "Mencuci tangan"
+  },
+  {
+    "group": "C",
+    "subtopic": "Menggunakan toilet"
+  },
+  {
+    "group": "C",
+    "subtopic": "Memakai dan melepas pakaian"
+  },
+  {
+    "group": "C",
+    "subtopic": "Mengancingkan baju"
+  },
+  {
+    "group": "C",
+    "subtopic": "Memakai sepatu"
+  },
+  {
+    "group": "C",
+    "subtopic": "Mengikat tali sepatu"
+  },
+  {
+    "group": "C",
+    "subtopic": "Menyisir rambut"
+  },
+  {
+    "group": "C",
+    "subtopic": "Makan sendiri"
+  },
+  {
+    "group": "C",
+    "subtopic": "Menggunakan sendok dan garpu"
+  },
+  {
+    "group": "C",
+    "subtopic": "Menuangkan air"
+  },
+  {
+    "group": "C",
+    "subtopic": "Membawa piring kotor"
+  },
+  {
+    "group": "C",
+    "subtopic": "Merapikan mainan"
+  },
+  {
+    "group": "C",
+    "subtopic": "Menyimpan pakaian"
+  },
+  {
+    "group": "C",
+    "subtopic": "Membersihkan meja"
+  },
+  {
+    "group": "C",
+    "subtopic": "Menyiram tanaman"
+  },
+  {
+    "group": "C",
+    "subtopic": "Membantu menyiapkan makanan"
+  },
+  {
+    "group": "C",
+    "subtopic": "Mengemas tas sekolah"
+  },
+  {
+    "group": "C",
+    "subtopic": "Rutinitas pagi dan malam"
+  },
+  {
+    "group": "C",
+    "subtopic": "Tabel tugas harian"
+  },
+  {
+    "group": "C",
+    "subtopic": "Reward chart"
+  },
+  {
+    "group": "C",
+    "subtopic": "Toilet training chart"
+  },
+  {
+    "group": "D",
+    "subtopic": "Nama benda di rumah"
+  },
+  {
+    "group": "D",
+    "subtopic": "Benda di sekolah"
+  },
+  {
+    "group": "D",
+    "subtopic": "Benda di kamar tidur"
+  },
+  {
+    "group": "D",
+    "subtopic": "Benda di kamar mandi"
+  },
+  {
+    "group": "D",
+    "subtopic": "Benda di dapur"
+  },
+  {
+    "group": "D",
+    "subtopic": "Nama anggota keluarga"
+  },
+  {
+    "group": "D",
+    "subtopic": "Kata kerja sehari-hari"
+  },
+  {
+    "group": "D",
+    "subtopic": "Kata sifat"
+  },
+  {
+    "group": "D",
+    "subtopic": "Lawan kata"
+  },
+  {
+    "group": "D",
+    "subtopic": "Kata posisi"
+  },
+  {
+    "group": "D",
+    "subtopic": "Kata jumlah"
+  },
+  {
+    "group": "D",
+    "subtopic": "Kata ukuran"
+  },
+  {
+    "group": "D",
+    "subtopic": "Kata yang berhubungan"
+  },
+  {
+    "group": "D",
+    "subtopic": "Melengkapi kalimat"
+  },
+  {
+    "group": "D",
+    "subtopic": "Menjawab pertanyaan siapa"
+  },
+  {
+    "group": "D",
+    "subtopic": "Menjawab pertanyaan apa"
+  },
+  {
+    "group": "D",
+    "subtopic": "Menjawab pertanyaan di mana"
+  },
+  {
+    "group": "D",
+    "subtopic": "Menjawab pertanyaan mengapa"
+  },
+  {
+    "group": "D",
+    "subtopic": "Menceritakan gambar"
+  },
+  {
+    "group": "D",
+    "subtopic": "Menyusun cerita sederhana"
+  },
+  {
+    "group": "D",
+    "subtopic": "Kosakata Bahasa Indonesia"
+  },
+  {
+    "group": "D",
+    "subtopic": "Kosakata Bahasa Inggris dasar"
+  },
+  {
+    "group": "E",
+    "subtopic": "Mengenal huruf A–Z"
+  },
+  {
+    "group": "E",
+    "subtopic": "Huruf kapital"
+  },
+  {
+    "group": "E",
+    "subtopic": "Huruf kecil"
+  },
+  {
+    "group": "E",
+    "subtopic": "Memasangkan huruf kapital dan kecil"
+  },
+  {
+    "group": "E",
+    "subtopic": "Menelusuri bentuk huruf"
+  },
+  {
+    "group": "E",
+    "subtopic": "Mencari huruf yang sama"
+  },
+  {
+    "group": "E",
+    "subtopic": "Huruf awal nama benda"
+  },
+  {
+    "group": "E",
+    "subtopic": "Bunyi awal kata"
+  },
+  {
+    "group": "E",
+    "subtopic": "Bunyi akhir kata"
+  },
+  {
+    "group": "E",
+    "subtopic": "Suku kata sederhana"
+  },
+  {
+    "group": "E",
+    "subtopic": "Menggabungkan suku kata"
+  },
+  {
+    "group": "E",
+    "subtopic": "Kata dengan gambar"
+  },
+  {
+    "group": "E",
+    "subtopic": "Kata berima"
+  },
+  {
+    "group": "E",
+    "subtopic": "Huruf yang hilang"
+  },
+  {
+    "group": "E",
+    "subtopic": "Urutan alfabet"
+  },
+  {
+    "group": "E",
+    "subtopic": "Membeda­kan huruf mirip: b–d, p–q, m–n"
+  },
+  {
+    "group": "E",
+    "subtopic": "Membentuk huruf menggunakan garis"
+  },
+  {
+    "group": "E",
+    "subtopic": "Perburuan huruf"
+  },
+  {
+    "group": "E",
+    "subtopic": "Teka-teki alfabet"
+  },
+  {
+    "group": "E",
+    "subtopic": "Membaca kalimat sangat pendek"
+  },
+  {
+    "group": "E",
+    "subtopic": "Memahami isi cerita bergambar"
+  },
+  {
+    "group": "F",
+    "subtopic": "Mengenal angka 1–5"
+  },
+  {
+    "group": "F",
+    "subtopic": "Angka 1–10"
+  },
+  {
+    "group": "F",
+    "subtopic": "Angka 1–20"
+  },
+  {
+    "group": "F",
+    "subtopic": "Angka hingga 50"
+  },
+  {
+    "group": "F",
+    "subtopic": "Angka hingga 100"
+  },
+  {
+    "group": "F",
+    "subtopic": "Menghitung benda"
+  },
+  {
+    "group": "F",
+    "subtopic": "Memasangkan angka dan jumlah"
+  },
+  {
+    "group": "F",
+    "subtopic": "Lebih banyak dan lebih sedikit"
+  },
+  {
+    "group": "F",
+    "subtopic": "Sama banyak"
+  },
+  {
+    "group": "F",
+    "subtopic": "Lebih besar dan lebih kecil"
+  },
+  {
+    "group": "F",
+    "subtopic": "Sebelum dan sesudah"
+  },
+  {
+    "group": "F",
+    "subtopic": "Angka yang hilang"
+  },
+  {
+    "group": "F",
+    "subtopic": "Mengurutkan angka"
+  },
+  {
+    "group": "F",
+    "subtopic": "Penjumlahan konkret"
+  },
+  {
+    "group": "F",
+    "subtopic": "Pengurangan konkret"
+  },
+  {
+    "group": "F",
+    "subtopic": "Membagi benda sama rata"
+  },
+  {
+    "group": "F",
+    "subtopic": "Pasangan bilangan"
+  },
+  {
+    "group": "F",
+    "subtopic": "Konsep nol"
+  },
+  {
+    "group": "F",
+    "subtopic": "Ganjil dan genap sederhana"
+  },
+  {
+    "group": "F",
+    "subtopic": "Mengelompokkan per dua, lima, dan sepuluh"
+  },
+  {
+    "group": "F",
+    "subtopic": "Soal cerita bergambar"
+  },
+  {
+    "group": "F",
+    "subtopic": "Mengenal simbol +, −, dan ="
+  },
+  {
+    "group": "F",
+    "subtopic": "Estimasi jumlah sederhana"
+  },
+  {
+    "group": "G",
+    "subtopic": "Warna primer"
+  },
+  {
+    "group": "G",
+    "subtopic": "Warna sekunder"
+  },
+  {
+    "group": "G",
+    "subtopic": "Mencampur warna"
+  },
+  {
+    "group": "G",
+    "subtopic": "Nuansa terang dan gelap"
+  },
+  {
+    "group": "G",
+    "subtopic": "Lingkaran, segitiga, persegi"
+  },
+  {
+    "group": "G",
+    "subtopic": "Persegi panjang dan oval"
+  },
+  {
+    "group": "G",
+    "subtopic": "Bentuk 2D"
+  },
+  {
+    "group": "G",
+    "subtopic": "Bentuk 3D sederhana"
+  },
+  {
+    "group": "G",
+    "subtopic": "Benda berdasarkan bentuk"
+  },
+  {
+    "group": "G",
+    "subtopic": "Besar dan kecil"
+  },
+  {
+    "group": "G",
+    "subtopic": "Panjang dan pendek"
+  },
+  {
+    "group": "G",
+    "subtopic": "Tinggi dan rendah"
+  },
+  {
+    "group": "G",
+    "subtopic": "Tebal dan tipis"
+  },
+  {
+    "group": "G",
+    "subtopic": "Berat dan ringan"
+  },
+  {
+    "group": "G",
+    "subtopic": "Pola AB"
+  },
+  {
+    "group": "G",
+    "subtopic": "Pola AAB dan ABB"
+  },
+  {
+    "group": "G",
+    "subtopic": "Pola ABC"
+  },
+  {
+    "group": "G",
+    "subtopic": "Pola berdasarkan warna"
+  },
+  {
+    "group": "G",
+    "subtopic": "Pola berdasarkan bentuk"
+  },
+  {
+    "group": "G",
+    "subtopic": "Melanjutkan pola"
+  },
+  {
+    "group": "G",
+    "subtopic": "Membuat pola sendiri"
+  },
+  {
+    "group": "H",
+    "subtopic": "Sama dan berbeda"
+  },
+  {
+    "group": "H",
+    "subtopic": "Odd one out"
+  },
+  {
+    "group": "H",
+    "subtopic": "Mana yang tidak termasuk?"
+  },
+  {
+    "group": "H",
+    "subtopic": "Mencari pasangan"
+  },
+  {
+    "group": "H",
+    "subtopic": "Shadow matching"
+  },
+  {
+    "group": "H",
+    "subtopic": "Mencari bagian yang hilang"
+  },
+  {
+    "group": "H",
+    "subtopic": "Menghubungkan benda yang berkaitan"
+  },
+  {
+    "group": "H",
+    "subtopic": "Sebab dan akibat"
+  },
+  {
+    "group": "H",
+    "subtopic": "Benar atau tidak masuk akal"
+  },
+  {
+    "group": "H",
+    "subtopic": "Urutan kejadian"
+  },
+  {
+    "group": "H",
+    "subtopic": "Klasifikasi"
+  },
+  {
+    "group": "H",
+    "subtopic": "Analogi visual"
+  },
+  {
+    "group": "H",
+    "subtopic": "Puzzle potongan gambar"
+  },
+  {
+    "group": "H",
+    "subtopic": "Maze"
+  },
+  {
+    "group": "H",
+    "subtopic": "Mencari jalan yang benar"
+  },
+  {
+    "group": "H",
+    "subtopic": "Spot the difference"
+  },
+  {
+    "group": "H",
+    "subtopic": "Hidden objects"
+  },
+  {
+    "group": "H",
+    "subtopic": "Visual sudoku"
+  },
+  {
+    "group": "H",
+    "subtopic": "Kode gambar"
+  },
+  {
+    "group": "H",
+    "subtopic": "Memecahkan petunjuk"
+  },
+  {
+    "group": "H",
+    "subtopic": "Menentukan solusi masalah sehari-hari"
+  },
+  {
+    "group": "I",
+    "subtopic": "Garis horizontal"
+  },
+  {
+    "group": "I",
+    "subtopic": "Garis vertikal"
+  },
+  {
+    "group": "I",
+    "subtopic": "Garis diagonal"
+  },
+  {
+    "group": "I",
+    "subtopic": "Garis melengkung"
+  },
+  {
+    "group": "I",
+    "subtopic": "Garis zigzag"
+  },
+  {
+    "group": "I",
+    "subtopic": "Spiral"
+  },
+  {
+    "group": "I",
+    "subtopic": "Menghubungkan titik"
+  },
+  {
+    "group": "I",
+    "subtopic": "Menelusuri jalan"
+  },
+  {
+    "group": "I",
+    "subtopic": "Meniru bentuk"
+  },
+  {
+    "group": "I",
+    "subtopic": "Menyalin pola"
+  },
+  {
+    "group": "I",
+    "subtopic": "Mewarnai dalam batas"
+  },
+  {
+    "group": "I",
+    "subtopic": "Menggunting garis lurus"
+  },
+  {
+    "group": "I",
+    "subtopic": "Menggunting garis lengkung"
+  },
+  {
+    "group": "I",
+    "subtopic": "Menggunting bentuk"
+  },
+  {
+    "group": "I",
+    "subtopic": "Menempel"
+  },
+  {
+    "group": "I",
+    "subtopic": "Sobek dan tempel"
+  },
+  {
+    "group": "I",
+    "subtopic": "Menjepit benda"
+  },
+  {
+    "group": "I",
+    "subtopic": "Finger tracing"
+  },
+  {
+    "group": "I",
+    "subtopic": "Finger painting"
+  },
+  {
+    "group": "I",
+    "subtopic": "Aktivitas playdough"
+  },
+  {
+    "group": "I",
+    "subtopic": "Latihan kontrol pensil"
+  },
+  {
+    "group": "I",
+    "subtopic": "Labirin pensil"
+  },
+  {
+    "group": "J",
+    "subtopic": "Posisi atas dan bawah"
+  },
+  {
+    "group": "J",
+    "subtopic": "Depan dan belakang"
+  },
+  {
+    "group": "J",
+    "subtopic": "Dalam dan luar"
+  },
+  {
+    "group": "J",
+    "subtopic": "Dekat dan jauh"
+  },
+  {
+    "group": "J",
+    "subtopic": "Kanan dan kiri"
+  },
+  {
+    "group": "J",
+    "subtopic": "Di antara"
+  },
+  {
+    "group": "J",
+    "subtopic": "Di samping"
+  },
+  {
+    "group": "J",
+    "subtopic": "Urutan dari kiri ke kanan"
+  },
+  {
+    "group": "J",
+    "subtopic": "Mencari gambar tersembunyi"
+  },
+  {
+    "group": "J",
+    "subtopic": "Figure-ground"
+  },
+  {
+    "group": "J",
+    "subtopic": "Melengkapi setengah gambar"
+  },
+  {
+    "group": "J",
+    "subtopic": "Simetri"
+  },
+  {
+    "group": "J",
+    "subtopic": "Rotasi objek"
+  },
+  {
+    "group": "J",
+    "subtopic": "Sudut pandang berbeda"
+  },
+  {
+    "group": "J",
+    "subtopic": "Menyusun tangram"
+  },
+  {
+    "group": "J",
+    "subtopic": "Menyalin susunan balok"
+  },
+  {
+    "group": "J",
+    "subtopic": "Peta ruangan sederhana"
+  },
+  {
+    "group": "J",
+    "subtopic": "Mengikuti arah"
+  },
+  {
+    "group": "J",
+    "subtopic": "Puzzle posisi"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan peliharaan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan ternak"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan hutan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan laut"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan kutub"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan gurun"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan pegunungan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan sungai"
+  },
+  {
+    "group": "K",
+    "subtopic": "Serangga"
+  },
+  {
+    "group": "K",
+    "subtopic": "Burung"
+  },
+  {
+    "group": "K",
+    "subtopic": "Reptil"
+  },
+  {
+    "group": "K",
+    "subtopic": "Amfibi"
+  },
+  {
+    "group": "K",
+    "subtopic": "Mamalia"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan bertelur dan melahirkan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Makanan hewan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Habitat hewan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Suara hewan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Jejak kaki hewan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Induk dan anak hewan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Bagian tubuh hewan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Cara hewan bergerak"
+  },
+  {
+    "group": "K",
+    "subtopic": "Siklus hidup hewan"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan Indonesia"
+  },
+  {
+    "group": "K",
+    "subtopic": "Hewan langka"
+  },
+  {
+    "group": "K",
+    "subtopic": "Cara melindungi hewan"
+  },
+  {
+    "group": "L",
+    "subtopic": "Bagian tumbuhan"
+  },
+  {
+    "group": "L",
+    "subtopic": "Fungsi akar, batang, dan daun"
+  },
+  {
+    "group": "L",
+    "subtopic": "Biji-bijian"
+  },
+  {
+    "group": "L",
+    "subtopic": "Bunga"
+  },
+  {
+    "group": "L",
+    "subtopic": "Buah"
+  },
+  {
+    "group": "L",
+    "subtopic": "Sayuran"
+  },
+  {
+    "group": "L",
+    "subtopic": "Pohon"
+  },
+  {
+    "group": "L",
+    "subtopic": "Tanaman obat"
+  },
+  {
+    "group": "L",
+    "subtopic": "Tanaman di sekitar rumah"
+  },
+  {
+    "group": "L",
+    "subtopic": "Kebutuhan tumbuhan"
+  },
+  {
+    "group": "L",
+    "subtopic": "Menanam benih"
+  },
+  {
+    "group": "L",
+    "subtopic": "Siklus biji menjadi tanaman"
+  },
+  {
+    "group": "L",
+    "subtopic": "Siklus bunga menjadi buah"
+  },
+  {
+    "group": "L",
+    "subtopic": "Berkebun"
+  },
+  {
+    "group": "L",
+    "subtopic": "Alat berkebun"
+  },
+  {
+    "group": "L",
+    "subtopic": "Tumbuhan yang dapat dimakan"
+  },
+  {
+    "group": "L",
+    "subtopic": "Tumbuhan yang tidak boleh disentuh"
+  },
+  {
+    "group": "L",
+    "subtopic": "Hutan"
+  },
+  {
+    "group": "L",
+    "subtopic": "Mangrove"
+  },
+  {
+    "group": "L",
+    "subtopic": "Merawat tanaman"
+  },
+  {
+    "group": "L",
+    "subtopic": "Pengamatan pertumbuhan tanaman"
+  },
+  {
+    "group": "M",
+    "subtopic": "Buah Indonesia"
+  },
+  {
+    "group": "M",
+    "subtopic": "Buah dari berbagai negara"
+  },
+  {
+    "group": "M",
+    "subtopic": "Sayuran"
+  },
+  {
+    "group": "M",
+    "subtopic": "Daging dan ikan"
+  },
+  {
+    "group": "M",
+    "subtopic": "Telur dan susu"
+  },
+  {
+    "group": "M",
+    "subtopic": "Nasi, roti, dan sumber karbohidrat"
+  },
+  {
+    "group": "M",
+    "subtopic": "Protein"
+  },
+  {
+    "group": "M",
+    "subtopic": "Makanan sehat"
+  },
+  {
+    "group": "M",
+    "subtopic": "Makanan yang perlu dibatasi"
+  },
+  {
+    "group": "M",
+    "subtopic": "Isi piring sehat"
+  },
+  {
+    "group": "M",
+    "subtopic": "Sarapan"
+  },
+  {
+    "group": "M",
+    "subtopic": "Bekal sekolah"
+  },
+  {
+    "group": "M",
+    "subtopic": "Minuman sehat"
+  },
+  {
+    "group": "M",
+    "subtopic": "Mengenali lapar dan kenyang"
+  },
+  {
+    "group": "M",
+    "subtopic": "Rasa manis, asin, asam, dan pahit"
+  },
+  {
+    "group": "M",
+    "subtopic": "Tekstur makanan"
+  },
+  {
+    "group": "M",
+    "subtopic": "Makanan mentah dan matang"
+  },
+  {
+    "group": "M",
+    "subtopic": "Cara makanan dibuat"
+  },
+  {
+    "group": "M",
+    "subtopic": "Makanan tradisional Indonesia"
+  },
+  {
+    "group": "M",
+    "subtopic": "Makanan dari berbagai negara"
+  },
+  {
+    "group": "M",
+    "subtopic": "Kebersihan makanan"
+  },
+  {
+    "group": "M",
+    "subtopic": "Alergi makanan dasar"
+  },
+  {
+    "group": "M",
+    "subtopic": "Adab makan"
+  },
+  {
+    "group": "N",
+    "subtopic": "Anggota keluarga"
+  },
+  {
+    "group": "N",
+    "subtopic": "Struktur keluarga"
+  },
+  {
+    "group": "N",
+    "subtopic": "Peran anggota keluarga"
+  },
+  {
+    "group": "N",
+    "subtopic": "Kegiatan bersama keluarga"
+  },
+  {
+    "group": "N",
+    "subtopic": "Ruangan di rumah"
+  },
+  {
+    "group": "N",
+    "subtopic": "Benda berdasarkan ruangan"
+  },
+  {
+    "group": "N",
+    "subtopic": "Aturan di rumah"
+  },
+  {
+    "group": "N",
+    "subtopic": "Tugas rumah tangga"
+  },
+  {
+    "group": "N",
+    "subtopic": "Rumah yang bersih"
+  },
+  {
+    "group": "N",
+    "subtopic": "Rumah yang aman"
+  },
+  {
+    "group": "N",
+    "subtopic": "Alamat rumah"
+  },
+  {
+    "group": "N",
+    "subtopic": "Jenis-jenis rumah"
+  },
+  {
+    "group": "N",
+    "subtopic": "Rumah adat Indonesia"
+  },
+  {
+    "group": "N",
+    "subtopic": "Perasaan dalam keluarga"
+  },
+  {
+    "group": "N",
+    "subtopic": "Menyambut anggota keluarga baru"
+  },
+  {
+    "group": "N",
+    "subtopic": "Menghadapi perpisahan sementara"
+  },
+  {
+    "group": "N",
+    "subtopic": "Aktivitas akhir pekan keluarga"
+  },
+  {
+    "group": "O",
+    "subtopic": "Hari pertama sekolah"
+  },
+  {
+    "group": "O",
+    "subtopic": "Mengenal ruang kelas"
+  },
+  {
+    "group": "O",
+    "subtopic": "Guru dan teman"
+  },
+  {
+    "group": "O",
+    "subtopic": "Peralatan sekolah"
+  },
+  {
+    "group": "O",
+    "subtopic": "Isi tas sekolah"
+  },
+  {
+    "group": "O",
+    "subtopic": "Aturan kelas"
+  },
+  {
+    "group": "O",
+    "subtopic": "Duduk dan mendengarkan"
+  },
+  {
+    "group": "O",
+    "subtopic": "Mengangkat tangan"
+  },
+  {
+    "group": "O",
+    "subtopic": "Mengikuti instruksi"
+  },
+  {
+    "group": "O",
+    "subtopic": "Menunggu giliran"
+  },
+  {
+    "group": "O",
+    "subtopic": "Menyelesaikan tugas"
+  },
+  {
+    "group": "O",
+    "subtopic": "Merapikan alat belajar"
+  },
+  {
+    "group": "O",
+    "subtopic": "Jadwal sekolah"
+  },
+  {
+    "group": "O",
+    "subtopic": "Bekal sekolah"
+  },
+  {
+    "group": "O",
+    "subtopic": "Perasaan saat masuk sekolah"
+  },
+  {
+    "group": "O",
+    "subtopic": "Berpisah sementara dari orang tua"
+  },
+  {
+    "group": "O",
+    "subtopic": "Mencari bantuan di sekolah"
+  },
+  {
+    "group": "O",
+    "subtopic": "Menjaga barang pribadi"
+  },
+  {
+    "group": "O",
+    "subtopic": "Mengenali nama sendiri"
+  },
+  {
+    "group": "O",
+    "subtopic": "Menulis nama"
+  },
+  {
+    "group": "O",
+    "subtopic": "Kindergarten readiness checklist"
+  },
+  {
+    "group": "P",
+    "subtopic": "Dokter"
+  },
+  {
+    "group": "P",
+    "subtopic": "Perawat"
+  },
+  {
+    "group": "P",
+    "subtopic": "Guru"
+  },
+  {
+    "group": "P",
+    "subtopic": "Polisi"
+  },
+  {
+    "group": "P",
+    "subtopic": "Pemadam kebakaran"
+  },
+  {
+    "group": "P",
+    "subtopic": "Petani"
+  },
+  {
+    "group": "P",
+    "subtopic": "Nelayan"
+  },
+  {
+    "group": "P",
+    "subtopic": "Koki"
+  },
+  {
+    "group": "P",
+    "subtopic": "Penjahit"
+  },
+  {
+    "group": "P",
+    "subtopic": "Montir"
+  },
+  {
+    "group": "P",
+    "subtopic": "Arsitek"
+  },
+  {
+    "group": "P",
+    "subtopic": "Insinyur"
+  },
+  {
+    "group": "P",
+    "subtopic": "Ilmuwan"
+  },
+  {
+    "group": "P",
+    "subtopic": "Astronaut"
+  },
+  {
+    "group": "P",
+    "subtopic": "Pilot"
+  },
+  {
+    "group": "P",
+    "subtopic": "Masinis"
+  },
+  {
+    "group": "P",
+    "subtopic": "Sopir"
+  },
+  {
+    "group": "P",
+    "subtopic": "Dokter hewan"
+  },
+  {
+    "group": "P",
+    "subtopic": "Seniman"
+  },
+  {
+    "group": "P",
+    "subtopic": "Musisi"
+  },
+  {
+    "group": "P",
+    "subtopic": "Atlet"
+  },
+  {
+    "group": "P",
+    "subtopic": "Pedagang"
+  },
+  {
+    "group": "P",
+    "subtopic": "Petugas kebersihan"
+  },
+  {
+    "group": "P",
+    "subtopic": "Pekerja konstruksi"
+  },
+  {
+    "group": "P",
+    "subtopic": "Petugas pengiriman"
+  },
+  {
+    "group": "P",
+    "subtopic": "Pekerjaan digital"
+  },
+  {
+    "group": "P",
+    "subtopic": "Alat yang digunakan setiap profesi"
+  },
+  {
+    "group": "P",
+    "subtopic": "Tempat kerja"
+  },
+  {
+    "group": "P",
+    "subtopic": "Profesi yang membantu masyarakat"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Kendaraan darat"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Kendaraan laut"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Kendaraan udara"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Kendaraan umum"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Kendaraan pribadi"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Kendaraan konstruksi"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Kendaraan pertanian"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Kendaraan darurat"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Bagian-bagian kendaraan"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Suara kendaraan"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Kendaraan cepat dan lambat"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Bahan bakar"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Kendaraan listrik"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Rambu lalu lintas"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Lampu lalu lintas"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Menyeberang jalan"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Menggunakan helm"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Menggunakan sabuk pengaman"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Perjalanan dengan pesawat"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Perjalanan dengan kereta"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Perjalanan dengan kapal"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Peta perjalanan"
+  },
+  {
+    "group": "Q",
+    "subtopic": "Mengemas barang untuk bepergian"
+  },
+  {
+    "group": "R",
+    "subtopic": "Cerah"
+  },
+  {
+    "group": "R",
+    "subtopic": "Berawan"
+  },
+  {
+    "group": "R",
+    "subtopic": "Hujan"
+  },
+  {
+    "group": "R",
+    "subtopic": "Berangin"
+  },
+  {
+    "group": "R",
+    "subtopic": "Badai"
+  },
+  {
+    "group": "R",
+    "subtopic": "Pelangi"
+  },
+  {
+    "group": "R",
+    "subtopic": "Panas dan dingin"
+  },
+  {
+    "group": "R",
+    "subtopic": "Musim hujan"
+  },
+  {
+    "group": "R",
+    "subtopic": "Musim kemarau"
+  },
+  {
+    "group": "R",
+    "subtopic": "Musim semi"
+  },
+  {
+    "group": "R",
+    "subtopic": "Musim panas"
+  },
+  {
+    "group": "R",
+    "subtopic": "Musim gugur"
+  },
+  {
+    "group": "R",
+    "subtopic": "Musim dingin"
+  },
+  {
+    "group": "R",
+    "subtopic": "Pakaian sesuai cuaca"
+  },
+  {
+    "group": "R",
+    "subtopic": "Kegiatan sesuai cuaca"
+  },
+  {
+    "group": "R",
+    "subtopic": "Keamanan saat cuaca ekstrem"
+  },
+  {
+    "group": "R",
+    "subtopic": "Pagi, siang, sore, malam"
+  },
+  {
+    "group": "R",
+    "subtopic": "Hari dalam seminggu"
+  },
+  {
+    "group": "R",
+    "subtopic": "Bulan dalam setahun"
+  },
+  {
+    "group": "R",
+    "subtopic": "Kemarin, hari ini, besok"
+  },
+  {
+    "group": "R",
+    "subtopic": "Kalender"
+  },
+  {
+    "group": "R",
+    "subtopic": "Membaca jam dasar"
+  },
+  {
+    "group": "R",
+    "subtopic": "Urutan kegiatan harian"
+  },
+  {
+    "group": "R",
+    "subtopic": "Weather observation chart"
+  },
+  {
+    "group": "S",
+    "subtopic": "Peta Indonesia"
+  },
+  {
+    "group": "S",
+    "subtopic": "Pulau-pulau besar"
+  },
+  {
+    "group": "S",
+    "subtopic": "Provinsi"
+  },
+  {
+    "group": "S",
+    "subtopic": "Ibu kota Indonesia"
+  },
+  {
+    "group": "S",
+    "subtopic": "Bendera Merah Putih"
+  },
+  {
+    "group": "S",
+    "subtopic": "Lambang Garuda"
+  },
+  {
+    "group": "S",
+    "subtopic": "Pancasila sederhana"
+  },
+  {
+    "group": "S",
+    "subtopic": "Rumah adat"
+  },
+  {
+    "group": "S",
+    "subtopic": "Pakaian adat"
+  },
+  {
+    "group": "S",
+    "subtopic": "Tarian daerah"
+  },
+  {
+    "group": "S",
+    "subtopic": "Alat musik tradisional"
+  },
+  {
+    "group": "S",
+    "subtopic": "Lagu daerah"
+  },
+  {
+    "group": "S",
+    "subtopic": "Makanan daerah"
+  },
+  {
+    "group": "S",
+    "subtopic": "Permainan tradisional"
+  },
+  {
+    "group": "S",
+    "subtopic": "Bahasa daerah"
+  },
+  {
+    "group": "S",
+    "subtopic": "Flora khas Indonesia"
+  },
+  {
+    "group": "S",
+    "subtopic": "Fauna khas Indonesia"
+  },
+  {
+    "group": "S",
+    "subtopic": "Tempat terkenal"
+  },
+  {
+    "group": "S",
+    "subtopic": "Keberagaman agama dan budaya"
+  },
+  {
+    "group": "S",
+    "subtopic": "Perayaan nasional"
+  },
+  {
+    "group": "S",
+    "subtopic": "Menjaga persatuan"
+  },
+  {
+    "group": "S",
+    "subtopic": "Bangga menggunakan produk lokal"
+  },
+  {
+    "group": "T",
+    "subtopic": "Bentuk bumi"
+  },
+  {
+    "group": "T",
+    "subtopic": "Benua"
+  },
+  {
+    "group": "T",
+    "subtopic": "Samudra"
+  },
+  {
+    "group": "T",
+    "subtopic": "Peta dunia"
+  },
+  {
+    "group": "T",
+    "subtopic": "Negara-negara Asia"
+  },
+  {
+    "group": "T",
+    "subtopic": "Negara di Afrika"
+  },
+  {
+    "group": "T",
+    "subtopic": "Negara di Eropa"
+  },
+  {
+    "group": "T",
+    "subtopic": "Negara di Amerika"
+  },
+  {
+    "group": "T",
+    "subtopic": "Australia dan Oseania"
+  },
+  {
+    "group": "T",
+    "subtopic": "Bendera negara"
+  },
+  {
+    "group": "T",
+    "subtopic": "Landmark dunia"
+  },
+  {
+    "group": "T",
+    "subtopic": "Bahasa di dunia"
+  },
+  {
+    "group": "T",
+    "subtopic": "Makanan dunia"
+  },
+  {
+    "group": "T",
+    "subtopic": "Pakaian tradisional"
+  },
+  {
+    "group": "T",
+    "subtopic": "Rumah dari berbagai negara"
+  },
+  {
+    "group": "T",
+    "subtopic": "Hewan berdasarkan benua"
+  },
+  {
+    "group": "T",
+    "subtopic": "Cuaca di berbagai negara"
+  },
+  {
+    "group": "T",
+    "subtopic": "Cara anak pergi ke sekolah"
+  },
+  {
+    "group": "T",
+    "subtopic": "Persamaan anak-anak di dunia"
+  },
+  {
+    "group": "T",
+    "subtopic": "Menghormati perbedaan budaya"
+  },
+  {
+    "group": "U",
+    "subtopic": "Bumi tempat tinggal kita"
+  },
+  {
+    "group": "U",
+    "subtopic": "Daratan dan perairan"
+  },
+  {
+    "group": "U",
+    "subtopic": "Gunung"
+  },
+  {
+    "group": "U",
+    "subtopic": "Pantai"
+  },
+  {
+    "group": "U",
+    "subtopic": "Sungai"
+  },
+  {
+    "group": "U",
+    "subtopic": "Danau"
+  },
+  {
+    "group": "U",
+    "subtopic": "Hutan"
+  },
+  {
+    "group": "U",
+    "subtopic": "Laut"
+  },
+  {
+    "group": "U",
+    "subtopic": "Ekosistem"
+  },
+  {
+    "group": "U",
+    "subtopic": "Sampah organik dan anorganik"
+  },
+  {
+    "group": "U",
+    "subtopic": "Reduce, reuse, recycle"
+  },
+  {
+    "group": "U",
+    "subtopic": "Hemat air"
+  },
+  {
+    "group": "U",
+    "subtopic": "Hemat listrik"
+  },
+  {
+    "group": "U",
+    "subtopic": "Menanam pohon"
+  },
+  {
+    "group": "U",
+    "subtopic": "Polusi udara"
+  },
+  {
+    "group": "U",
+    "subtopic": "Polusi air"
+  },
+  {
+    "group": "U",
+    "subtopic": "Perubahan cuaca"
+  },
+  {
+    "group": "U",
+    "subtopic": "Perubahan iklim sederhana"
+  },
+  {
+    "group": "U",
+    "subtopic": "Energi matahari"
+  },
+  {
+    "group": "U",
+    "subtopic": "Energi angin"
+  },
+  {
+    "group": "U",
+    "subtopic": "Menjaga hewan dan tumbuhan"
+  },
+  {
+    "group": "U",
+    "subtopic": "Kegiatan ramah lingkungan"
+  },
+  {
+    "group": "U",
+    "subtopic": "Green habit tracker"
+  },
+  {
+    "group": "V",
+    "subtopic": "Terapung dan tenggelam"
+  },
+  {
+    "group": "V",
+    "subtopic": "Berat dan ringan"
+  },
+  {
+    "group": "V",
+    "subtopic": "Magnet dan bukan magnet"
+  },
+  {
+    "group": "V",
+    "subtopic": "Padat, cair, dan gas"
+  },
+  {
+    "group": "V",
+    "subtopic": "Mencair dan membeku"
+  },
+  {
+    "group": "V",
+    "subtopic": "Panas dan dingin"
+  },
+  {
+    "group": "V",
+    "subtopic": "Cahaya dan bayangan"
+  },
+  {
+    "group": "V",
+    "subtopic": "Suara"
+  },
+  {
+    "group": "V",
+    "subtopic": "Gerakan"
+  },
+  {
+    "group": "V",
+    "subtopic": "Dorong dan tarik"
+  },
+  {
+    "group": "V",
+    "subtopic": "Cepat dan lambat"
+  },
+  {
+    "group": "V",
+    "subtopic": "Kasar dan halus"
+  },
+  {
+    "group": "V",
+    "subtopic": "Menyerap dan tidak menyerap"
+  },
+  {
+    "group": "V",
+    "subtopic": "Mencampur warna"
+  },
+  {
+    "group": "V",
+    "subtopic": "Pertumbuhan tanaman"
+  },
+  {
+    "group": "V",
+    "subtopic": "Siklus air"
+  },
+  {
+    "group": "V",
+    "subtopic": "Pelangi"
+  },
+  {
+    "group": "V",
+    "subtopic": "Gunung berapi sederhana"
+  },
+  {
+    "group": "V",
+    "subtopic": "Bumi, matahari, dan bulan"
+  },
+  {
+    "group": "V",
+    "subtopic": "Planet"
+  },
+  {
+    "group": "V",
+    "subtopic": "Siang dan malam"
+  },
+  {
+    "group": "V",
+    "subtopic": "Membuat prediksi"
+  },
+  {
+    "group": "V",
+    "subtopic": "Mencatat hasil eksperimen"
+  },
+  {
+    "group": "W",
+    "subtopic": "Mengenal perangkat digital"
+  },
+  {
+    "group": "W",
+    "subtopic": "Bagian komputer"
+  },
+  {
+    "group": "W",
+    "subtopic": "Fungsi keyboard dan mouse"
+  },
+  {
+    "group": "W",
+    "subtopic": "Kamera dan foto"
+  },
+  {
+    "group": "W",
+    "subtopic": "Teknologi di rumah"
+  },
+  {
+    "group": "W",
+    "subtopic": "Teknologi di sekolah"
+  },
+  {
+    "group": "W",
+    "subtopic": "Mesin sederhana"
+  },
+  {
+    "group": "W",
+    "subtopic": "Robot"
+  },
+  {
+    "group": "W",
+    "subtopic": "Coding tanpa layar"
+  },
+  {
+    "group": "W",
+    "subtopic": "Urutan perintah"
+  },
+  {
+    "group": "W",
+    "subtopic": "Algoritma sederhana"
+  },
+  {
+    "group": "W",
+    "subtopic": "Mencari kesalahan urutan"
+  },
+  {
+    "group": "W",
+    "subtopic": "Aman menggunakan internet"
+  },
+  {
+    "group": "W",
+    "subtopic": "Tidak membagikan informasi pribadi"
+  },
+  {
+    "group": "W",
+    "subtopic": "Meminta izin sebelum membuka aplikasi"
+  },
+  {
+    "group": "W",
+    "subtopic": "Membedakan dunia nyata dan digital"
+  },
+  {
+    "group": "W",
+    "subtopic": "Waktu layar yang sehat"
+  },
+  {
+    "group": "W",
+    "subtopic": "Kegiatan setelah screen time"
+  },
+  {
+    "group": "W",
+    "subtopic": "Konten yang aman dan tidak aman"
+  },
+  {
+    "group": "W",
+    "subtopic": "Meminta bantuan orang dewasa"
+  },
+  {
+    "group": "X",
+    "subtopic": "Aman di rumah"
+  },
+  {
+    "group": "X",
+    "subtopic": "Aman di dapur"
+  },
+  {
+    "group": "X",
+    "subtopic": "Aman di kamar mandi"
+  },
+  {
+    "group": "X",
+    "subtopic": "Aman di tangga"
+  },
+  {
+    "group": "X",
+    "subtopic": "Aman di taman bermain"
+  },
+  {
+    "group": "X",
+    "subtopic": "Aman di jalan"
+  },
+  {
+    "group": "X",
+    "subtopic": "Aman di kendaraan"
+  },
+  {
+    "group": "X",
+    "subtopic": "Bahaya listrik"
+  },
+  {
+    "group": "X",
+    "subtopic": "Bahaya api"
+  },
+  {
+    "group": "X",
+    "subtopic": "Benda tajam"
+  },
+  {
+    "group": "X",
+    "subtopic": "Obat bukan permen"
+  },
+  {
+    "group": "X",
+    "subtopic": "Nomor darurat"
+  },
+  {
+    "group": "X",
+    "subtopic": "Siapa yang dapat membantu"
+  },
+  {
+    "group": "X",
+    "subtopic": "Apa yang dilakukan saat tersesat"
+  },
+  {
+    "group": "X",
+    "subtopic": "Mengenali orang tepercaya"
+  },
+  {
+    "group": "X",
+    "subtopic": "Rahasia baik dan rahasia tidak aman"
+  },
+  {
+    "group": "X",
+    "subtopic": "Berkata “tidak”"
+  },
+  {
+    "group": "X",
+    "subtopic": "Berteriak dan mencari bantuan"
+  },
+  {
+    "group": "X",
+    "subtopic": "Kebersihan tubuh"
+  },
+  {
+    "group": "X",
+    "subtopic": "Tidur yang cukup"
+  },
+  {
+    "group": "X",
+    "subtopic": "Aktivitas fisik"
+  },
+  {
+    "group": "X",
+    "subtopic": "Mengenali gejala sakit"
+  },
+  {
+    "group": "X",
+    "subtopic": "Mengunjungi dokter dan dokter gigi"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Warna dan ekspresi"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Menggambar garis"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Menggambar bentuk"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Melengkapi gambar"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Doodle"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Kolase"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Finger painting"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Mencetak pola"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Origami sederhana"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Menciptakan karakter"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Mendesain pakaian"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Membuat rumah impian"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Membuat kendaraan baru"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Alat musik"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Suara tinggi dan rendah"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Cepat dan lambat dalam musik"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Keras dan lembut"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Ritme"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Meniru pola bunyi"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Lagu anak"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Gerak dan lagu"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Drama sederhana"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Puppet storytelling"
+  },
+  {
+    "group": "Y",
+    "subtopic": "Open-ended drawing prompt"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Jujur"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Bertanggung jawab"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Disiplin"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Sabar"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Bersyukur"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Berani mencoba"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Peduli"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Menolong"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Berbagi"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Menjaga kebersihan"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Menghormati orang tua"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Menghargai teman"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Menepati janji"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Menjaga ciptaan Tuhan"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Perbuatan baik sehari-hari"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Mengenal Allah sebagai Pencipta"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Rukun Islam"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Rukun Iman"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Huruf hijaiyah"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Mengenal masjid"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Gerakan wudu"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Urutan salat"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Perlengkapan salat"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Doa harian"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Adab makan"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Adab tidur"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Adab masuk kamar mandi"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Adab kepada orang tua"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Kisah nabi"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Bulan Ramadan"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Puasa untuk anak"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Zakat dan berbagi"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Idulfitri"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Iduladha"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Kalender ibadah anak"
+  },
+  {
+    "group": "Z",
+    "subtopic": "Good deed tracker"
+  }
+]

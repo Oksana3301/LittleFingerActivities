@@ -1,0 +1,121 @@
+{
+  "style_id": "little-world-tactile-play-v1",
+  "version": "1.0.0",
+  "status": "proposed_art_direction_not_an_approved_character_sheet",
+  "reference_policy": {
+    "reference_01": "Bold rounded silhouettes, expressive faces, saturated accents, restrained dimensional highlights.",
+    "reference_02": "Hand-painted gouache, cut-paper layering, organic contours, soft visible grain.",
+    "merge_rule": "Use reference 01 for shape clarity and reference 02 for surface texture; keep one shared palette and lighting system.",
+    "originality_rule": "Invent new characters. Do not reuse the reference owl, knight, costumes, logos, or signature silhouettes."
+  },
+  "visual_layers": {
+    "interface": "Clean white surfaces, generous spacing, crisp readable text.",
+    "illustration": "Original mascot, navigation art, category covers, demonstration hands, optional stickers.",
+    "learning_objects": "Verified real photographs for real-world recognition; never stylize these photographs.",
+    "factual_symbols": "Accurate editable letters, numerals, shapes, maps, and flags; preserve their actual forms and colors."
+  },
+  "palette": {
+    "background": "#FFFFFF",
+    "surface": "#F7F9FC",
+    "ink": "#20344D",
+    "primary_button": "#2455A6",
+    "teal": "#20B6B1",
+    "sky_blue": "#3B8FE5",
+    "coral": "#F27B69",
+    "sunflower": "#F4C94C",
+    "lilac": "#9668D6",
+    "leaf": "#86B95B",
+    "usage": "Use at most three strong accent colors per composition. Accent colors do not automatically qualify as accessible text backgrounds."
+  },
+  "shape_language": {
+    "silhouettes": "Large, soft, rounded, readable at small sizes.",
+    "edges": "Slight organic irregularity; no heavy black outline.",
+    "detail_density": "Low; remove details unrelated to the action.",
+    "depth": "Two or three tonal planes with one soft highlight.",
+    "lighting": "Consistent soft upper-left illumination.",
+    "texture": "Fine gouache grain inside illustration shapes only; never over text or learning photographs."
+  },
+  "proposed_mascot": {
+    "id": "pip",
+    "description": "An original teal pebble-shaped garden helper with small leaf-shaped arms, two short feet, navy oval eyes, and subtle coral cheeks.",
+    "body_proportions": "Rounded body approximately 1.15 times taller than wide; lock proportions after the first approved character sheet.",
+    "fixed_features": [
+      "teal body",
+      "navy oval eyes",
+      "small leaf-shaped arms",
+      "two short feet",
+      "subtle coral cheeks"
+    ],
+    "allowed_expressions": [
+      "curious",
+      "calm",
+      "encouraging",
+      "gently delighted",
+      "resting"
+    ],
+    "forbidden_expressions": [
+      "shaming",
+      "angry at the child",
+      "crying because the child leaves",
+      "guilt-inducing disappointment"
+    ],
+    "consistency_reference": "Require a saved, approved turnaround and expression sheet before large-batch asset generation."
+  },
+  "composition": {
+    "background": "Transparent for standalone assets; white for presentation scenes.",
+    "safe_margin_percent": 12,
+    "subject_scale": "Large enough to remain legible at 96 CSS pixels.",
+    "scene_rule": "One focal action, no crowd, no decorative clutter.",
+    "text_rule": "No baked-in lettering. Render all interface text as editable HTML or SVG text."
+  },
+  "typography": {
+    "headings": "A licensed rounded sans-serif, such as Nunito Sans.",
+    "instructions": "A highly legible licensed sans-serif, such as Atkinson Hyperlegible.",
+    "literacy_rule": "Review teaching glyphs and phonics conventions with an early-years educator; do not use decorative letterforms.",
+    "arabic": "Use a verified Arabic-supporting font and proper right-to-left layout; do not generate Arabic lettering as illustration."
+  },
+  "motion": {
+    "style": "Small, purposeful squash-and-stretch and soft easing.",
+    "triggers": [
+      "explicit start",
+      "demonstration",
+      "accepted interaction",
+      "optional completion"
+    ],
+    "idle_loop": "off during instructions and tasks",
+    "celebration_max_ms": 1000,
+    "reduced_motion": "Use a static state change instead of nonessential motion.",
+    "forbidden": [
+      "flashing",
+      "shaking penalties",
+      "continuous bouncing",
+      "infinite confetti",
+      "moving answer targets"
+    ]
+  },
+  "export": {
+    "vector": "Actual SVG paths for simple icons and genuinely vector artwork.",
+    "textured_art": "Transparent PNG or WebP; do not disguise a bitmap as editable vector art.",
+    "naming": "lw_{assetKind}_{subject}_{pose}_{styleVersion}.{extension}",
+    "manifest_fields": [
+      "assetId",
+      "kind",
+      "path",
+      "styleVersion",
+      "characterId",
+      "altText",
+      "source",
+      "license",
+      "consentStatus",
+      "reviewStatus",
+      "approvedReferenceId"
+    ]
+  },
+  "quality_gate": [
+    "Compare palette, silhouette, proportions, face, lighting, grain, and pose with the approved reference sheet.",
+    "Reject accidental resemblance to the reference characters.",
+    "Reject extra limbs, malformed hands, illegible details, or stray text.",
+    "Keep exact educational symbols and real photographs outside mascot stylization.",
+    "Record actual review status; a JSON file alone does not certify asset consistency."
+  ]
+}

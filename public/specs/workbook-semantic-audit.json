@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "errors": [],
+  "roundsByEngine": {
+    "identify": 1344,
+    "compare": 480,
+    "draw": 576,
+    "pair": 864,
+    "count": 672,
+    "sequence": 192,
+    "pattern": 480,
+    "memory": 288,
+    "trace": 480
+  },
+  "optionVisualKinds": {
+    "asset": 5943,
+    "shape": 1344,
+    "measurement": 1344,
+    "arrow": 528,
+    "glyph": 5376,
+    "quantity": 288
+  },
+  "sceneKinds": {
+    "quantity": 288,
+    "arithmetic": 384
+  },
+  "canvasGuideKinds": {
+    "line": 128,
+    "circle": 432,
+    "path": 240,
+    "shape-outline": 96,
+    "trace-glyph": 192,
+    "asset": 224,
+    "pattern-strip": 96
+  },
+  "checks": [
+    "Equivalent appearances receive consistent answers",
+    "Matching keys are unique and paired correctly",
+    "Memory uses exactly two cards per unique picture",
+    "Same/different, Indonesian initials, vowels/consonants agree with answers",
+    "Measurement extremes agree with answer",
+    "Counting and arithmetic agree with rendered scenes",
+    "Repeating patterns have observed evidence and a correct fill",
+    "Number/growing patterns satisfy their numeric step",
+    "Number ordering is correct",
+    "Flat options have labels; quantity labels are hidden"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "flag-id": {
+    "id": "Bendera Indonesia",
+    "en": "Flag of Indonesia",
+    "zh": "印度尼西亚国旗",
+    "ar": "علم إندونيسيا"
+  },
+  "flag-jp": {
+    "id": "Bendera Jepang",
+    "en": "Flag of Japan",
+    "zh": "日本国旗",
+    "ar": "علم اليابان"
+  },
+  "flag-cn": {
+    "id": "Bendera Tiongkok",
+    "en": "Flag of China",
+    "zh": "中国国旗",
+    "ar": "علم الصين"
+  },
+  "flag-in": {
+    "id": "Bendera India",
+    "en": "Flag of India",
+    "zh": "印度国旗",
+    "ar": "علم الهند"
+  },
+  "flag-sa": {
+    "id": "Bendera Arab Saudi",
+    "en": "Flag of Saudi Arabia",
+    "zh": "沙特阿拉伯国旗",
+    "ar": "علم السعودية"
+  },
+  "flag-tr": {
+    "id": "Bendera Turki",
+    "en": "Flag of Türkiye",
+    "zh": "土耳其国旗",
+    "ar": "علم تركيا"
+  },
+  "flag-au": {
+    "id": "Bendera Australia",
+    "en": "Flag of Australia",
+    "zh": "澳大利亚国旗",
+    "ar": "علم أستراليا"
+  },
+  "flag-nz": {
+    "id": "Bendera Selandia Baru",
+    "en": "Flag of New Zealand",
+    "zh": "新西兰国旗",
+    "ar": "علم نيوزيلندا"
+  },
+  "flag-us": {
+    "id": "Bendera Amerika Serikat",
+    "en": "Flag of United States",
+    "zh": "美国国旗",
+    "ar": "علم الولايات المتحدة"
+  },
+  "flag-ca": {
+    "id": "Bendera Kanada",
+    "en": "Flag of Canada",
+    "zh": "加拿大国旗",
+    "ar": "علم كندا"
+  },
+  "flag-mx": {
+    "id": "Bendera Meksiko",
+    "en": "Flag of Mexico",
+    "zh": "墨西哥国旗",
+    "ar": "علم المكسيك"
+  },
+  "flag-br": {
+    "id": "Bendera Brasil",
+    "en": "Flag of Brazil",
+    "zh": "巴西国旗",
+    "ar": "علم البرازيل"
+  },
+  "flag-ar": {
+    "id": "Bendera Argentina",
+    "en": "Flag of Argentina",
+    "zh": "阿根廷国旗",
+    "ar": "علم الأرجنتين"
+  },
+  "flag-gb": {
+    "id": "Bendera Britania Raya dan Irlandia Utara",
+    "en": "Flag of United Kingdom",
+    "zh": "英国国旗",
+    "ar": "علم المملكة المتحدة"
+  },
+  "flag-fr": {
+    "id": "Bendera Prancis",
+    "en": "Flag of France",
+    "zh": "法国国旗",
+    "ar": "علم فرنسا"
+  },
+  "flag-it": {
+    "id": "Bendera Italia",
+    "en": "Flag of Italy",
+    "zh": "意大利国旗",
+    "ar": "علم إيطاليا"
+  },
+  "flag-de": {
+    "id": "Bendera Jerman",
+    "en": "Flag of Germany",
+    "zh": "德国国旗",
+    "ar": "علم ألمانيا"
+  },
+  "flag-es": {
+    "id": "Bendera Spanyol",
+    "en": "Flag of Spain",
+    "zh": "西班牙国旗",
+    "ar": "علم إسبانيا"
+  },
+  "flag-eg": {
+    "id": "Bendera Mesir",
+    "en": "Flag of Egypt",
+    "zh": "埃及国旗",
+    "ar": "علم مصر"
+  },
+  "flag-ke": {
+    "id": "Bendera Kenya",
+    "en": "Flag of Kenya",
+    "zh": "肯尼亚国旗",
+    "ar": "علم كينيا"
+  },
+  "flag-za": {
+    "id": "Bendera Afrika Selatan",
+    "en": "Flag of South Africa",
+    "zh": "南非国旗",
+    "ar": "علم جنوب أفريقيا"
+  },
+  "flag-ng": {
+    "id": "Bendera Nigeria",
+    "en": "Flag of Nigeria",
+    "zh": "尼日利亚国旗",
+    "ar": "علم نيجيريا"
+  },
+  "flag-th": {
+    "id": "Bendera Thailand",
+    "en": "Flag of Thailand",
+    "zh": "泰国国旗",
+    "ar": "علم تايلاند"
+  },
+  "flag-my": {
+    "id": "Bendera Malaysia",
+    "en": "Flag of Malaysia",
+    "zh": "马来西亚国旗",
+    "ar": "علم ماليزيا"
+  },
+  "game-top": {
+    "id": "Gasing",
+    "en": "Spinning top",
+    "zh": "陀螺",
+    "ar": "بلبل دوار"
+  },
+  "game-congklak": {
+    "id": "Congklak",
+    "en": "Congklak board",
+    "zh": "康克拉棋盘",
+    "ar": "لوح لعبة كونغكلاك"
+  },
+  "game-hopscotch": {
+    "id": "Engklek",
+    "en": "Hopscotch",
+    "zh": "跳房子",
+    "ar": "الحجلة"
+  },
+  "game-puzzle": {
+    "id": "Puzzle gambar",
+    "en": "Jigsaw puzzle",
+    "zh": "拼图",
+    "ar": "أحجية الصور"
+  }
+}

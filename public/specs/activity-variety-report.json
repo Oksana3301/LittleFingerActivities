@@ -1,0 +1,1967 @@
+{
+  "categories": 116,
+  "worksheets": 2784,
+  "rounds": 11136,
+  "minimumKindsPerCategory": 4,
+  "minimumEnginesPerCategory": 3,
+  "revisedWorksheets": 1164,
+  "coverage": [
+    {
+      "category": "temperature",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "soft-hard",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "smooth-rough",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "wet-dry",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "open-closed",
+      "kinds": [
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "full-empty",
+      "kinds": [
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "heavy-light",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "bright-dim",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "fast-slow",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "loud-quiet",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "tidy-messy",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "kind-descriptions",
+      "kinds": [
+        "choose-one",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "brush-teeth",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "bath-routine",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "wash-hands",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "toilet-care",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "mealtime-habits",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "bedtime-routine",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "tidy-toys",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "polite-words",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "helping-family",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "gentle-with-younger",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "friendly-choices",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "daily-routine",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "road-vehicles",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "air-water-vehicles",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "construction-vehicles",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "vehicle-count",
+      "kinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "garage-tools",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "machine-parts",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "build-a-vehicle",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "workshop-sort",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "sports-kit",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "camping-kit",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "hobby-patterns",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "vehicle-paths",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "dinosaur-names",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "robot-drawing",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "build-blocks",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "adventure-sort",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "planet-names",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "planet-facts",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "space-pairs",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "body-parts",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "five-senses",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "body-care",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "family-members",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "family-pairs",
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "kind-words",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "taking-turns",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "room-objects",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "school-objects",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "object-functions",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "living-nonliving",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "plant-needs",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "weather-choices",
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "math-more-less",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "math-equal",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "number-neighbors",
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "math-stories",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "odd-one-out"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "animal-names",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "produce-names",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "garden-names",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "vehicle-names",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "sky-names",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "home-names",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "revised": 8
+    },
+    {
+      "category": "colors",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "shapes",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "size",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "length",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "height",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "thickness",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "same-different",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "directions",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "positions",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "draw",
+        "match"
+      ],
+      "engines": [
+        "draw",
+        "identify",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "symmetry",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "object-pairs",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "silhouette-pairs",
+      "kinds": [
+        "choose-many",
+        "memory",
+        "odd-one-out",
+        "shadow-match"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "color-pairs",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "shape-pairs",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "number-pairs",
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "uppercase-pairs",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "lowercase-pairs",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "letter-case",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "initial-letters",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "vowels",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "consonants",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "count-to-5",
+      "kinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "count-to-10",
+      "kinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "count-6-to-15",
+      "kinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "quantity-pairs",
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "compare-quantity",
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "ascending",
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "descending",
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "missing-number",
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "add-to-5",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "add-to-10",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "subtract-to-5",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "subtract-to-10",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "pattern-ab",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "pattern-abc",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "pattern-aab-abb",
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "growing-pattern",
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "memory-objects",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "memory-shapes",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "memory-colors",
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "trace-lines",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "trace-curves",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "trace-shapes",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "trace-numbers",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "trace-letters",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "finish-picture",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "draw-to-count",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "draw-pattern",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "spatial-drawing",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    },
+    {
+      "category": "imagine-draw",
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "revised": 12
+    }
+  ]
+}

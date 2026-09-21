@@ -1,0 +1,663 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Little World Activity — Common Content Contract",
+  "description": "Editorial data envelope; not a substitute for engine validation, safety review, asset checks, or professional review.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "version",
+    "title",
+    "packId",
+    "ageRangeMonths",
+    "readinessNotes",
+    "skills",
+    "learningObjective",
+    "mode",
+    "engine",
+    "engineConfig",
+    "materials",
+    "steps",
+    "completionPolicy",
+    "feedback",
+    "realWorldTransfer",
+    "safety",
+    "assetIds",
+    "audioAssetIds",
+    "sources",
+    "contentType",
+    "review",
+    "delivery"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]+$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "title": {
+      "$ref": "#/$defs/localizedText"
+    },
+    "packId": {
+      "type": "string",
+      "enum": [
+        "language-conversation",
+        "alphabet-sounds",
+        "early-math",
+        "shapes-colors-size",
+        "patterns-logic",
+        "practical-life",
+        "fine-motor",
+        "gross-motor",
+        "sensory",
+        "art-creativity",
+        "music-rhythm",
+        "animals-habitats",
+        "plants-gardening",
+        "nature-weather",
+        "flags-geography",
+        "kindergarten-readiness",
+        "first-school-day",
+        "bucket-list",
+        "scavenger-hunts",
+        "rainy-day",
+        "quran-stories",
+        "potty-routines",
+        "chore-adventure",
+        "trip-countdown",
+        "homeschool",
+        "new-sibling",
+        "social-emotional",
+        "body-self-care",
+        "science",
+        "executive-function"
+      ]
+    },
+    "ageRangeMonths": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "min",
+        "max"
+      ],
+      "properties": {
+        "min": {
+          "type": "integer",
+          "minimum": 24,
+          "maximum": 71
+        },
+        "max": {
+          "type": "integer",
+          "minimum": 24,
+          "maximum": 71
+        }
+      }
+    },
+    "readinessNotes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "skills": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary",
+        "secondary"
+      ],
+      "properties": {
+        "primary": {
+          "type": "string"
+        },
+        "secondary": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "learningObjective": {
+      "type": "string",
+      "minLength": 10
+    },
+    "mode": {
+      "enum": [
+        "screen",
+        "offscreen",
+        "hybrid"
+      ]
+    },
+    "engine": {
+      "enum": [
+        "tap-identify",
+        "picture-pair",
+        "sort",
+        "sequence",
+        "count-one-to-one",
+        "compare-quantity",
+        "pattern",
+        "listen-match",
+        "picture-puzzle",
+        "memory-pairs",
+        "trace-path",
+        "open-drawing",
+        "picture-quiz",
+        "guided-story",
+        "scavenger-hunt",
+        "movement",
+        "practical-life",
+        "routine-chart",
+        "bucket-list",
+        "countdown"
+      ]
+    },
+    "engineConfig": {
+      "type": "object",
+      "description": "Must also pass an engine-specific schema and semantic checks; this shared envelope intentionally does not certify engine settings."
+    },
+    "materials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "adultPreparation"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "adultPreparation": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "instruction",
+          "caregiverNote",
+          "demonstration"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "discover",
+              "try",
+              "do",
+              "reflect"
+            ]
+          },
+          "instruction": {
+            "$ref": "#/$defs/localizedText"
+          },
+          "caregiverNote": {
+            "type": "string"
+          },
+          "demonstration": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "completionPolicy": {
+      "enum": [
+        "objective-engine-check",
+        "exploration",
+        "caregiver-observation"
+      ]
+    },
+    "feedback": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "onAccepted",
+        "onRetry",
+        "onStop"
+      ],
+      "properties": {
+        "onAccepted": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "onRetry": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "onStop": {
+          "$ref": "#/$defs/localizedText"
+        }
+      }
+    },
+    "realWorldTransfer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "invitation",
+        "deviceAway",
+        "caregiverObservationOptional",
+        "screenDoesNotProve"
+      ],
+      "properties": {
+        "invitation": {
+          "type": "string"
+        },
+        "deviceAway": {
+          "const": true
+        },
+        "caregiverObservationOptional": {
+          "const": true
+        },
+        "screenDoesNotProve": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adultSupervision",
+        "hazards",
+        "avoidMaterials",
+        "alternative",
+        "reviewStatus"
+      ],
+      "properties": {
+        "adultSupervision": {
+          "enum": [
+            "co-play",
+            "close-hands-on-supervision",
+            "caregiver-setup-and-presence"
+          ]
+        },
+        "hazards": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "avoidMaterials": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "alternative": {
+          "type": "string",
+          "minLength": 5
+        },
+        "reviewStatus": {
+          "enum": [
+            "not-reviewed",
+            "changes-required",
+            "approved"
+          ]
+        }
+      }
+    },
+    "assetIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "audioAssetIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "sourceUrl",
+          "use",
+          "checkedAt"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "use": {
+            "type": "string"
+          },
+          "checkedAt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          }
+        }
+      }
+    },
+    "contentType": {
+      "enum": [
+        "general",
+        "quran"
+      ]
+    },
+    "religiousReferences": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "surah",
+          "ayahStart",
+          "ayahEnd",
+          "translationAttribution",
+          "translationRights",
+          "sourceUrl",
+          "treatment"
+        ],
+        "properties": {
+          "surah": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 114
+          },
+          "ayahStart": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "ayahEnd": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "translationAttribution": {
+            "type": "string"
+          },
+          "translationRights": {
+            "type": "string"
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "treatment": {
+            "enum": [
+              "quotation",
+              "paraphrase",
+              "interpretation"
+            ]
+          }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "editorialStatus",
+        "editorialReviewer",
+        "editorialReviewedAt",
+        "religiousStatus",
+        "religiousReviewer",
+        "religiousReviewedAt"
+      ],
+      "properties": {
+        "editorialStatus": {
+          "enum": [
+            "not-reviewed",
+            "changes-required",
+            "approved"
+          ]
+        },
+        "editorialReviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "editorialReviewedAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "religiousStatus": {
+          "enum": [
+            "not-applicable",
+            "not-reviewed",
+            "changes-required",
+            "approved"
+          ]
+        },
+        "religiousReviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "religiousReviewedAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      }
+    },
+    "delivery": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "publication",
+        "implementation",
+        "tests",
+        "assets",
+        "rights"
+      ],
+      "properties": {
+        "publication": {
+          "enum": [
+            "draft",
+            "adult-demo",
+            "published",
+            "withdrawn"
+          ]
+        },
+        "implementation": {
+          "enum": [
+            "not-built",
+            "in-progress",
+            "working"
+          ]
+        },
+        "tests": {
+          "enum": [
+            "not-tested",
+            "failed",
+            "passed"
+          ]
+        },
+        "assets": {
+          "enum": [
+            "missing",
+            "unverified",
+            "ready"
+          ]
+        },
+        "rights": {
+          "enum": [
+            "unverified",
+            "cleared"
+          ]
+        }
+      }
+    }
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "enum": [
+          "en",
+          "id",
+          "ar"
+        ]
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "contentType": {
+            "const": "quran"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "religiousReferences"
+        ],
+        "properties": {
+          "sources": {
+            "minItems": 1
+          },
+          "review": {
+            "properties": {
+              "religiousStatus": {
+                "enum": [
+                  "not-reviewed",
+                  "changes-required",
+                  "approved"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "delivery": {
+            "properties": {
+              "publication": {
+                "const": "published"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "delivery": {
+            "properties": {
+              "implementation": {
+                "const": "working"
+              },
+              "tests": {
+                "const": "passed"
+              },
+              "assets": {
+                "const": "ready"
+              },
+              "rights": {
+                "const": "cleared"
+              }
+            }
+          },
+          "safety": {
+            "properties": {
+              "reviewStatus": {
+                "const": "approved"
+              }
+            }
+          },
+          "review": {
+            "properties": {
+              "editorialStatus": {
+                "const": "approved"
+              },
+              "editorialReviewer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "editorialReviewedAt": {
+                "type": "string",
+                "format": "date"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "contentType": {
+            "const": "quran"
+          },
+          "delivery": {
+            "properties": {
+              "publication": {
+                "const": "published"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "review": {
+            "properties": {
+              "religiousStatus": {
+                "const": "approved"
+              },
+              "religiousReviewer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "religiousReviewedAt": {
+                "type": "string",
+                "format": "date"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

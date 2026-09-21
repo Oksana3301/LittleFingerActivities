@@ -1,0 +1,162 @@
+{
+  "status": "pass",
+  "categories": 16,
+  "worksheets": 384,
+  "rounds": 1536,
+  "worksheetsPerCategory": {
+    "road-vehicles": 24,
+    "air-water-vehicles": 24,
+    "construction-vehicles": 24,
+    "vehicle-count": 24,
+    "garage-tools": 24,
+    "machine-parts": 24,
+    "build-a-vehicle": 24,
+    "workshop-sort": 24,
+    "sports-kit": 24,
+    "camping-kit": 24,
+    "hobby-patterns": 24,
+    "vehicle-paths": 24,
+    "dinosaur-names": 24,
+    "robot-drawing": 24,
+    "build-blocks": 24,
+    "adventure-sort": 24
+  },
+  "categoryRulesChecked": {
+    "road-vehicles": 96,
+    "air-water-vehicles": 96,
+    "construction-vehicles": 96,
+    "vehicle-count": 96,
+    "garage-tools": 96,
+    "machine-parts": 96,
+    "build-a-vehicle": 96,
+    "workshop-sort": 96,
+    "sports-kit": 96,
+    "camping-kit": 96,
+    "hobby-patterns": 96,
+    "vehicle-paths": 96,
+    "dinosaur-names": 96,
+    "robot-drawing": 96,
+    "build-blocks": 96,
+    "adventure-sort": 96
+  },
+  "uniqueSemanticRoundSets": {
+    "road-vehicles": 24,
+    "air-water-vehicles": 24,
+    "construction-vehicles": 24,
+    "vehicle-count": 24,
+    "garage-tools": 24,
+    "machine-parts": 24,
+    "build-a-vehicle": 24,
+    "workshop-sort": 24,
+    "sports-kit": 24,
+    "camping-kit": 24,
+    "hobby-patterns": 24,
+    "vehicle-paths": 24,
+    "dinosaur-names": 24,
+    "robot-drawing": 24,
+    "build-blocks": 24,
+    "adventure-sort": 24
+  },
+  "uniqueFirstRoundTargets": {
+    "road-vehicles": 18,
+    "air-water-vehicles": 0,
+    "construction-vehicles": 0,
+    "vehicle-count": 6,
+    "garage-tools": 0,
+    "machine-parts": 14,
+    "build-a-vehicle": 24,
+    "workshop-sort": 0,
+    "sports-kit": 0,
+    "camping-kit": 0,
+    "hobby-patterns": 12,
+    "vehicle-paths": 0,
+    "dinosaur-names": 3,
+    "robot-drawing": 0,
+    "build-blocks": 6,
+    "adventure-sort": 0
+  },
+  "errors": [],
+  "negativeMutationChecks": {
+    "road-vehicles": {
+      "caught": true,
+      "rule": "road-vehicles-01 round 2: named answer mismatch id"
+    },
+    "air-water-vehicles": {
+      "caught": true,
+      "rule": "air-water-vehicles-01 round 2: classification incorrect or ambiguous"
+    },
+    "construction-vehicles": {
+      "caught": true,
+      "rule": "construction-vehicles-01 round 2: pair does not match picture and name"
+    },
+    "vehicle-count": {
+      "caught": true,
+      "rule": "vehicle-count-01 round 2: count answer mismatch"
+    },
+    "garage-tools": {
+      "caught": true,
+      "rule": "garage-tools-01 round 2: pair does not match picture and name"
+    },
+    "machine-parts": {
+      "caught": true,
+      "rule": "machine-parts-01 round 2: named answer mismatch id"
+    },
+    "build-a-vehicle": {
+      "caught": true,
+      "rule": "build-a-vehicle-01 round 2: sequence differs from stated card order id"
+    },
+    "workshop-sort": {
+      "caught": true,
+      "rule": "workshop-sort-01 round 2: classification incorrect or ambiguous"
+    },
+    "sports-kit": {
+      "caught": true,
+      "rule": "sports-kit-01 round 2: pair does not match picture and name"
+    },
+    "camping-kit": {
+      "caught": true,
+      "rule": "camping-kit-01 round 2: memory cards must be canonical unique pictures"
+    },
+    "hobby-patterns": {
+      "caught": true,
+      "rule": "hobby-patterns-01 round 2: repeated-pattern answer mismatch"
+    },
+    "vehicle-paths": {
+      "caught": true,
+      "rule": "vehicle-paths-01 round 2: unsupported or representational canvas guide"
+    },
+    "dinosaur-names": {
+      "caught": true,
+      "rule": "dinosaur-names-01 round 2: named answer mismatch id"
+    },
+    "robot-drawing": {
+      "caught": true,
+      "rule": "robot-drawing-01 round 2: drawing self-check goal differs"
+    },
+    "build-blocks": {
+      "caught": true,
+      "rule": "build-blocks-01 round 2: comparison answer mismatch"
+    },
+    "adventure-sort": {
+      "caught": true,
+      "rule": "adventure-sort-01 round 2: classification incorrect or ambiguous"
+    }
+  },
+  "checks": [
+    "Exact 16/384/1536 counts and normalized round 1",
+    "All 16 category semantics",
+    "Independent literal bilingual naming answers",
+    "Pair bijection and matching labels",
+    "Two-bin complete unambiguous sort taxonomy",
+    "Counts and arithmetic",
+    "Stated pretend toy sequence order",
+    "Canonical unique memory cards",
+    "One gap after two full pattern repetitions",
+    "Dot quantity comparisons",
+    "Supported geometric canvases and self-check goals",
+    "24 semantic round sets per category",
+    "Varied first-round targets",
+    "Ages, bilingual content, and supported assets",
+    "Deliberately wrong answer rejected for every category"
+  ]
+}

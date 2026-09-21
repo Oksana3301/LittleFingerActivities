@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-17T15:02:32.444Z",
+  "records": 48,
+  "uniqueIds": 48,
+  "engineDistribution": {
+    "identify": 4,
+    "pair": 4,
+    "sort": 4,
+    "sequence": 4,
+    "count": 4,
+    "compare": 4,
+    "pattern": 4,
+    "memory": 4,
+    "draw": 4,
+    "trace": 4,
+    "checklist": 4,
+    "story": 4
+  },
+  "bilingualFields": "passed",
+  "answerReferences": "passed",
+  "sequenceCompleteness": "passed",
+  "sortingGroups": "passed",
+  "patternReferences": "passed",
+  "countRanges": "passed",
+  "publicationGate": "all 48 held as adult demos",
+  "commonEnvelope": "48 passed (draft-07-compatible subset of supplied schema)",
+  "limits": "Structural and semantic configuration checks only. These do not replace real browser interaction, educational review, language review, safety review or child usability studies."
+}

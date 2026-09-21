@@ -1,0 +1,158 @@
+{
+  "retrieved": "2026-09-18",
+  "countries": 24,
+  "geometryFeatures": 177,
+  "mapSource": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_admin_0_countries.geojson",
+  "mapTerms": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "namesReference": "https://unstats.un.org/unsd/methodology/m49/",
+  "flagSource": "https://github.com/lipis/flag-icons",
+  "flagLicense": "MIT",
+  "mapLicense": "Public domain",
+  "flags": [
+    {
+      "code": "id",
+      "upstreamName": "Indonesia",
+      "sha256": "5cd3acc4939dd7eae6318c8d75df8c0d1733f650e2504a2635b0dbf3dfabb040",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "jp",
+      "upstreamName": "Japan",
+      "sha256": "bfea80baf9989383dc4bf7ca594ed95be0df0ff125bfc88d0bfa878eb0198022",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "cn",
+      "upstreamName": "China",
+      "sha256": "981da9bdf82d48e31691f20578cefcb26cf7d0bd95e4ebd5c0df00bdfe988c1a",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "in",
+      "upstreamName": "India",
+      "sha256": "91185efa1a9b52cdc0e470712518efeefc4e4d6a6555bae9de997ba71885bb98",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "sa",
+      "upstreamName": "Saudi Arabia",
+      "sha256": "5738c8cfca5fea63587cbcf69237996c8ce6283f8016853150686f37311b620e",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "tr",
+      "upstreamName": "Türkiye",
+      "sha256": "256a1d6afbedb9f731566982331a1cd1ad14aba211b8a61d338855879505e74f",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "au",
+      "upstreamName": "Australia",
+      "sha256": "cbb2206c5e59a25d79228306af973666a191e163f0ae337681f447977e6edb18",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "nz",
+      "upstreamName": "New Zealand",
+      "sha256": "794a2c8c09796090ab748a74bc35aed825e701eaddc46b138f300401ac9a25cd",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "us",
+      "upstreamName": "United States of America",
+      "sha256": "e7be4240cf57987926673708f09233be1ab6bdf35acc7b86bd32a263f197a2a7",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "ca",
+      "upstreamName": "Canada",
+      "sha256": "345ec9dac057e203f1331b2d3f9f473789864edaee1182a26bc261356bcf72f1",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "mx",
+      "upstreamName": "Mexico",
+      "sha256": "9dbc8ad8b35e52ce7cb686d5cd93bd95e4c0dd8505c184186a740148ffd34901",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "br",
+      "upstreamName": "Brazil",
+      "sha256": "b0a912826c3ffd7287435ebed66e18fe058e992309c00dc10b430dd41a29ba91",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "ar",
+      "upstreamName": "Argentina",
+      "sha256": "da39bfbe83fd35fae781f605c4a297b632f03ccf72d4cb0499e86dac8370663d",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "gb",
+      "upstreamName": "United Kingdom",
+      "sha256": "c8be1e7208798a4ae692ee1e937065d498bb29e741943f6172b29118b8ed8066",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "fr",
+      "upstreamName": "France",
+      "sha256": "a526851c372e3372b1596be71af355ea72b1650bbc4c06e6e2c226900d3de6cc",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "it",
+      "upstreamName": "Italy",
+      "sha256": "9fa88118818d9b64838f578e2babcca3d0630aed21b5c33b34aff7ac5ce506bc",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "de",
+      "upstreamName": "Germany",
+      "sha256": "efd480af5a154a7651f29da23ee0d09dbc892410fb4041898ddf8face336c575",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "es",
+      "upstreamName": "Spain",
+      "sha256": "f9cfaff858e95f830733ade9591037b5322dfb5827a53b70956a3d190bb49b9a",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "eg",
+      "upstreamName": "Egypt",
+      "sha256": "3f85d1d2bdb03692ad68f84efff36be2f5b1b5b7438b7b7be50def3837bf532f",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "ke",
+      "upstreamName": "Kenya",
+      "sha256": "699163d87382eb969d8a26d4ce1a99a00264e8b7b95276abf585476506f46e82",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "za",
+      "upstreamName": "South Africa",
+      "sha256": "1755a5e16f1c9f5120e4871e8454bdee663beb4fb4827012bcd02cb9044249c2",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "ng",
+      "upstreamName": "Nigeria",
+      "sha256": "b7a2a45a6499095efce41592428ff558ec5bd83d2751858dfe5fa4589334b66f",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "th",
+      "upstreamName": "Thailand",
+      "sha256": "329cc0d520536d6eb4b9304105f23650c2d02bbdba8f8696e996dbf166de6f2e",
+      "viewBox": "0 0 640 480"
+    },
+    {
+      "code": "my",
+      "upstreamName": "Malaysia",
+      "sha256": "bb30e84a099d2d9dc286ab091bdd40ae7a8e332eb49827f2df4f11803e613667",
+      "viewBox": "0 0 640 480"
+    }
+  ],
+  "geometrySha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+}

@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "12 categories": 1,
+    "288 worksheets": 1,
+    "exact category IDs": 1,
+    "unique worksheet IDs": 1,
+    "category engine": 12,
+    "24 worksheets": 12,
+    "all variant numbers": 12,
+    "known category art": 12,
+    "trilingual text": 7648,
+    "Chinese text has Han characters": 7648,
+    "24 semantic four-round signatures ignoring option order": 12,
+    "24 semantic task sets ignoring round order": 12,
+    "age guidance": 288,
+    "difficulty guidance": 288,
+    "worksheet engine": 288,
+    "four rounds": 288,
+    "four distinct tasks within worksheet": 288,
+    "root mirrors first round": 288,
+    "unique option IDs": 1152,
+    "unique visible cards": 1152,
+    "known option art": 1152,
+    "visible action labels": 1152,
+    "answer IDs exist": 1152,
+    "unique answer IDs": 1152,
+    "wide story-choice layout": 480,
+    "known independent scenario": 480,
+    "exact scenario answer meaning": 480,
+    "exact three-card permutation": 384,
+    "answer follows stated story order": 1152,
+    "sequence starts shuffled": 384,
+    "two or three canonical memory cards": 96,
+    "known mealtime cards": 96,
+    "memory answer array empty": 96,
+    "two sort bins": 96,
+    "known sorting group": 192,
+    "exact sorting labels": 192,
+    "one unambiguous group per card": 384,
+    "exact independent sort mapping": 96,
+    "all sort cards mapped once": 96,
+    "sort answer array empty": 96,
+    "one named helper task per item": 256,
+    "exact independent pair mapping": 96,
+    "pair bijection": 96,
+    "pair answer array empty": 96,
+    "no fear shame coercion in prompts": 1152
+  },
+  "semanticVariants": {
+    "brush-teeth": 24,
+    "bath-routine": 24,
+    "wash-hands": 24,
+    "toilet-care": 24,
+    "mealtime-habits": 24,
+    "bedtime-routine": 24,
+    "tidy-toys": 24,
+    "polite-words": 24,
+    "helping-family": 24,
+    "gentle-with-younger": 24,
+    "friendly-choices": 24,
+    "daily-routine": 24
+  },
+  "semanticTaskSets": {
+    "brush-teeth": 24,
+    "bath-routine": 24,
+    "wash-hands": 24,
+    "toilet-care": 24,
+    "mealtime-habits": 24,
+    "bedtime-routine": 24,
+    "tidy-toys": 24,
+    "polite-words": 24,
+    "helping-family": 24,
+    "gentle-with-younger": 24,
+    "friendly-choices": 24,
+    "daily-routine": 24
+  },
+  "distinctAuthoredScenarios": {
+    "brush-teeth": 12,
+    "bath-routine": 12,
+    "wash-hands": 12,
+    "toilet-care": 12,
+    "mealtime-habits": 0,
+    "bedtime-routine": 12,
+    "tidy-toys": 0,
+    "polite-words": 12,
+    "helping-family": 0,
+    "gentle-with-younger": 12,
+    "friendly-choices": 12,
+    "daily-routine": 12
+  },
+  "negativeMutations": {
+    "brush-teeth": {
+      "detected": true,
+      "errors": [
+        "brush-teeth-01/round-1: exact scenario answer meaning"
+      ]
+    },
+    "bath-routine": {
+      "detected": true,
+      "errors": [
+        "bath-routine-01/round-1/en: answer follows stated story order",
+        "bath-routine-01/round-1/id: answer follows stated story order",
+        "bath-routine-01/round-1/zh: answer follows stated story order"
+      ]
+    },
+    "wash-hands": {
+      "detected": true,
+      "errors": [
+        "wash-hands-01/round-1: exact scenario answer meaning"
+      ]
+    },
+    "toilet-care": {
+      "detected": true,
+      "errors": [
+        "toilet-care-01/round-1/en: answer follows stated story order",
+        "toilet-care-01/round-1/id: answer follows stated story order",
+        "toilet-care-01/round-1/zh: answer follows stated story order"
+      ]
+    },
+    "mealtime-habits": {
+      "detected": true,
+      "errors": [
+        "mealtime-habits-01/round-1: unique visible cards"
+      ]
+    },
+    "bedtime-routine": {
+      "detected": true,
+      "errors": [
+        "bedtime-routine-01/round-1/en: answer follows stated story order",
+        "bedtime-routine-01/round-1/id: answer follows stated story order",
+        "bedtime-routine-01/round-1/zh: answer follows stated story order"
+      ]
+    },
+    "tidy-toys": {
+      "detected": true,
+      "errors": [
+        "tidy-toys-01/round-1: exact independent sort mapping"
+      ]
+    },
+    "polite-words": {
+      "detected": true,
+      "errors": [
+        "polite-words-01/round-1: exact scenario answer meaning"
+      ]
+    },
+    "helping-family": {
+      "detected": true,
+      "errors": [
+        "helping-family-01/round-1: exact independent pair mapping"
+      ]
+    },
+    "gentle-with-younger": {
+      "detected": true,
+      "errors": [
+        "gentle-with-younger-01/round-1: exact scenario answer meaning"
+      ]
+    },
+    "friendly-choices": {
+      "detected": true,
+      "errors": [
+        "friendly-choices-01/round-1: exact scenario answer meaning"
+      ]
+    },
+    "daily-routine": {
+      "detected": true,
+      "errors": [
+        "daily-routine-01/round-1/en: answer follows stated story order",
+        "daily-routine-01/round-1/id: answer follows stated story order",
+        "daily-routine-01/round-1/zh: answer follows stated story order"
+      ]
+    }
+  },
+  "counts": {
+    "categories": 12,
+    "worksheets": 288,
+    "rounds": 1152
+  },
+  "sha256": {
+    "expansion-categories.json": "d0c2078d5962c273e4c791be263839a5bd0216661140defc6c86721e5e105c87",
+    "expansion-worksheets.json": "c8e06438b06774c043d37c2b8ecdbe546abb0a7615336092efbe714d8644cf5f"
+  },
+  "limits": [
+    "Cannot verify visual identity, crop fidelity, browser rendering or interaction.",
+    "Text completeness and Chinese character coverage do not replace native-speaker review.",
+    "Instruction-following sequences are short stories, not complete medical or care protocols.",
+    "Independent identify fixtures verify selected action meanings; they do not clinically validate advice."
+  ]
+}

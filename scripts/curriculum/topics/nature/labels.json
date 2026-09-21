@@ -1,0 +1,194 @@
+{
+  "weather-sun": {
+    "id": "Cerah",
+    "en": "Sunny",
+    "zh": "晴天",
+    "ar": "مشمس"
+  },
+  "weather-clouds": {
+    "id": "Berawan",
+    "en": "Cloudy",
+    "zh": "多云",
+    "ar": "غائم"
+  },
+  "weather-rain": {
+    "id": "Hujan",
+    "en": "Rainy",
+    "zh": "下雨",
+    "ar": "ممطر"
+  },
+  "weather-wind": {
+    "id": "Berangin",
+    "en": "Windy",
+    "zh": "刮风",
+    "ar": "عاصف بالرياح"
+  },
+  "weather-rainbow": {
+    "id": "Pelangi",
+    "en": "Rainbow",
+    "zh": "彩虹",
+    "ar": "قوس قزح"
+  },
+  "weather-snow": {
+    "id": "Keping salju",
+    "en": "Snowflake",
+    "zh": "雪花",
+    "ar": "ندفة ثلج"
+  },
+  "season-spring": {
+    "id": "Musim semi",
+    "en": "Spring",
+    "zh": "春季",
+    "ar": "الربيع"
+  },
+  "season-summer": {
+    "id": "Musim panas",
+    "en": "Summer",
+    "zh": "夏季",
+    "ar": "الصيف"
+  },
+  "season-autumn": {
+    "id": "Musim gugur",
+    "en": "Autumn",
+    "zh": "秋季",
+    "ar": "الخريف"
+  },
+  "season-winter": {
+    "id": "Musim dingin",
+    "en": "Winter",
+    "zh": "冬季",
+    "ar": "الشتاء"
+  },
+  "season-wet": {
+    "id": "Musim hujan",
+    "en": "Rainy season",
+    "zh": "雨季",
+    "ar": "موسم الأمطار"
+  },
+  "season-dry": {
+    "id": "Musim kemarau",
+    "en": "Dry season",
+    "zh": "旱季",
+    "ar": "موسم الجفاف"
+  },
+  "weather-raincoat": {
+    "id": "Jas hujan",
+    "en": "Raincoat",
+    "zh": "雨衣",
+    "ar": "معطف مطر"
+  },
+  "weather-boots": {
+    "id": "Sepatu bot hujan",
+    "en": "Rain boots",
+    "zh": "雨靴",
+    "ar": "حذاء مطر"
+  },
+  "weather-sunhat": {
+    "id": "Topi matahari",
+    "en": "Sun hat",
+    "zh": "遮阳帽",
+    "ar": "قبعة شمس"
+  },
+  "weather-coat": {
+    "id": "Mantel musim dingin",
+    "en": "Winter coat",
+    "zh": "冬季外套",
+    "ar": "معطف شتوي"
+  },
+  "umbrella": {
+    "id": "Payung",
+    "en": "Umbrella",
+    "zh": "雨伞",
+    "ar": "مظلة"
+  },
+  "water-glass": {
+    "id": "Segelas air",
+    "en": "Glass of water",
+    "zh": "一杯水",
+    "ar": "كوب ماء"
+  },
+  "flower": {
+    "id": "Bunga",
+    "en": "Flower",
+    "zh": "花",
+    "ar": "زهرة"
+  },
+  "leaf": {
+    "id": "Daun",
+    "en": "Leaf",
+    "zh": "叶子",
+    "ar": "ورقة شجر"
+  },
+  "ice-cube": {
+    "id": "Es batu",
+    "en": "Ice cube",
+    "zh": "冰块",
+    "ar": "مكعب ثلج"
+  },
+  "book": {
+    "id": "Buku",
+    "en": "Book",
+    "zh": "书",
+    "ar": "كتاب"
+  },
+  "kite": {
+    "id": "Layang-layang",
+    "en": "Kite",
+    "zh": "风筝",
+    "ar": "طائرة ورقية"
+  },
+  "backpack": {
+    "id": "Tas punggung",
+    "en": "Backpack",
+    "zh": "背包",
+    "ar": "حقيبة ظهر"
+  },
+  "watering-can": {
+    "id": "Penyiram tanaman",
+    "en": "Watering can",
+    "zh": "洒水壶",
+    "ar": "إبريق سقي"
+  },
+  "raindrop": {
+    "id": "Tetes hujan",
+    "en": "Raindrop",
+    "zh": "雨滴",
+    "ar": "قطرة مطر"
+  },
+  "sun": {
+    "id": "Matahari",
+    "en": "Sun",
+    "zh": "太阳",
+    "ar": "الشمس"
+  },
+  "cloud": {
+    "id": "Awan",
+    "en": "Cloud",
+    "zh": "云",
+    "ar": "سحابة"
+  },
+  "car": {
+    "id": "Mobil",
+    "en": "Car",
+    "zh": "汽车",
+    "ar": "سيارة"
+  },
+  "chair": {
+    "id": "Kursi",
+    "en": "Chair",
+    "zh": "椅子",
+    "ar": "كرسي"
+  },
+  "apple": {
+    "id": "Apel",
+    "en": "Apple",
+    "zh": "苹果",
+    "ar": "تفاحة"
+  },
+  "banana": {
+    "id": "Pisang",
+    "en": "Banana",
+    "zh": "香蕉",
+    "ar": "موز"
+  }
+}

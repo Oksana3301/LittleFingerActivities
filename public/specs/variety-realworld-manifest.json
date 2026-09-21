@@ -1,0 +1,1439 @@
+{
+  "revision": "variety-1",
+  "categories": 46,
+  "revisedWorksheets": 372,
+  "checkedNewRounds": 1472,
+  "checkedRepairedMemoryRounds": 16,
+  "items": [
+    {
+      "category": "adventure-sort",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "changedIds": [
+        "adventure-sort-17",
+        "adventure-sort-18",
+        "adventure-sort-19",
+        "adventure-sort-20",
+        "adventure-sort-21",
+        "adventure-sort-22",
+        "adventure-sort-23",
+        "adventure-sort-24"
+      ]
+    },
+    {
+      "category": "air-water-vehicles",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "changedIds": [
+        "air-water-vehicles-17",
+        "air-water-vehicles-18",
+        "air-water-vehicles-19",
+        "air-water-vehicles-20",
+        "air-water-vehicles-21",
+        "air-water-vehicles-22",
+        "air-water-vehicles-23",
+        "air-water-vehicles-24"
+      ]
+    },
+    {
+      "category": "animal-names",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "animal-names-17",
+        "animal-names-18",
+        "animal-names-19",
+        "animal-names-20",
+        "animal-names-21",
+        "animal-names-22",
+        "animal-names-23",
+        "animal-names-24"
+      ]
+    },
+    {
+      "category": "bath-routine",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "changedIds": [
+        "bath-routine-17",
+        "bath-routine-18",
+        "bath-routine-19",
+        "bath-routine-20",
+        "bath-routine-21",
+        "bath-routine-22",
+        "bath-routine-23",
+        "bath-routine-24"
+      ]
+    },
+    {
+      "category": "bedtime-routine",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "changedIds": [
+        "bedtime-routine-17",
+        "bedtime-routine-18",
+        "bedtime-routine-19",
+        "bedtime-routine-20",
+        "bedtime-routine-21",
+        "bedtime-routine-22",
+        "bedtime-routine-23",
+        "bedtime-routine-24"
+      ]
+    },
+    {
+      "category": "body-care",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "body-care-17",
+        "body-care-18",
+        "body-care-19",
+        "body-care-20",
+        "body-care-21",
+        "body-care-22",
+        "body-care-23",
+        "body-care-24"
+      ]
+    },
+    {
+      "category": "body-parts",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "body-parts-17",
+        "body-parts-18",
+        "body-parts-19",
+        "body-parts-20",
+        "body-parts-21",
+        "body-parts-22",
+        "body-parts-23",
+        "body-parts-24"
+      ]
+    },
+    {
+      "category": "brush-teeth",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "brush-teeth-17",
+        "brush-teeth-18",
+        "brush-teeth-19",
+        "brush-teeth-20",
+        "brush-teeth-21",
+        "brush-teeth-22",
+        "brush-teeth-23",
+        "brush-teeth-24"
+      ]
+    },
+    {
+      "category": "build-a-vehicle",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "changedIds": [
+        "build-a-vehicle-17",
+        "build-a-vehicle-18",
+        "build-a-vehicle-19",
+        "build-a-vehicle-20",
+        "build-a-vehicle-21",
+        "build-a-vehicle-22",
+        "build-a-vehicle-23",
+        "build-a-vehicle-24"
+      ]
+    },
+    {
+      "category": "camping-kit",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "camping-kit-17",
+        "camping-kit-18",
+        "camping-kit-19",
+        "camping-kit-20",
+        "camping-kit-21",
+        "camping-kit-22",
+        "camping-kit-23",
+        "camping-kit-24"
+      ]
+    },
+    {
+      "category": "construction-vehicles",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "construction-vehicles-17",
+        "construction-vehicles-18",
+        "construction-vehicles-19",
+        "construction-vehicles-20",
+        "construction-vehicles-21",
+        "construction-vehicles-22",
+        "construction-vehicles-23",
+        "construction-vehicles-24"
+      ]
+    },
+    {
+      "category": "daily-routine",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "changedIds": [
+        "daily-routine-17",
+        "daily-routine-18",
+        "daily-routine-19",
+        "daily-routine-20",
+        "daily-routine-21",
+        "daily-routine-22",
+        "daily-routine-23",
+        "daily-routine-24"
+      ]
+    },
+    {
+      "category": "dinosaur-names",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "dinosaur-names-17",
+        "dinosaur-names-18",
+        "dinosaur-names-19",
+        "dinosaur-names-20",
+        "dinosaur-names-21",
+        "dinosaur-names-22",
+        "dinosaur-names-23",
+        "dinosaur-names-24"
+      ]
+    },
+    {
+      "category": "family-members",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "family-members-17",
+        "family-members-18",
+        "family-members-19",
+        "family-members-20",
+        "family-members-21",
+        "family-members-22",
+        "family-members-23",
+        "family-members-24"
+      ]
+    },
+    {
+      "category": "family-pairs",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "family-pairs-17",
+        "family-pairs-18",
+        "family-pairs-19",
+        "family-pairs-20",
+        "family-pairs-21",
+        "family-pairs-22",
+        "family-pairs-23",
+        "family-pairs-24"
+      ]
+    },
+    {
+      "category": "five-senses",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "five-senses-17",
+        "five-senses-18",
+        "five-senses-19",
+        "five-senses-20",
+        "five-senses-21",
+        "five-senses-22",
+        "five-senses-23",
+        "five-senses-24"
+      ]
+    },
+    {
+      "category": "friendly-choices",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "friendly-choices-17",
+        "friendly-choices-18",
+        "friendly-choices-19",
+        "friendly-choices-20",
+        "friendly-choices-21",
+        "friendly-choices-22",
+        "friendly-choices-23",
+        "friendly-choices-24"
+      ]
+    },
+    {
+      "category": "garage-tools",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "garage-tools-17",
+        "garage-tools-18",
+        "garage-tools-19",
+        "garage-tools-20",
+        "garage-tools-21",
+        "garage-tools-22",
+        "garage-tools-23",
+        "garage-tools-24"
+      ]
+    },
+    {
+      "category": "garden-names",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "garden-names-17",
+        "garden-names-18",
+        "garden-names-19",
+        "garden-names-20",
+        "garden-names-21",
+        "garden-names-22",
+        "garden-names-23",
+        "garden-names-24"
+      ]
+    },
+    {
+      "category": "gentle-with-younger",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "gentle-with-younger-17",
+        "gentle-with-younger-18",
+        "gentle-with-younger-19",
+        "gentle-with-younger-20",
+        "gentle-with-younger-21",
+        "gentle-with-younger-22",
+        "gentle-with-younger-23",
+        "gentle-with-younger-24"
+      ]
+    },
+    {
+      "category": "helping-family",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "helping-family-17",
+        "helping-family-18",
+        "helping-family-19",
+        "helping-family-20",
+        "helping-family-21",
+        "helping-family-22",
+        "helping-family-23",
+        "helping-family-24"
+      ]
+    },
+    {
+      "category": "hobby-patterns",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "hobby-patterns-17",
+        "hobby-patterns-18",
+        "hobby-patterns-19",
+        "hobby-patterns-20",
+        "hobby-patterns-21",
+        "hobby-patterns-22",
+        "hobby-patterns-23",
+        "hobby-patterns-24"
+      ]
+    },
+    {
+      "category": "home-names",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "home-names-17",
+        "home-names-18",
+        "home-names-19",
+        "home-names-20",
+        "home-names-21",
+        "home-names-22",
+        "home-names-23",
+        "home-names-24"
+      ]
+    },
+    {
+      "category": "kind-words",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "kind-words-17",
+        "kind-words-18",
+        "kind-words-19",
+        "kind-words-20",
+        "kind-words-21",
+        "kind-words-22",
+        "kind-words-23",
+        "kind-words-24"
+      ]
+    },
+    {
+      "category": "living-nonliving",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "living-nonliving-17",
+        "living-nonliving-18",
+        "living-nonliving-19",
+        "living-nonliving-20",
+        "living-nonliving-21",
+        "living-nonliving-22",
+        "living-nonliving-23",
+        "living-nonliving-24"
+      ]
+    },
+    {
+      "category": "machine-parts",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "machine-parts-17",
+        "machine-parts-18",
+        "machine-parts-19",
+        "machine-parts-20",
+        "machine-parts-21",
+        "machine-parts-22",
+        "machine-parts-23",
+        "machine-parts-24"
+      ]
+    },
+    {
+      "category": "mealtime-habits",
+      "worksheets": 24,
+      "unchanged": 12,
+      "revised": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "mealtime-habits-09",
+        "mealtime-habits-10",
+        "mealtime-habits-11",
+        "mealtime-habits-16",
+        "mealtime-habits-17",
+        "mealtime-habits-18",
+        "mealtime-habits-19",
+        "mealtime-habits-20",
+        "mealtime-habits-21",
+        "mealtime-habits-22",
+        "mealtime-habits-23",
+        "mealtime-habits-24"
+      ]
+    },
+    {
+      "category": "object-functions",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "object-functions-17",
+        "object-functions-18",
+        "object-functions-19",
+        "object-functions-20",
+        "object-functions-21",
+        "object-functions-22",
+        "object-functions-23",
+        "object-functions-24"
+      ]
+    },
+    {
+      "category": "planet-facts",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "planet-facts-17",
+        "planet-facts-18",
+        "planet-facts-19",
+        "planet-facts-20",
+        "planet-facts-21",
+        "planet-facts-22",
+        "planet-facts-23",
+        "planet-facts-24"
+      ]
+    },
+    {
+      "category": "planet-names",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "planet-names-17",
+        "planet-names-18",
+        "planet-names-19",
+        "planet-names-20",
+        "planet-names-21",
+        "planet-names-22",
+        "planet-names-23",
+        "planet-names-24"
+      ]
+    },
+    {
+      "category": "plant-needs",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "plant-needs-17",
+        "plant-needs-18",
+        "plant-needs-19",
+        "plant-needs-20",
+        "plant-needs-21",
+        "plant-needs-22",
+        "plant-needs-23",
+        "plant-needs-24"
+      ]
+    },
+    {
+      "category": "polite-words",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "polite-words-17",
+        "polite-words-18",
+        "polite-words-19",
+        "polite-words-20",
+        "polite-words-21",
+        "polite-words-22",
+        "polite-words-23",
+        "polite-words-24"
+      ]
+    },
+    {
+      "category": "produce-names",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "produce-names-17",
+        "produce-names-18",
+        "produce-names-19",
+        "produce-names-20",
+        "produce-names-21",
+        "produce-names-22",
+        "produce-names-23",
+        "produce-names-24"
+      ]
+    },
+    {
+      "category": "road-vehicles",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "road-vehicles-17",
+        "road-vehicles-18",
+        "road-vehicles-19",
+        "road-vehicles-20",
+        "road-vehicles-21",
+        "road-vehicles-22",
+        "road-vehicles-23",
+        "road-vehicles-24"
+      ]
+    },
+    {
+      "category": "room-objects",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "room-objects-17",
+        "room-objects-18",
+        "room-objects-19",
+        "room-objects-20",
+        "room-objects-21",
+        "room-objects-22",
+        "room-objects-23",
+        "room-objects-24"
+      ]
+    },
+    {
+      "category": "school-objects",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "school-objects-17",
+        "school-objects-18",
+        "school-objects-19",
+        "school-objects-20",
+        "school-objects-21",
+        "school-objects-22",
+        "school-objects-23",
+        "school-objects-24"
+      ]
+    },
+    {
+      "category": "sky-names",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "sky-names-17",
+        "sky-names-18",
+        "sky-names-19",
+        "sky-names-20",
+        "sky-names-21",
+        "sky-names-22",
+        "sky-names-23",
+        "sky-names-24"
+      ]
+    },
+    {
+      "category": "space-pairs",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "space-pairs-17",
+        "space-pairs-18",
+        "space-pairs-19",
+        "space-pairs-20",
+        "space-pairs-21",
+        "space-pairs-22",
+        "space-pairs-23",
+        "space-pairs-24"
+      ]
+    },
+    {
+      "category": "sports-kit",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "sports-kit-17",
+        "sports-kit-18",
+        "sports-kit-19",
+        "sports-kit-20",
+        "sports-kit-21",
+        "sports-kit-22",
+        "sports-kit-23",
+        "sports-kit-24"
+      ]
+    },
+    {
+      "category": "taking-turns",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "taking-turns-17",
+        "taking-turns-18",
+        "taking-turns-19",
+        "taking-turns-20",
+        "taking-turns-21",
+        "taking-turns-22",
+        "taking-turns-23",
+        "taking-turns-24"
+      ]
+    },
+    {
+      "category": "tidy-toys",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "changedIds": [
+        "tidy-toys-17",
+        "tidy-toys-18",
+        "tidy-toys-19",
+        "tidy-toys-20",
+        "tidy-toys-21",
+        "tidy-toys-22",
+        "tidy-toys-23",
+        "tidy-toys-24"
+      ]
+    },
+    {
+      "category": "toilet-care",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "changedIds": [
+        "toilet-care-17",
+        "toilet-care-18",
+        "toilet-care-19",
+        "toilet-care-20",
+        "toilet-care-21",
+        "toilet-care-22",
+        "toilet-care-23",
+        "toilet-care-24"
+      ]
+    },
+    {
+      "category": "vehicle-names",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "vehicle-names-17",
+        "vehicle-names-18",
+        "vehicle-names-19",
+        "vehicle-names-20",
+        "vehicle-names-21",
+        "vehicle-names-22",
+        "vehicle-names-23",
+        "vehicle-names-24"
+      ]
+    },
+    {
+      "category": "wash-hands",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "wash-hands-17",
+        "wash-hands-18",
+        "wash-hands-19",
+        "wash-hands-20",
+        "wash-hands-21",
+        "wash-hands-22",
+        "wash-hands-23",
+        "wash-hands-24"
+      ]
+    },
+    {
+      "category": "weather-choices",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "changedIds": [
+        "weather-choices-17",
+        "weather-choices-18",
+        "weather-choices-19",
+        "weather-choices-20",
+        "weather-choices-21",
+        "weather-choices-22",
+        "weather-choices-23",
+        "weather-choices-24"
+      ]
+    },
+    {
+      "category": "workshop-sort",
+      "worksheets": 24,
+      "unchanged": 16,
+      "revised": 8,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "changedIds": [
+        "workshop-sort-17",
+        "workshop-sort-18",
+        "workshop-sort-19",
+        "workshop-sort-20",
+        "workshop-sort-21",
+        "workshop-sort-22",
+        "workshop-sort-23",
+        "workshop-sort-24"
+      ]
+    }
+  ]
+}

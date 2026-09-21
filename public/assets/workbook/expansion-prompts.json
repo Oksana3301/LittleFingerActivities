@@ -1,0 +1,139 @@
+{
+  "mode": "built-in image_gen",
+  "reference": "/workspace/scratch/b1ab4bfa75af/workbook-art/objects-grid-5x5.png",
+  "grid": {
+    "columns": 4,
+    "rows": 4
+  },
+  "atlases": [
+    {
+      "name": "space-science-grid-4x4",
+      "order": [
+        [
+          "mercury",
+          "venus",
+          "earth",
+          "mars"
+        ],
+        [
+          "jupiter",
+          "saturn",
+          "uranus",
+          "neptune"
+        ],
+        [
+          "comet",
+          "telescope",
+          "satellite",
+          "microscope"
+        ],
+        [
+          "magnet",
+          "ice-cube",
+          "rock",
+          "water-glass"
+        ]
+      ],
+      "prompt": "Use case: illustration-story. Asset type: original bitmap sprite atlas for a children's activity app.\nInput image is a STYLE REFERENCE ONLY, not an edit target. Match its charming soft handdrawn colored-pencil / crayon children's storybook aesthetic, warm gentle muted colors, subtle watercolor paper feel WITHIN objects, simple recognizable silhouettes, thin soft brown outlines where useful.\nCreate a SQUARE sprite atlas containing EXACTLY 16 separate illustrations on a PURE WHITE #FFFFFF background in a perfectly regular 4-column by 4-row grid. No gridlines or boxes. Each object is centered at the center of its equal square cell. Each illustration fits wholly inside the central 70% width and 70% height of its cell with generous untouched white margins. All cells same size. Equal-size illustrative icons, not actual relative scale. Absolutely no text, letters, labels, numerals, watermark, borders, shadows beneath objects, overlapping objects, extra decorative objects, or background texture. Use square canvas. Flat scanner-view illustration assets. The listed words below describe subjects only and must never be printed.\n\nExact cell order left to right:\nROW 1: Mercury, Venus, Earth, Mars.\nROW 2: Jupiter, Saturn, Uranus, Neptune.\nROW 3: comet, telescope, satellite, microscope.\nROW 4: horseshoe magnet, ice cube, rock, clear water glass.\nPlanet details: Mercury gray cratered sphere; Venus creamy pale golden cloud-covered sphere; Earth blue oceans with green continents; Mars rust-red sphere; Jupiter warm broad horizontal stripes and distinctive red spot; Saturn pale yellow sphere with broad tilted elliptical rings; Uranus pale aqua sphere; Neptune deep blue sphere. Do not add faces to planets. Planets visually distinct. These are artistic object icons, not an educational diagram. Telescope small classic instrument on tripod; satellite small central box with two solar panel wings; microscope recognizable single-eyepiece classroom microscope; magnet red horseshoe with gray ends; ice cube translucent pale blue; rock irregular gray-brown stone; water glass a simple transparent cylindrical drinking glass half-filled with pale blue water, no handle.",
+      "output_path": "/workspace/scratch/b1ab4bfa75af/expansion-art/space-science-grid-4x4.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "nominal_cell_size": {
+        "width": 313.5,
+        "height": 313.5
+      }
+    },
+    {
+      "name": "family-body-grid-4x4",
+      "order": [
+        [
+          "mother",
+          "father",
+          "grandmother",
+          "grandfather"
+        ],
+        [
+          "older-sibling",
+          "younger-sibling",
+          "baby",
+          "family"
+        ],
+        [
+          "eye",
+          "ear",
+          "nose",
+          "mouth"
+        ],
+        [
+          "hand",
+          "foot",
+          "head",
+          "shoulder"
+        ]
+      ],
+      "prompt": "Use case: illustration-story. Asset type: original bitmap sprite atlas for a children's activity app.\nInput image is a STYLE REFERENCE ONLY, not an edit target. Match its charming soft handdrawn colored-pencil / crayon children's storybook aesthetic, warm gentle muted colors, subtle watercolor paper feel WITHIN objects, simple recognizable silhouettes, thin soft brown outlines where useful.\nCreate a SQUARE sprite atlas containing EXACTLY 16 separate illustrations on a PURE WHITE #FFFFFF background in a perfectly regular 4-column by 4-row grid. No gridlines or boxes. Each object is centered at the center of its equal square cell. Each illustration fits wholly inside the central 70% width and 70% height of its cell with generous untouched white margins. All cells same size. Equal-size illustrative icons, not actual relative scale. Absolutely no text, letters, labels, numerals, watermark, borders, shadows beneath objects, overlapping objects, extra decorative objects, or background texture. Use square canvas. Flat scanner-view illustration assets. The listed words below describe subjects only and must never be printed.\n\nExact cell order left to right:\nROW 1: mother, father, grandmother, grandfather.\nROW 2: older sibling, younger sibling, baby, family.\nROW 3: eye, ear, nose, mouth.\nROW 4: hand, foot, head, shoulder.\nFamily character requirements: friendly Indonesian family with warm light-to-medium brown skin, black/dark brown hair, gentle smiles, modest ordinary pastel clothing. Mother and father separate adult bust portraits. Grandmother and grandfather separate elderly busts with gray hair, subtle wrinkles, recognizable age. Older sibling is a school-age child around 10, visibly older/taller than younger sibling around 4; portraits include enough torso to show height/age. Baby swaddled with small round face. Family cell contains one small cohesive group of exactly 3 people (mother, father, child). All groups remain within their own cells.\nBody part requirements: tasteful clear isolated storybook illustrations. Eye is a single open brown eye with simple upper lid and eyebrow; ear a single clear ear side view; nose a single isolated nose with nostrils; mouth a single smiling mouth with closed pink lips. Hand one open palm with exactly five fingers; foot one bare foot with five toes in side three-quarter view. Head a generic child head with hair, whole face, ears, and small neck, no torso. Shoulder a headless cropped upper torso and one upper arm showing the rounded shoulder joint clearly, with a simple sleeveless shirt outline and warm brown visible shoulder; do not include a face or head in shoulder cell. No labels.",
+      "output_path": "/workspace/scratch/b1ab4bfa75af/expansion-art/family-body-grid-4x4.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "nominal_cell_size": {
+        "width": 313.5,
+        "height": 313.5
+      }
+    },
+    {
+      "name": "everyday-objects-grid-4x4",
+      "order": [
+        [
+          "chair",
+          "table",
+          "bed",
+          "lamp"
+        ],
+        [
+          "clock",
+          "book",
+          "pencil",
+          "bag"
+        ],
+        [
+          "scissors",
+          "ruler",
+          "spoon",
+          "plate"
+        ],
+        [
+          "cup",
+          "toothbrush",
+          "soap",
+          "towel"
+        ]
+      ],
+      "prompt": "Use case: illustration-story. Asset type: original bitmap sprite atlas for a children's activity app.\nInput image is a STYLE REFERENCE ONLY, not an edit target. Match its charming soft handdrawn colored-pencil / crayon children's storybook aesthetic, warm gentle muted colors, subtle watercolor paper feel WITHIN objects, simple recognizable silhouettes, thin soft brown outlines where useful.\nCreate a SQUARE sprite atlas containing EXACTLY 16 separate illustrations on a PURE WHITE #FFFFFF background in a perfectly regular 4-column by 4-row grid. No gridlines or boxes. Each object is centered at the center of its equal square cell. Each illustration fits wholly inside the central 70% width and 70% height of its cell with generous untouched white margins. All cells same size. Equal-size illustrative icons, not actual relative scale. Absolutely no text, letters, labels, numerals, watermark, borders, shadows beneath objects, overlapping objects, extra decorative objects, or background texture. Use square canvas. Flat scanner-view illustration assets. The listed words below describe subjects only and must never be printed.\n\nExact cell order left to right:\nROW 1: chair, table, bed, lamp.\nROW 2: clock, book, pencil, bag.\nROW 3: scissors, ruler, spoon, plate.\nROW 4: cup, toothbrush, soap, towel.\nObject requirements: simple wooden chair; small wooden table; cozy single bed with pale blanket and pillow; table lamp with shade; round analog clock with hands and simple tick marks but NO NUMERALS; closed book with plain unlettered cover; one sharpened colored pencil; child school backpack; rounded-tip school scissors; wooden ruler with measurement tick marks but NO NUMERALS OR TEXT; a simple spoon; round ceramic plate; opaque pastel ceramic cup with large clearly visible handle, distinct from a transparent water glass; child toothbrush; rounded rectangular bar of soap with no lettering; neatly folded towel. Every object isolated and recognizable. No extra props. Warm pastels and earthy soft tones matching reference.",
+      "output_path": "/workspace/scratch/b1ab4bfa75af/expansion-art/everyday-objects-grid-4x4.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "nominal_cell_size": {
+        "width": 313.5,
+        "height": 313.5
+      }
+    }
+  ],
+  "review": {
+    "content_order": "All 48 requested subjects are present in the requested row-major order. No labels or grid lines.",
+    "style": "All three closely match the existing colored-pencil/crayon storybook reference.",
+    "family": "Adults, elderly adults, older/younger siblings, swaddled baby, and three-person family are distinct. Hand and foot each show five digits. Shoulder is clear headless upper torso with visible shoulder joint.",
+    "objects": "Mug has a handle and differs clearly from transparent water glass. School scissors have rounded ends.",
+    "integration_notes": [
+      "Raw backgrounds appear white but sampled corners range RGB 253\u2013255, so they are not mathematically pure #FFFFFF.",
+      "Nominal layout is 4x4; some objects occupy more than the requested central 70% of a cell.",
+      "Saturn ring extends slightly beyond the nominal right edge of its cell (around x=640 vs cell edge 627). Use a slightly wider source crop or recenter before uniform atlas packing.",
+      "Do not blind slice to 313-pixel integer cells: native resolution is 1254x1254, so nominal cells are 313.5x313.5 pixels."
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+const a=JSON.parse(fs.readFileSync('app/data/activities.json'));
+const c=JSON.parse(fs.readFileSync('public/specs/catalogue-common.json'));
+const schema=JSON.parse(fs.readFileSync('public/specs/activity.schema.json'));
+assert.equal(a.length,48);assert.equal(new Set(a.map(x=>x.id)).size,48);
+const distribution={};
+for(const x of a){distribution[x.engine]=(distribution[x.engine]||0)+1;assert.ok(['2','3','4','5'].includes(x.age));for(const k of ['title','description','objective','instruction','materials','offscreen','safety','adaptation','prompt'])for(const l of ['en','id'])assert.ok(x[k]?.[l]?.trim(),`${x.id}.${k}.${l}`);const ids=x.options.map(o=>o.id);assert.equal(new Set(ids).size,ids.length);if(['identify','compare','pattern'].includes(x.engine))assert.ok(ids.includes(x.answer));if(x.engine==='sequence'){assert.deepEqual([...x.answer].sort(),[...ids].sort())}if(x.engine==='pattern')assert.ok(x.pattern.every(id=>ids.includes(id)));if(x.engine==='sort')assert.ok(x.options.every(o=>x.groups.some(g=>g.id===o.group)));if(x.engine==='count')assert.ok(x.countTarget>=1&&x.countTarget<=6);if(['checklist','story'].includes(x.engine))assert.ok(x.steps.length>=3);assert.equal(x.publicationState,'demo');assert.equal(x.editorialState,'pending')}
+assert.equal(Object.keys(distribution).length,12);assert.ok(Object.values(distribution).every(n=>n===4));
+// The provided 2020-12 envelope uses a draft-07-compatible subset. No schema keywords are removed except its dialect URI.
+let envelope='not available';try{const req=createRequire(import.meta.url);const eReq=createRequire(req.resolve('eslint'));const Ajv=eReq('ajv');const ajv=new Ajv({allErrors:true,schemaId:'auto'});delete schema.$schema;const validate=ajv.compile(schema);for(const x of c){if(!validate(x))throw new Error(x.id+': '+JSON.stringify(validate.errors))}envelope='48 passed (draft-07-compatible subset of supplied schema)'}catch(e){if(e.code!=='MODULE_NOT_FOUND')throw e}
+const report={date:new Date().toISOString(),records:a.length,uniqueIds:48,engineDistribution:distribution,bilingualFields:'passed',answerReferences:'passed',sequenceCompleteness:'passed',sortingGroups:'passed',patternReferences:'passed',countRanges:'passed',publicationGate:'all 48 held as adult demos',commonEnvelope:envelope,limits:'Structural and semantic configuration checks only. These do not replace real browser interaction, educational review, language review, safety review or child usability studies.'};fs.writeFileSync('public/specs/catalogue-test-results.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));

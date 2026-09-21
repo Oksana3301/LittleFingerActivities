@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "assets": [
+    {
+      "assetId": "pip-proposed-v1",
+      "kind": "illustration",
+      "path": "/assets/pip-proposed.png",
+      "styleVersion": "little-world-tactile-play-v1",
+      "characterId": "pip",
+      "altText": "Original teal pebble-shaped guide Pip observing a yellow square and coral circle.",
+      "source": "OpenAI image generation, one original asset generated for this build on 2026-09-17.",
+      "license": "AI-generated output, subject to applicable service terms. No third-party photography.",
+      "consentStatus": "not-applicable-no-identifiable-person",
+      "reviewStatus": "visually-inspected-by-agent-proposed-not-human-approved",
+      "approvedReferenceId": null
+    },
+    {
+      "assetId": "learning-symbols-v1",
+      "kind": "editable-symbols",
+      "path": "app/components/player.tsx#Glyph",
+      "styleVersion": "1.0.0",
+      "characterId": null,
+      "altText": "Exact geometric shapes and text-rendered letters and numerals, labelled by activity.",
+      "source": "Original programmatic geometry and system-font text; not generated raster teaching imagery.",
+      "license": "Original project code; local system-font rendering.",
+      "consentStatus": "not-applicable",
+      "reviewStatus": "configuration-checked-human-educational-review-pending",
+      "approvedReferenceId": null
+    }
+  ],
+  "gaps": ["Human-approved character turnaround, expression sheet and pose set", "Licensed and checked real-object photography before object-recognition expansion", "Reviewed human narration", "Educational and Bahasa Indonesia review"]
+}

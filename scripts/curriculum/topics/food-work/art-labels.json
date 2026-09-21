@@ -1,0 +1,170 @@
+{
+  "food-nasi-goreng": {
+    "id": "Nasi goreng",
+    "en": "Nasi goreng",
+    "zh": "印尼炒饭",
+    "ar": "ناسي غورينغ"
+  },
+  "food-sate": {
+    "id": "Sate",
+    "en": "Sate",
+    "zh": "沙爹串",
+    "ar": "ساتيه"
+  },
+  "food-rendang": {
+    "id": "Rendang",
+    "en": "Rendang",
+    "zh": "仁当炖肉",
+    "ar": "رندانغ"
+  },
+  "food-soto": {
+    "id": "Soto ayam",
+    "en": "Soto ayam",
+    "zh": "印尼鸡汤",
+    "ar": "سوتو الدجاج"
+  },
+  "food-gado-gado": {
+    "id": "Gado-gado",
+    "en": "Gado-gado",
+    "zh": "加多加多蔬菜沙拉",
+    "ar": "غادو غادو"
+  },
+  "food-bakso": {
+    "id": "Bakso",
+    "en": "Bakso",
+    "zh": "印尼肉丸汤",
+    "ar": "باكسو"
+  },
+  "food-pempek": {
+    "id": "Pempek",
+    "en": "Pempek",
+    "zh": "印尼鱼糕",
+    "ar": "بيمبيك"
+  },
+  "food-klepon": {
+    "id": "Klepon",
+    "en": "Klepon",
+    "zh": "椰丝糯米球",
+    "ar": "كليبون"
+  },
+  "food-pizza": {
+    "id": "Piza",
+    "en": "Pizza",
+    "zh": "比萨",
+    "ar": "بيتزا"
+  },
+  "food-sushi": {
+    "id": "Sushi gulung",
+    "en": "Sushi rolls",
+    "zh": "寿司卷",
+    "ar": "لفائف السوشي"
+  },
+  "food-spaghetti": {
+    "id": "Spageti",
+    "en": "Spaghetti",
+    "zh": "意大利细面",
+    "ar": "سباغيتي"
+  },
+  "food-taco": {
+    "id": "Taco",
+    "en": "Taco",
+    "zh": "塔可",
+    "ar": "تاكو"
+  },
+  "food-croissant": {
+    "id": "Kroisan",
+    "en": "Croissant",
+    "zh": "牛角面包",
+    "ar": "كرواسون"
+  },
+  "food-dumplings": {
+    "id": "Bao kukus",
+    "en": "Steamed bao",
+    "zh": "小笼包",
+    "ar": "خبز باو على البخار"
+  },
+  "food-curry": {
+    "id": "Kari dan nasi",
+    "en": "Curry with rice",
+    "zh": "咖喱饭",
+    "ar": "كاري مع الأرز"
+  },
+  "food-bibimbap": {
+    "id": "Bibimbap",
+    "en": "Bibimbap",
+    "zh": "韩式拌饭",
+    "ar": "بيبيمباب"
+  },
+  "job-doctor": {
+    "id": "Dokter",
+    "en": "Doctor",
+    "zh": "医生",
+    "ar": "طبيبة"
+  },
+  "job-nurse": {
+    "id": "Perawat",
+    "en": "Nurse",
+    "zh": "护士",
+    "ar": "ممرض"
+  },
+  "job-firefighter": {
+    "id": "Pemadam kebakaran",
+    "en": "Firefighter",
+    "zh": "消防员",
+    "ar": "عاملة إطفاء"
+  },
+  "job-teacher": {
+    "id": "Guru",
+    "en": "Teacher",
+    "zh": "老师",
+    "ar": "معلم"
+  },
+  "job-chef": {
+    "id": "Koki",
+    "en": "Chef",
+    "zh": "厨师",
+    "ar": "طاهية"
+  },
+  "job-farmer": {
+    "id": "Petani",
+    "en": "Farmer",
+    "zh": "农民",
+    "ar": "مزارع"
+  },
+  "job-mechanic": {
+    "id": "Montir",
+    "en": "Mechanic",
+    "zh": "机械师",
+    "ar": "ميكانيكية"
+  },
+  "job-mailcarrier": {
+    "id": "Pengantar surat",
+    "en": "Mail carrier",
+    "zh": "邮递员",
+    "ar": "ساعي بريد"
+  },
+  "job-builder": {
+    "id": "Pekerja bangunan",
+    "en": "Builder",
+    "zh": "建筑工人",
+    "ar": "عاملة بناء"
+  },
+  "job-scientist": {
+    "id": "Ilmuwan",
+    "en": "Scientist",
+    "zh": "科学家",
+    "ar": "عالم"
+  },
+  "job-artist": {
+    "id": "Seniman",
+    "en": "Artist",
+    "zh": "艺术家",
+    "ar": "فنانة"
+  },
+  "job-pilot": {
+    "id": "Pilot",
+    "en": "Pilot",
+    "zh": "飞行员",
+    "ar": "طيار"
+  }
+}

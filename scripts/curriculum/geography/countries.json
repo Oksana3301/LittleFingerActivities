@@ -1,0 +1,554 @@
+[
+  {
+    "code": "id",
+    "iso3": "IDN",
+    "name": {
+      "id": "Indonesia",
+      "en": "Indonesia",
+      "zh": "印度尼西亚",
+      "ar": "إندونيسيا"
+    },
+    "region": {
+      "id": "Asia",
+      "en": "Asia",
+      "zh": "亚洲",
+      "ar": "آسيا"
+    },
+    "regionId": "asia",
+    "flag": "/assets/flags/id.svg",
+    "lng": 101.892949,
+    "lat": -0.954404,
+    "x": 783.04,
+    "y": 252.65,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "jp",
+    "iso3": "JPN",
+    "name": {
+      "id": "Jepang",
+      "en": "Japan",
+      "zh": "日本",
+      "ar": "اليابان"
+    },
+    "region": {
+      "id": "Asia",
+      "en": "Asia",
+      "zh": "亚洲",
+      "ar": "آسيا"
+    },
+    "regionId": "asia",
+    "flag": "/assets/flags/jp.svg",
+    "lng": 138.44217,
+    "lat": 36.142538,
+    "x": 884.56,
+    "y": 149.6,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "cn",
+    "iso3": "CHN",
+    "name": {
+      "id": "Tiongkok",
+      "en": "China",
+      "zh": "中国",
+      "ar": "الصين"
+    },
+    "region": {
+      "id": "Asia",
+      "en": "Asia",
+      "zh": "亚洲",
+      "ar": "آسيا"
+    },
+    "regionId": "asia",
+    "flag": "/assets/flags/cn.svg",
+    "lng": 106.337289,
+    "lat": 32.498178,
+    "x": 795.38,
+    "y": 159.73,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "in",
+    "iso3": "IND",
+    "name": {
+      "id": "India",
+      "en": "India",
+      "zh": "印度",
+      "ar": "الهند"
+    },
+    "region": {
+      "id": "Asia",
+      "en": "Asia",
+      "zh": "亚洲",
+      "ar": "آسيا"
+    },
+    "regionId": "asia",
+    "flag": "/assets/flags/in.svg",
+    "lng": 79.358105,
+    "lat": 22.686852,
+    "x": 720.44,
+    "y": 186.98,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "sa",
+    "iso3": "SAU",
+    "name": {
+      "id": "Arab Saudi",
+      "en": "Saudi Arabia",
+      "zh": "沙特阿拉伯",
+      "ar": "السعودية"
+    },
+    "region": {
+      "id": "Asia",
+      "en": "Asia",
+      "zh": "亚洲",
+      "ar": "آسيا"
+    },
+    "regionId": "asia",
+    "flag": "/assets/flags/sa.svg",
+    "lng": 44.6996,
+    "lat": 23.806908,
+    "x": 624.17,
+    "y": 183.87,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "tr",
+    "iso3": "TUR",
+    "name": {
+      "id": "Turki",
+      "en": "Türkiye",
+      "zh": "土耳其",
+      "ar": "تركيا"
+    },
+    "region": {
+      "id": "Asia",
+      "en": "Asia",
+      "zh": "亚洲",
+      "ar": "آسيا"
+    },
+    "regionId": "asia",
+    "flag": "/assets/flags/tr.svg",
+    "lng": 34.508268,
+    "lat": 39.345388,
+    "x": 595.86,
+    "y": 140.71,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "au",
+    "iso3": "AUS",
+    "name": {
+      "id": "Australia",
+      "en": "Australia",
+      "zh": "澳大利亚",
+      "ar": "أستراليا"
+    },
+    "region": {
+      "id": "Oseania",
+      "en": "Oceania",
+      "zh": "大洋洲",
+      "ar": "أوقيانوسيا"
+    },
+    "regionId": "oceania",
+    "flag": "/assets/flags/au.svg",
+    "lng": 134.04972,
+    "lat": -24.129522,
+    "x": 872.36,
+    "y": 317.03,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "nz",
+    "iso3": "NZL",
+    "name": {
+      "id": "Selandia Baru",
+      "en": "New Zealand",
+      "zh": "新西兰",
+      "ar": "نيوزيلندا"
+    },
+    "region": {
+      "id": "Oseania",
+      "en": "Oceania",
+      "zh": "大洋洲",
+      "ar": "أوقيانوسيا"
+    },
+    "regionId": "oceania",
+    "flag": "/assets/flags/nz.svg",
+    "lng": 175.6,
+    "lat": -39.2,
+    "x": 987.78,
+    "y": 358.89,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "us",
+    "iso3": "USA",
+    "name": {
+      "id": "Amerika Serikat",
+      "en": "United States",
+      "zh": "美国",
+      "ar": "الولايات المتحدة"
+    },
+    "region": {
+      "id": "Amerika Utara",
+      "en": "North America",
+      "zh": "北美洲",
+      "ar": "أمريكا الشمالية"
+    },
+    "regionId": "north-america",
+    "flag": "/assets/flags/us.svg",
+    "lng": -97.482602,
+    "lat": 39.538479,
+    "x": 229.21,
+    "y": 140.17,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "ca",
+    "iso3": "CAN",
+    "name": {
+      "id": "Kanada",
+      "en": "Canada",
+      "zh": "加拿大",
+      "ar": "كندا"
+    },
+    "region": {
+      "id": "Amerika Utara",
+      "en": "North America",
+      "zh": "北美洲",
+      "ar": "أمريكا الشمالية"
+    },
+    "regionId": "north-america",
+    "flag": "/assets/flags/ca.svg",
+    "lng": -101.9107,
+    "lat": 60.324287,
+    "x": 216.91,
+    "y": 82.43,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "mx",
+    "iso3": "MEX",
+    "name": {
+      "id": "Meksiko",
+      "en": "Mexico",
+      "zh": "墨西哥",
+      "ar": "المكسيك"
+    },
+    "region": {
+      "id": "Amerika Utara",
+      "en": "North America",
+      "zh": "北美洲",
+      "ar": "أمريكا الشمالية"
+    },
+    "regionId": "north-america",
+    "flag": "/assets/flags/mx.svg",
+    "lng": -102.289448,
+    "lat": 23.919988,
+    "x": 215.86,
+    "y": 183.56,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "br",
+    "iso3": "BRA",
+    "name": {
+      "id": "Brasil",
+      "en": "Brazil",
+      "zh": "巴西",
+      "ar": "البرازيل"
+    },
+    "region": {
+      "id": "Amerika Selatan",
+      "en": "South America",
+      "zh": "南美洲",
+      "ar": "أمريكا الجنوبية"
+    },
+    "regionId": "south-america",
+    "flag": "/assets/flags/br.svg",
+    "lng": -49.55945,
+    "lat": -12.098687,
+    "x": 362.33,
+    "y": 283.61,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "ar",
+    "iso3": "ARG",
+    "name": {
+      "id": "Argentina",
+      "en": "Argentina",
+      "zh": "阿根廷",
+      "ar": "الأرجنتين"
+    },
+    "region": {
+      "id": "Amerika Selatan",
+      "en": "South America",
+      "zh": "南美洲",
+      "ar": "أمريكا الجنوبية"
+    },
+    "regionId": "south-america",
+    "flag": "/assets/flags/ar.svg",
+    "lng": -64.173331,
+    "lat": -33.501159,
+    "x": 321.74,
+    "y": 343.06,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "gb",
+    "iso3": "GBR",
+    "name": {
+      "id": "Britania Raya",
+      "en": "United Kingdom",
+      "zh": "英国",
+      "ar": "المملكة المتحدة"
+    },
+    "region": {
+      "id": "Eropa",
+      "en": "Europe",
+      "zh": "欧洲",
+      "ar": "أوروبا"
+    },
+    "regionId": "europe",
+    "flag": "/assets/flags/gb.svg",
+    "lng": -2.116346,
+    "lat": 54.402739,
+    "x": 494.12,
+    "y": 98.88,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "fr",
+    "iso3": "FRA",
+    "name": {
+      "id": "Prancis",
+      "en": "France",
+      "zh": "法国",
+      "ar": "فرنسا"
+    },
+    "region": {
+      "id": "Eropa",
+      "en": "Europe",
+      "zh": "欧洲",
+      "ar": "أوروبا"
+    },
+    "regionId": "europe",
+    "flag": "/assets/flags/fr.svg",
+    "lng": 2.552275,
+    "lat": 46.696113,
+    "x": 507.09,
+    "y": 120.29,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "it",
+    "iso3": "ITA",
+    "name": {
+      "id": "Italia",
+      "en": "Italy",
+      "zh": "意大利",
+      "ar": "إيطاليا"
+    },
+    "region": {
+      "id": "Eropa",
+      "en": "Europe",
+      "zh": "欧洲",
+      "ar": "أوروبا"
+    },
+    "regionId": "europe",
+    "flag": "/assets/flags/it.svg",
+    "lng": 11.076907,
+    "lat": 44.732482,
+    "x": 530.77,
+    "y": 125.74,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "de",
+    "iso3": "DEU",
+    "name": {
+      "id": "Jerman",
+      "en": "Germany",
+      "zh": "德国",
+      "ar": "ألمانيا"
+    },
+    "region": {
+      "id": "Eropa",
+      "en": "Europe",
+      "zh": "欧洲",
+      "ar": "أوروبا"
+    },
+    "regionId": "europe",
+    "flag": "/assets/flags/de.svg",
+    "lng": 9.678348,
+    "lat": 50.961733,
+    "x": 526.88,
+    "y": 108.44,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "es",
+    "iso3": "ESP",
+    "name": {
+      "id": "Spanyol",
+      "en": "Spain",
+      "zh": "西班牙",
+      "ar": "إسبانيا"
+    },
+    "region": {
+      "id": "Eropa",
+      "en": "Europe",
+      "zh": "欧洲",
+      "ar": "أوروبا"
+    },
+    "regionId": "europe",
+    "flag": "/assets/flags/es.svg",
+    "lng": -3.464718,
+    "lat": 40.090953,
+    "x": 490.38,
+    "y": 138.64,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "eg",
+    "iso3": "EGY",
+    "name": {
+      "id": "Mesir",
+      "en": "Egypt",
+      "zh": "埃及",
+      "ar": "مصر"
+    },
+    "region": {
+      "id": "Afrika",
+      "en": "Africa",
+      "zh": "非洲",
+      "ar": "أفريقيا"
+    },
+    "regionId": "africa",
+    "flag": "/assets/flags/eg.svg",
+    "lng": 29.445837,
+    "lat": 26.186173,
+    "x": 581.79,
+    "y": 177.26,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "ke",
+    "iso3": "KEN",
+    "name": {
+      "id": "Kenya",
+      "en": "Kenya",
+      "zh": "肯尼亚",
+      "ar": "كينيا"
+    },
+    "region": {
+      "id": "Afrika",
+      "en": "Africa",
+      "zh": "非洲",
+      "ar": "أفريقيا"
+    },
+    "regionId": "africa",
+    "flag": "/assets/flags/ke.svg",
+    "lng": 37.907632,
+    "lat": 0.549043,
+    "x": 605.3,
+    "y": 248.47,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "za",
+    "iso3": "ZAF",
+    "name": {
+      "id": "Afrika Selatan",
+      "en": "South Africa",
+      "zh": "南非",
+      "ar": "جنوب أفريقيا"
+    },
+    "region": {
+      "id": "Afrika",
+      "en": "Africa",
+      "zh": "非洲",
+      "ar": "أفريقيا"
+    },
+    "regionId": "africa",
+    "flag": "/assets/flags/za.svg",
+    "lng": 23.665734,
+    "lat": -29.708776,
+    "x": 565.74,
+    "y": 332.52,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "ng",
+    "iso3": "NGA",
+    "name": {
+      "id": "Nigeria",
+      "en": "Nigeria",
+      "zh": "尼日利亚",
+      "ar": "نيجيريا"
+    },
+    "region": {
+      "id": "Afrika",
+      "en": "Africa",
+      "zh": "非洲",
+      "ar": "أفريقيا"
+    },
+    "regionId": "africa",
+    "flag": "/assets/flags/ng.svg",
+    "lng": 7.50322,
+    "lat": 9.439799,
+    "x": 520.84,
+    "y": 223.78,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "th",
+    "iso3": "THA",
+    "name": {
+      "id": "Thailand",
+      "en": "Thailand",
+      "zh": "泰国",
+      "ar": "تايلاند"
+    },
+    "region": {
+      "id": "Asia",
+      "en": "Asia",
+      "zh": "亚洲",
+      "ar": "آسيا"
+    },
+    "regionId": "asia",
+    "flag": "/assets/flags/th.svg",
+    "lng": 101.073198,
+    "lat": 15.45974,
+    "x": 780.76,
+    "y": 207.06,
+    "markerKind": "representative-label-point"
+  },
+  {
+    "code": "my",
+    "iso3": "MYS",
+    "name": {
+      "id": "Malaysia",
+      "en": "Malaysia",
+      "zh": "马来西亚",
+      "ar": "ماليزيا"
+    },
+    "region": {
+      "id": "Asia",
+      "en": "Asia",
+      "zh": "亚洲",
+      "ar": "آسيا"
+    },
+    "regionId": "asia",
+    "flag": "/assets/flags/my.svg",
+    "lng": 113.83708,
+    "lat": 2.528667,
+    "x": 816.21,
+    "y": 242.98,
+    "markerKind": "representative-label-point"
+  }
+]

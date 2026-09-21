@@ -1,0 +1,15 @@
+{
+  "sourceInstructions": 1300,
+  "translatedSourceInstructions": 1300,
+  "extraInstructions": 33,
+  "totalTranslations": 1333,
+  "legacyPromptInstructionStoryStepUnique": 80,
+  "legacyMissing": [],
+  "missing": [],
+  "empty": [],
+  "untranslatedEnglishTokens": [],
+  "authoredSource": 208,
+  "templateSource": 1092,
+  "sourceSha256": "5c2ab0a34ff2dcaea26f0c65c0f66055744267f0ffe7d02d29005daaba39cb05",
+  "preservedTargets": "Latin letters, numerals, arithmetic signs, and Indonesian-initial-letter teaching targets remain literal; surrounding prose is translated."
+}

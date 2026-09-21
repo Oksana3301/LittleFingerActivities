@@ -1,0 +1,957 @@
+{
+  "revision": "variety-1",
+  "categories": [
+    {
+      "id": "vehicle-count",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "0f0cab50c4210b2deed84f5965842e7e5de0156759039961208bbef3d181414c"
+    },
+    {
+      "id": "build-blocks",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "3955b01524a05396ec24a35fad2969a76d76c63cb494f6b365e49a242c9f4ea3"
+    },
+    {
+      "id": "math-more-less",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "2980e0c4c41c8c157885e695b0a129ee77c7480de909450c44f25c0de3b3f9dd"
+    },
+    {
+      "id": "math-equal",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "cfddd1ac9caf156231277da2dbeaa5e5ecff60a512d3639450d8a5fb3c3c8f6c"
+    },
+    {
+      "id": "number-neighbors",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "sha256": "c7b9b957a5440b97b8c402baed86ea61302f33bc9a15b6bd14a365a6eee9b649"
+    },
+    {
+      "id": "math-stories",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "odd-one-out"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "sha256": "8b1ba9f277fc73088072461e03bc0f03df4dea9be60183a490518b944732475e"
+    },
+    {
+      "id": "colors",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "001a391cb003a80117057a02127d4f6cff87f0b0f17ab617750350376ec8d0f5"
+    },
+    {
+      "id": "shapes",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "2dbea50ddbd2d7418526b5ca106db4302ac5dde6492c8aa0aee6ff8eebde3e7e"
+    },
+    {
+      "id": "size",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "aefc4b6ecbe6628c1498e9b06296c30461e959f5f9e4c282e465b4ac495e23dd"
+    },
+    {
+      "id": "length",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "8df9a2f5109891fd667acd125b41429003d3371842f5fad51ce01d04f6143f37"
+    },
+    {
+      "id": "height",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "2bc977b5e17884a1f317b7426d00b4e26b8a10dac56bf89ffe963e69657854d3"
+    },
+    {
+      "id": "thickness",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "b24c649a57f4809e0352397550ba32d6e9189d0791366dec82d83b458ce847ce"
+    },
+    {
+      "id": "same-different",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "da03c0529a72128c4ddcd01b06677300110a83980c62f07bde4327cadeeaa51f"
+    },
+    {
+      "id": "directions",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "87b6377445a130f0f00c40839d4dacc030d9b5fab04222f3cd2bd55af7cff312"
+    },
+    {
+      "id": "positions",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "draw",
+        "match"
+      ],
+      "engines": [
+        "draw",
+        "identify",
+        "pair"
+      ],
+      "sha256": "560de178a9d5648ef9361b53d9f70d5b195fe80002d04d16312be14f71269f24"
+    },
+    {
+      "id": "object-pairs",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "bd0275a094d96d174cc719c3acd06ebde3498255ff9a7f428e8e622afa536a55"
+    },
+    {
+      "id": "silhouette-pairs",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "memory",
+        "odd-one-out",
+        "shadow-match"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "700577576f14cf5027a69e8038019aea07c1b0d7c53078e26892416bb8bde5e2"
+    },
+    {
+      "id": "color-pairs",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "1b435249d43208aa974e3a51e19f5e4d8c6ec27e59f9a73d9adb2f285b6d8d5a"
+    },
+    {
+      "id": "shape-pairs",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "ca611f46fd4320eab400387986c5082c11425cb6155756b458ba512e47a7c3bc"
+    },
+    {
+      "id": "number-pairs",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "3b5903000c8d4932bf837b0ef084c7af0162c1f9265c124ae0868dd06ac423f9"
+    },
+    {
+      "id": "uppercase-pairs",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "3fa8a39aea0e211c6084702c21512f496a8ba82f1e47b0ef50904ee8a37a2ad9"
+    },
+    {
+      "id": "lowercase-pairs",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "db4a1dd4313503fddd00fdbada6bea7272ff54e669a5dbd5452efb08e11915aa"
+    },
+    {
+      "id": "letter-case",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "12aa6583331108f7d12a98183c8361eec154e8b4bf2891d45a638cae83a6a8dd"
+    },
+    {
+      "id": "initial-letters",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "4a208c38c983851fd356cbf60357cf76b9fe358d020fcb329810ffa8acfed71a"
+    },
+    {
+      "id": "vowels",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "a453c0186dbb6cec0b3b1936dd707b9eaffa9cf019235b7a0a41a34c726d2837"
+    },
+    {
+      "id": "consonants",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "2916ee58238ca2517d22e405f0b7b0a5fe410934d5b161b3fb4154ff23865160"
+    },
+    {
+      "id": "count-to-5",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "74951cf7deeeb0cf1830063523133600647ebc3e3f6dded6e7b4d1dbd6e729ba"
+    },
+    {
+      "id": "count-to-10",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "1ce19168f56be6de502fc8ae9a92d60a824d4c929a74dc534e7b257d2e718997"
+    },
+    {
+      "id": "count-6-to-15",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "f53d4b2c7b2ea7c0c02926fcdce2e1e95eff4b4f2ff78145966b23b132393ccb"
+    },
+    {
+      "id": "quantity-pairs",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "cdb1b1a426c6d4878662c1c3b90be72a2979fa154917a992ecffa14297eab867"
+    },
+    {
+      "id": "compare-quantity",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "d4a4945fa752f8cdd59505ddf705fd1eaefa0ee085923ea64c692174eb8e4ba5"
+    },
+    {
+      "id": "ascending",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "3faaf6718f4fb3f90603d9b10614f8f6b008e837f2f053c923079f1d6c681cd4"
+    },
+    {
+      "id": "descending",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "sha256": "97a0629bd342802a4e8c9db76ce81004c8f336ec9d43499e70438d7ba0e451ea"
+    },
+    {
+      "id": "missing-number",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "sha256": "76538216f95b2b474a27e8d728586444b5abd689e8aeea78a757de6eeb9237a4"
+    },
+    {
+      "id": "add-to-5",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "sha256": "beb0ba5237856c5a488b20e2a8a63920ea2b50a0bdd0f268b9b4185f51f8555f"
+    },
+    {
+      "id": "add-to-10",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "sha256": "0fb58afd898e8d13f8f03aa7cf526f2faed7ce2af019553e6405c672db1bca52"
+    },
+    {
+      "id": "subtract-to-5",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "sha256": "2b7dd09f47531f43cf48f741256c57c31f3f89c8f57d8d7a8bd7201b625f84e4"
+    },
+    {
+      "id": "subtract-to-10",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "sha256": "755eaedfc7699e81d4a40dd75a3bde9ef1863a117fbb0892d08be2da2cd813e6"
+    },
+    {
+      "id": "pattern-ab",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern"
+      ],
+      "sha256": "7052edbcb4fc699f8e6bd64cc3f10b1771c50872f04c3c450cb87c165ae104fe"
+    },
+    {
+      "id": "pattern-abc",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern"
+      ],
+      "sha256": "88d3c8a20a08307f4bf0357935efcdacdcd228a9ed9f98dba720d915c0313e41"
+    },
+    {
+      "id": "pattern-aab-abb",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern"
+      ],
+      "sha256": "5972ce44f661036ae0b7a96a8cf822c3ed094713dde3a17aabe8774652855f70"
+    },
+    {
+      "id": "growing-pattern",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "sha256": "1b1764768d2dc44822adf9af6369ed7fa122e87ff277f335c33e94b117cbc8c3"
+    },
+    {
+      "id": "memory-objects",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "8b1291e7fdb5ce89fee37630e014a86d4f54195879d66b7acc9273706a505644"
+    },
+    {
+      "id": "memory-shapes",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "1f4391d2fed1f1f49fbf1c207c13eb07233536305f4f3294c2a052483beb12b2"
+    },
+    {
+      "id": "memory-colors",
+      "worksheets": 24,
+      "preserved": 12,
+      "replaced": 12,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "sha256": "a55785ff72f7d4f9993e73baac5a204d9e4c2c8d27c0e5778bb64508859d3c90"
+    }
+  ],
+  "negativeFixtures": [
+    {
+      "name": "wrong measurement answer",
+      "status": "rejected",
+      "reason": "three-plus selection"
+    },
+    {
+      "name": "duplicate memory faces",
+      "status": "rejected",
+      "reason": "memory distinctness"
+    },
+    {
+      "name": "non-bijective pairs",
+      "status": "rejected",
+      "reason": "right bijection"
+    },
+    {
+      "name": "bad arithmetic target",
+      "status": "rejected",
+      "reason": "arithmetic quantity"
+    },
+    {
+      "name": "moved fixed-grid position",
+      "status": "rejected",
+      "reason": "fixed grid positions"
+    },
+    {
+      "name": "wrong vowel class",
+      "status": "rejected",
+      "reason": "letter class truth"
+    },
+    {
+      "name": "wrong arithmetic selections",
+      "status": "rejected",
+      "reason": "arithmetic selection truth"
+    },
+    {
+      "name": "wrong pattern classification",
+      "status": "rejected",
+      "reason": "pattern classification truth"
+    },
+    {
+      "name": "wrong quantity comparison",
+      "status": "rejected",
+      "reason": "numeric selection truth"
+    }
+  ],
+  "summary": {
+    "categories": 45,
+    "worksheets": 1080,
+    "newWorksheets": 540,
+    "newRounds": 2160,
+    "semanticChecks": "schema, four-language copy, unique answers, 3+ selections, bijective pairs, distinct memory faces, fixed coordinates, letter classes/case, arithmetic quantities, numeric pair relations and monotone sequences"
+  }
+}

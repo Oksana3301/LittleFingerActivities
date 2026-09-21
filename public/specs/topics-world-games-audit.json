@@ -1,0 +1,89 @@
+{
+  "world-countries": {
+    "worksheets": 24,
+    "rounds": 96,
+    "activityKinds": [
+      "map-find",
+      "match",
+      "memory",
+      "pattern"
+    ],
+    "engines": [
+      "map",
+      "memory",
+      "pair",
+      "pattern"
+    ],
+    "distinctTasksets": 24
+  },
+  "world-flags": {
+    "worksheets": 24,
+    "rounds": 96,
+    "activityKinds": [
+      "clue",
+      "match",
+      "memory",
+      "pattern"
+    ],
+    "engines": [
+      "identify",
+      "memory",
+      "pair",
+      "pattern"
+    ],
+    "distinctTasksets": 24
+  },
+  "games-toys": {
+    "worksheets": 24,
+    "rounds": 96,
+    "activityKinds": [
+      "clue",
+      "match",
+      "memory",
+      "pattern"
+    ],
+    "engines": [
+      "identify",
+      "memory",
+      "pair",
+      "pattern"
+    ],
+    "distinctTasksets": 24
+  },
+  "games-rules": {
+    "worksheets": 24,
+    "rounds": 96,
+    "activityKinds": [
+      "choose-many",
+      "choose-one",
+      "match",
+      "memory"
+    ],
+    "engines": [
+      "identify",
+      "memory",
+      "pair"
+    ],
+    "distinctTasksets": 24
+  },
+  "total": {
+    "worksheets": 96,
+    "rounds": 384,
+    "mapRounds": 32,
+    "countries": 24,
+    "fourLanguageText": true,
+    "minimumMapMarkerDistance": 0.22,
+    "actualMinimumMapMarkerDistance": 0.22298992831644823,
+    "mapDistanceNormalization": "Both axes normalized by map width; longitude/360 and latitude/360 for a 2:1 map",
+    "minimumMarkerDistanceAt244px": 54.40954250921337,
+    "valid": true
+  },
+  "sources": [
+    {
+      "title": "Verified geography and flag assets",
+      "path": "/workspace/scratch/b1ab4bfa75af/topics-geo/countries.json",
+      "flagSource": "https://github.com/lipis/flag-icons",
+      "mapSource": "https://www.naturalearthdata.com/"
+    }
+  ]
+}

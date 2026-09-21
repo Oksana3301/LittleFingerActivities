@@ -1,0 +1,577 @@
+{
+  "generationMethod": "built-in image_gen",
+  "reference": "/workspace/sites/little-world-playroom/public/assets/workbook/everyday.webp",
+  "layout": {
+    "columns": 4,
+    "rows": 4,
+    "requestedMaxArtworkPercentPerCell": 65,
+    "background": "near-white",
+    "labels": false
+  },
+  "assets": [
+    {
+      "name": "vehicles",
+      "source": "/workspace/scratch/b1ab4bfa75af/generated_images/exec-3d416e9e-44c0-4283-a255-cddc3fa76bfd.png",
+      "file": "/workspace/scratch/b1ab4bfa75af/vehicle-hobby-art/vehicles.png",
+      "prompt": "Use case: illustration-story.\nAsset type: square atlas of 16 isolated hand-drawn children's workbook illustrations.\nCreate exactly one SQUARE image arranged as an exact 4 by 4 regular invisible grid: 4 columns and 4 rows, 16 objects total. The whole canvas is near-white. Each cell has identical 25% width and 25% height. Center the artwork in each cell. CRITICAL: the complete object including accessories must fit INSIDE the central 65% width and central 65% height of its cell, leaving at least 17.5% of that cell blank on every side. Keep all 16 illustrations visibly SMALL with generous blank margins; nothing may cross a cell boundary, be cropped, touch neighboring objects, or touch the canvas edge. Cell centers are at x/y 12.5%,37.5%,62.5%,87.5%. No visible grid lines.\nStyle/medium: warm friendly hand-drawn colored-pencil and crayon children's storybook art; muted honey yellow, warm red, sky blue, sage green, light tan, brown, soft gray; thin warm-brown outlines, round edges, slightly irregular pencil contours, dense soft crayon hatching with little white paper flecks. Match a traditional simple preschool object illustration sheet, not glossy vector graphics and not 3D. Shallow three-quarter view where useful; objects recognizable at small scale. Near-white clean paper background. No dramatic shadows.\nNo letters, words, numbers, labels, logos, watermarks, people, hands, scenery, decorative filler, panel frames, or grid lines. This is only 16 isolated illustrations, not an explanatory diagram.\nExact cell order, read left to right and top to bottom:\nRow 1: yellow bus; RED FIRE TRUCK with clear roof ladder; WHITE AND GREEN AMBULANCE with a small green medical plus symbol (no red cross); BLUE AND WHITE POLICE CAR with small blue roof beacon.\nRow 2: green tractor with a very large rear wheel and small front wheel; yellow excavator with articulated arm and bucket; yellow bulldozer with broad front blade and tracks; mobile crane with long boom and hanging hook.\nRow 3: airplane; helicopter with main rotor; large passenger SHIP with cabins and smokestack; small SAILBOAT with clear triangular sail.\nRow 4: motorcycle with seat and engine; child's kick SCOOTER with upright handlebar, low foot deck, and two tiny wheels, absolutely no motor or seat; dump truck with tipping dump bed; yellow submarine with periscope.\nEach is a clearly distinct vehicle, no duplicate shapes. Crane arm, ladder, rotors, sails, and all protrusions MUST remain inside the central 65% of the relevant cell.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "cellBoundsInspection": [
+        {
+          "cell": 1,
+          "bboxPercent": [
+            17.8,
+            32.8,
+            90.1,
+            86.0
+          ],
+          "occupancyWidthPercent": 72.3,
+          "occupancyHeightPercent": 53.2
+        },
+        {
+          "cell": 2,
+          "bboxPercent": [
+            14.1,
+            24.8,
+            89.1,
+            86.3
+          ],
+          "occupancyWidthPercent": 75.1,
+          "occupancyHeightPercent": 61.5
+        },
+        {
+          "cell": 3,
+          "bboxPercent": [
+            11.8,
+            34.1,
+            82.1,
+            87.6
+          ],
+          "occupancyWidthPercent": 70.3,
+          "occupancyHeightPercent": 53.5
+        },
+        {
+          "cell": 4,
+          "bboxPercent": [
+            8.3,
+            36.0,
+            80.9,
+            85.7
+          ],
+          "occupancyWidthPercent": 72.6,
+          "occupancyHeightPercent": 49.7
+        },
+        {
+          "cell": 5,
+          "bboxPercent": [
+            16.6,
+            23.0,
+            90.1,
+            86.6
+          ],
+          "occupancyWidthPercent": 73.6,
+          "occupancyHeightPercent": 63.6
+        },
+        {
+          "cell": 6,
+          "bboxPercent": [
+            11.8,
+            19.5,
+            89.8,
+            84.7
+          ],
+          "occupancyWidthPercent": 78.0,
+          "occupancyHeightPercent": 65.2
+        },
+        {
+          "cell": 7,
+          "bboxPercent": [
+            10.2,
+            31.6,
+            90.1,
+            86.3
+          ],
+          "occupancyWidthPercent": 79.9,
+          "occupancyHeightPercent": 54.6
+        },
+        {
+          "cell": 8,
+          "bboxPercent": [
+            12.4,
+            16.6,
+            83.1,
+            88.2
+          ],
+          "occupancyWidthPercent": 70.7,
+          "occupancyHeightPercent": 71.6
+        },
+        {
+          "cell": 9,
+          "bboxPercent": [
+            16.6,
+            26.5,
+            94.9,
+            71.6
+          ],
+          "occupancyWidthPercent": 78.3,
+          "occupancyHeightPercent": 45.0
+        },
+        {
+          "cell": 10,
+          "bboxPercent": [
+            15.7,
+            18.5,
+            88.8,
+            77.0
+          ],
+          "occupancyWidthPercent": 73.2,
+          "occupancyHeightPercent": 58.5
+        },
+        {
+          "cell": 11,
+          "bboxPercent": [
+            10.5,
+            21.4,
+            86.9,
+            78.0
+          ],
+          "occupancyWidthPercent": 76.4,
+          "occupancyHeightPercent": 56.5
+        },
+        {
+          "cell": 12,
+          "bboxPercent": [
+            18.5,
+            13.7,
+            75.5,
+            82.4
+          ],
+          "occupancyWidthPercent": 57.0,
+          "occupancyHeightPercent": 68.7
+        },
+        {
+          "cell": 13,
+          "bboxPercent": [
+            19.4,
+            20.1,
+            89.2,
+            72.6
+          ],
+          "occupancyWidthPercent": 69.7,
+          "occupancyHeightPercent": 52.5
+        },
+        {
+          "cell": 14,
+          "bboxPercent": [
+            26.5,
+            12.4,
+            80.5,
+            72.3
+          ],
+          "occupancyWidthPercent": 54.0,
+          "occupancyHeightPercent": 59.9
+        },
+        {
+          "cell": 15,
+          "bboxPercent": [
+            9.3,
+            15.0,
+            87.9,
+            69.4
+          ],
+          "occupancyWidthPercent": 78.6,
+          "occupancyHeightPercent": 54.5
+        },
+        {
+          "cell": 16,
+          "bboxPercent": [
+            11.8,
+            8.0,
+            80.3,
+            69.1
+          ],
+          "occupancyWidthPercent": 68.5,
+          "occupancyHeightPercent": 61.1
+        }
+      ]
+    },
+    {
+      "name": "tools-parts",
+      "source": "/workspace/scratch/b1ab4bfa75af/generated_images/exec-cfe18e59-a462-41df-96cb-56fda7eade07.png",
+      "file": "/workspace/scratch/b1ab4bfa75af/vehicle-hobby-art/tools-parts.png",
+      "prompt": "Use case: illustration-story.\nAsset type: square atlas of 16 isolated hand-drawn children's workbook illustrations.\nCreate exactly one SQUARE image arranged as an exact 4 by 4 regular invisible grid: 4 columns and 4 rows, 16 objects total. The whole canvas is near-white. Each cell has identical 25% width and 25% height. Center the artwork in each cell. CRITICAL: the complete object including accessories must fit INSIDE the central 65% width and central 65% height of its cell, leaving at least 17.5% of that cell blank on every side. Keep all 16 illustrations visibly SMALL with generous blank margins; nothing may cross a cell boundary, be cropped, touch neighboring objects, or touch the canvas edge. Cell centers are at x/y 12.5%,37.5%,62.5%,87.5%. No visible grid lines.\nStyle/medium: warm friendly hand-drawn colored-pencil and crayon children's storybook art; muted honey yellow, warm red, sky blue, sage green, light tan, brown, soft gray; thin warm-brown outlines, round edges, slightly irregular pencil contours, dense soft crayon hatching with little white paper flecks. Match a traditional simple preschool object illustration sheet, not glossy vector graphics and not 3D. Shallow three-quarter view where useful; objects recognizable at small scale. Near-white clean paper background. No dramatic shadows.\nNo letters, words, numbers, labels, logos, watermarks, people, hands, scenery, decorative filler, panel frames, or grid lines. This is only 16 isolated illustrations, not an explanatory diagram.\nExact cell order, read left to right and top to bottom:\nRow 1: hammer; open-ended wrench; screwdriver; pliers.\nRow 2: simple hand saw with softly rounded blunt teeth; toy-like cordless drill; GEAR as a toothed metal cog with a center hole; WHEEL as a plain rubber tire with smooth outer rim and hub, visibly different from gear.\nRow 3: BOLT as a hex-head metal threaded screw, clearly visible threading; NUT as a hexagonal metal nut with a visible center hole, no screw attached; upright metal coil SPRING; PULLEY consisting of a rope passing over a supported wheel.\nRow 4: one cute friendly standing toy ROBOT with a ROUND head, simple face, compact body and limbs; orange traffic cone; yellow safety helmet; small toolbox.\nTools should look toy-like and harmless with softened blunt edges and no hands. The robot is one complete robot. Each object must stay inside its own central 65% cell area.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "cellBoundsInspection": [
+        {
+          "cell": 1,
+          "bboxPercent": [
+            28.0,
+            21.7,
+            83.4,
+            93.0
+          ],
+          "occupancyWidthPercent": 55.4,
+          "occupancyHeightPercent": 71.3
+        },
+        {
+          "cell": 2,
+          "bboxPercent": [
+            20.8,
+            25.2,
+            83.4,
+            90.1
+          ],
+          "occupancyWidthPercent": 62.6,
+          "occupancyHeightPercent": 65.0
+        },
+        {
+          "cell": 3,
+          "bboxPercent": [
+            18.2,
+            23.9,
+            79.6,
+            91.7
+          ],
+          "occupancyWidthPercent": 61.3,
+          "occupancyHeightPercent": 67.8
+        },
+        {
+          "cell": 4,
+          "bboxPercent": [
+            15.9,
+            24.2,
+            75.2,
+            93.3
+          ],
+          "occupancyWidthPercent": 59.2,
+          "occupancyHeightPercent": 69.1
+        },
+        {
+          "cell": 5,
+          "bboxPercent": [
+            21.0,
+            26.5,
+            95.9,
+            79.2
+          ],
+          "occupancyWidthPercent": 74.8,
+          "occupancyHeightPercent": 52.7
+        },
+        {
+          "cell": 6,
+          "bboxPercent": [
+            20.4,
+            18.2,
+            83.4,
+            87.2
+          ],
+          "occupancyWidthPercent": 62.9,
+          "occupancyHeightPercent": 69.0
+        },
+        {
+          "cell": 7,
+          "bboxPercent": [
+            17.9,
+            22.0,
+            80.2,
+            84.7
+          ],
+          "occupancyWidthPercent": 62.3,
+          "occupancyHeightPercent": 62.6
+        },
+        {
+          "cell": 8,
+          "bboxPercent": [
+            14.0,
+            21.7,
+            78.0,
+            86.6
+          ],
+          "occupancyWidthPercent": 64.0,
+          "occupancyHeightPercent": 64.9
+        },
+        {
+          "cell": 9,
+          "bboxPercent": [
+            27.1,
+            17.9,
+            86.3,
+            100.0
+          ],
+          "occupancyWidthPercent": 59.2,
+          "occupancyHeightPercent": 82.1
+        },
+        {
+          "cell": 10,
+          "bboxPercent": [
+            28.4,
+            25.2,
+            76.7,
+            72.5
+          ],
+          "occupancyWidthPercent": 48.2,
+          "occupancyHeightPercent": 47.3
+        },
+        {
+          "cell": 11,
+          "bboxPercent": [
+            30.4,
+            16.3,
+            66.8,
+            78.9
+          ],
+          "occupancyWidthPercent": 36.4,
+          "occupancyHeightPercent": 62.6
+        },
+        {
+          "cell": 12,
+          "bboxPercent": [
+            16.9,
+            13.1,
+            75.5,
+            80.8
+          ],
+          "occupancyWidthPercent": 58.6,
+          "occupancyHeightPercent": 67.7
+        },
+        {
+          "cell": 13,
+          "bboxPercent": [
+            25.8,
+            0.0,
+            80.9,
+            75.8
+          ],
+          "occupancyWidthPercent": 55.1,
+          "occupancyHeightPercent": 75.8
+        },
+        {
+          "cell": 14,
+          "bboxPercent": [
+            22.4,
+            6.4,
+            82.7,
+            75.2
+          ],
+          "occupancyWidthPercent": 60.4,
+          "occupancyHeightPercent": 68.8
+        },
+        {
+          "cell": 15,
+          "bboxPercent": [
+            9.3,
+            14.3,
+            80.5,
+            67.8
+          ],
+          "occupancyWidthPercent": 71.2,
+          "occupancyHeightPercent": 53.5
+        },
+        {
+          "cell": 16,
+          "bboxPercent": [
+            10.2,
+            14.0,
+            81.5,
+            70.1
+          ],
+          "occupancyWidthPercent": 71.3,
+          "occupancyHeightPercent": 56.1
+        }
+      ]
+    },
+    {
+      "name": "hobbies",
+      "source": "/workspace/scratch/b1ab4bfa75af/generated_images/exec-59bc7c3e-4b36-4463-986b-fb07a1c5c110.png",
+      "file": "/workspace/scratch/b1ab4bfa75af/vehicle-hobby-art/hobbies.png",
+      "prompt": "Use case: illustration-story.\nAsset type: square atlas of 16 isolated hand-drawn children's workbook illustrations.\nCreate exactly one SQUARE image arranged as an exact 4 by 4 regular invisible grid: 4 columns and 4 rows, 16 objects total. The whole canvas is near-white. Each cell has identical 25% width and 25% height. Center the artwork in each cell. CRITICAL: the complete object including accessories must fit INSIDE the central 65% width and central 65% height of its cell, leaving at least 17.5% of that cell blank on every side. Keep all 16 illustrations visibly SMALL with generous blank margins; nothing may cross a cell boundary, be cropped, touch neighboring objects, or touch the canvas edge. Cell centers are at x/y 12.5%,37.5%,62.5%,87.5%. No visible grid lines.\nStyle/medium: warm friendly hand-drawn colored-pencil and crayon children's storybook art; muted honey yellow, warm red, sky blue, sage green, light tan, brown, soft gray; thin warm-brown outlines, round edges, slightly irregular pencil contours, dense soft crayon hatching with little white paper flecks. Match a traditional simple preschool object illustration sheet, not glossy vector graphics and not 3D. Shallow three-quarter view where useful; objects recognizable at small scale. Near-white clean paper background. No dramatic shadows.\nNo letters, words, numbers, labels, logos, watermarks, people, hands, scenery, decorative filler, panel frames, or grid lines. This is only 16 isolated illustrations, not an explanatory diagram.\nExact cell order, read left to right and top to bottom:\nRow 1: black and white FOOTBALL soccer ball; orange basketball; badminton racket with a narrow oval head AND one small white shuttlecock beside it within the same cell; tennis racket with a rounder head AND one small yellow tennis ball beside it within the same cell.\nRow 2: diamond-shaped kite with short flowing tail; skateboard; simple camping tent; backpack.\nRow 3: round compass without letters or numbers, with a visible directional needle; binoculars; flashlight; a compact pile of colorful building blocks.\nRow 4: friendly recognizable T-REX dinosaur with large head, short arms, long tail and two strong hind legs; friendly TRICERATOPS dinosaur with broad neck frill and three blunt horns; friendly STEGOSAURUS dinosaur with obvious large back plates and tail; FOSSIL as one pale brown rock containing a clear spiral ammonite imprint.\nDinosaurs must be sweet child-friendly, with no aggressive poses or sharp teeth. The two rackets must be easily distinguished by their head shapes and accompanying shuttlecock versus ball. Compass has no letters. Entire dinosaurs including tails and each racket with its accessory must remain inside the central 65% of its cell.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "cellBoundsInspection": [
+        {
+          "cell": 1,
+          "bboxPercent": [
+            26.1,
+            28.0,
+            78.3,
+            80.3
+          ],
+          "occupancyWidthPercent": 52.2,
+          "occupancyHeightPercent": 52.2
+        },
+        {
+          "cell": 2,
+          "bboxPercent": [
+            22.7,
+            26.1,
+            76.7,
+            80.9
+          ],
+          "occupancyWidthPercent": 54.0,
+          "occupancyHeightPercent": 54.8
+        },
+        {
+          "cell": 3,
+          "bboxPercent": [
+            20.8,
+            22.9,
+            75.4,
+            84.7
+          ],
+          "occupancyWidthPercent": 54.6,
+          "occupancyHeightPercent": 61.8
+        },
+        {
+          "cell": 4,
+          "bboxPercent": [
+            18.2,
+            23.2,
+            72.0,
+            84.1
+          ],
+          "occupancyWidthPercent": 53.8,
+          "occupancyHeightPercent": 60.8
+        },
+        {
+          "cell": 5,
+          "bboxPercent": [
+            33.8,
+            12.1,
+            78.7,
+            86.9
+          ],
+          "occupancyWidthPercent": 44.9,
+          "occupancyHeightPercent": 74.8
+        },
+        {
+          "cell": 6,
+          "bboxPercent": [
+            16.0,
+            25.9,
+            86.3,
+            74.8
+          ],
+          "occupancyWidthPercent": 70.3,
+          "occupancyHeightPercent": 48.9
+        },
+        {
+          "cell": 7,
+          "bboxPercent": [
+            9.6,
+            23.3,
+            87.5,
+            77.0
+          ],
+          "occupancyWidthPercent": 78.0,
+          "occupancyHeightPercent": 53.7
+        },
+        {
+          "cell": 8,
+          "bboxPercent": [
+            17.5,
+            16.0,
+            75.2,
+            83.7
+          ],
+          "occupancyWidthPercent": 57.6,
+          "occupancyHeightPercent": 67.7
+        },
+        {
+          "cell": 9,
+          "bboxPercent": [
+            26.1,
+            10.5,
+            79.9,
+            77.0
+          ],
+          "occupancyWidthPercent": 53.8,
+          "occupancyHeightPercent": 66.5
+        },
+        {
+          "cell": 10,
+          "bboxPercent": [
+            13.4,
+            21.1,
+            85.6,
+            71.6
+          ],
+          "occupancyWidthPercent": 72.2,
+          "occupancyHeightPercent": 50.5
+        },
+        {
+          "cell": 11,
+          "bboxPercent": [
+            16.0,
+            22.0,
+            81.8,
+            69.3
+          ],
+          "occupancyWidthPercent": 65.8,
+          "occupancyHeightPercent": 47.3
+        },
+        {
+          "cell": 12,
+          "bboxPercent": [
+            12.4,
+            15.0,
+            82.8,
+            70.6
+          ],
+          "occupancyWidthPercent": 70.4,
+          "occupancyHeightPercent": 55.6
+        },
+        {
+          "cell": 13,
+          "bboxPercent": [
+            17.5,
+            3.8,
+            91.7,
+            73.2
+          ],
+          "occupancyWidthPercent": 74.2,
+          "occupancyHeightPercent": 69.4
+        },
+        {
+          "cell": 14,
+          "bboxPercent": [
+            12.8,
+            10.2,
+            90.7,
+            70.1
+          ],
+          "occupancyWidthPercent": 78.0,
+          "occupancyHeightPercent": 59.9
+        },
+        {
+          "cell": 15,
+          "bboxPercent": [
+            10.9,
+            8.9,
+            91.1,
+            69.7
+          ],
+          "occupancyWidthPercent": 80.2,
+          "occupancyHeightPercent": 60.8
+        },
+        {
+          "cell": 16,
+          "bboxPercent": [
+            13.4,
+            9.2,
+            80.6,
+            70.4
+          ],
+          "occupancyWidthPercent": 67.2,
+          "occupancyHeightPercent": 61.1
+        }
+      ]
+    }
+  ]
+}

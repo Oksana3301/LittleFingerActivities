@@ -1,0 +1,103 @@
+{
+  "revision": "spatial-1",
+  "categoryCount": 5,
+  "worksheetCount": 120,
+  "roundCount": 480,
+  "categories": [
+    {
+      "id": "transport-play",
+      "worksheets": 24,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-many",
+        "complete-picture",
+        "follow-route",
+        "odd-one-out",
+        "picture-detail",
+        "shadow-match"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "puzzle",
+        "route"
+      ]
+    },
+    {
+      "id": "picture-details",
+      "worksheets": 24,
+      "rounds": 96,
+      "activityKinds": [
+        "match",
+        "memory",
+        "picture-detail",
+        "shadow-match"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ]
+    },
+    {
+      "id": "picture-puzzles",
+      "worksheets": 24,
+      "rounds": 96,
+      "activityKinds": [
+        "complete-picture",
+        "match",
+        "picture-detail",
+        "shadow-match"
+      ],
+      "engines": [
+        "identify",
+        "pair",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "spatial-layouts",
+      "worksheets": 24,
+      "rounds": 96,
+      "activityKinds": [
+        "copy-layout",
+        "match",
+        "pattern",
+        "sequence"
+      ],
+      "engines": [
+        "pair",
+        "pattern",
+        "placement",
+        "sequence"
+      ]
+    },
+    {
+      "id": "route-adventures",
+      "worksheets": 24,
+      "rounds": 96,
+      "activityKinds": [
+        "follow-route",
+        "match",
+        "sequence",
+        "trace"
+      ],
+      "engines": [
+        "pair",
+        "route",
+        "sequence",
+        "trace"
+      ]
+    }
+  ],
+  "rules": [
+    "All authored text includes id/en/zh/ar.",
+    "Transport wheel selection includes bicycles.",
+    "Shadow pairing uses identical image asset IDs.",
+    "Crop references use generic labels to avoid spoken answer spoilers.",
+    "Puzzles use exact normalized tiles from the same image.",
+    "Route points are ordered and separated by at least 18 normalized units."
+  ],
+  "duplicateWorksheetTaskSets": [],
+  "minimumMissingTileInkFraction": 0.103371
+}

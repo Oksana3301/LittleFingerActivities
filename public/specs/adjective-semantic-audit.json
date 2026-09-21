@@ -1,0 +1,250 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "12 new categories": 1,
+    "exact category membership": 1,
+    "288 worksheets": 1,
+    "unique worksheet IDs": 1,
+    "1152 rounds": 1,
+    "four-language Text": 8151,
+    "native-script text": 16302,
+    "no Arabic placeholder": 8151,
+    "24 worksheets per category": 12,
+    "complete variant sequence": 12,
+    "category age guidance": 12,
+    "24 unordered semantic task sets": 12,
+    "supported worksheet engine": 288,
+    "worksheet age guidance": 288,
+    "difficulty guidance": 288,
+    "four rounds": 288,
+    "root mirrors first round": 288,
+    "four distinct semantic tasks": 288,
+    "picture-only temperature safety across review cards": 264,
+    "no object-type inference note": 264,
+    "offscreen remains picture play": 264,
+    "known vocabulary key": 4607,
+    "asset card with visible label": 4607,
+    "picture asset matches named subject": 4607,
+    "exact independently expected English label": 4607,
+    "unique option IDs": 1152,
+    "distinct visible options": 1152,
+    "answer IDs exist and are unique": 1152,
+    "no ranking or unsafe action prompts": 1152,
+    "wide layout for word phrases": 976,
+    "structured identification scenario": 400,
+    "independent target vocabulary": 400,
+    "two focal opposite cards": 352,
+    "six meaningful prompt modes": 352,
+    "requested describing word matches task": 704,
+    "exact independent identify answer": 400,
+    "clue independently matches target": 55,
+    "prompt names the pictured label": 484,
+    "reference has correct meaning": 143,
+    "one independently defined partner per card": 848,
+    "exact independent pair mapping": 400,
+    "bijective pair mapping": 400,
+    "pair answer uses mapping only": 400,
+    "matching includes focal vocabulary": 352,
+    "explicit story label for variable properties": 4420,
+    "three visually distinct canonical memory cards": 144,
+    "both focal words in memory": 144,
+    "memory answer array empty": 144,
+    "stated pattern rule uses focal words": 176,
+    "explicit two-state repeating unit": 176,
+    "pattern metadata agrees with visible rule": 176,
+    "six visible pictures and one gap": 176,
+    "strip follows stated repeating rule": 1056,
+    "pattern answer inferred from stated rule": 176,
+    "pattern gap metadata matches picture": 176,
+    "pattern rule translated consistently": 704,
+    "two correct opposite bins": 32,
+    "exact independent bin words": 256,
+    "one independent sorting group": 80,
+    "exact independent sorting mapping": 32,
+    "sort answer uses mapping only": 32,
+    "kind words use literal quotation tasks": 24,
+    "non-ranking optional compliment note": 24,
+    "quotation-only prompt purpose": 48,
+    "three quoted choices": 48,
+    "kind prompt names exact meaning or quote": 192
+  },
+  "semanticTaskSets": {
+    "temperature": 24,
+    "soft-hard": 24,
+    "smooth-rough": 24,
+    "wet-dry": 24,
+    "open-closed": 24,
+    "full-empty": 24,
+    "heavy-light": 24,
+    "bright-dim": 24,
+    "fast-slow": 24,
+    "loud-quiet": 24,
+    "tidy-messy": 24,
+    "kind-descriptions": 24
+  },
+  "distinctIdentifyScenarios": {
+    "temperature": 12,
+    "soft-hard": 12,
+    "smooth-rough": 12,
+    "wet-dry": 12,
+    "open-closed": 12,
+    "full-empty": 12,
+    "heavy-light": 12,
+    "bright-dim": 12,
+    "fast-slow": 12,
+    "loud-quiet": 12,
+    "tidy-messy": 12,
+    "kind-descriptions": 16
+  },
+  "worksheetsByEngine": {
+    "identify": 100,
+    "pair": 100,
+    "memory": 36,
+    "pattern": 44,
+    "sort": 8
+  },
+  "negativeFixtures": {
+    "wrong-answer-temperature": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-soft-hard": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-smooth-rough": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-wet-dry": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-open-closed": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-full-empty": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-heavy-light": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-bright-dim": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-fast-slow": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-loud-quiet": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-tidy-messy": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "wrong-answer-kind-descriptions": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer"
+      ]
+    },
+    "opposite-pair-swapped": {
+      "detected": true,
+      "rules": [
+        "exact independent pair mapping"
+      ]
+    },
+    "sort-bin-wrong": {
+      "detected": true,
+      "rules": [
+        "exact independent sorting mapping"
+      ]
+    },
+    "memory-visible-duplicate": {
+      "detected": true,
+      "rules": [
+        "both focal words in memory",
+        "distinct visible options",
+        "three visually distinct canonical memory cards"
+      ]
+    },
+    "pattern-rule-wrong-answer": {
+      "detected": true,
+      "rules": [
+        "pattern answer inferred from stated rule"
+      ]
+    },
+    "missing-arabic": {
+      "detected": true,
+      "rules": [
+        "four-language Text",
+        "native-script text",
+        "requested describing word matches task"
+      ]
+    },
+    "art-subject-mismatch": {
+      "detected": true,
+      "rules": [
+        "exact independent identify answer",
+        "picture asset matches named subject"
+      ]
+    },
+    "appearance-ranking-prompt": {
+      "detected": true,
+      "rules": [
+        "kind prompt names exact meaning or quote",
+        "no ranking or unsafe action prompts"
+      ]
+    },
+    "unsafe-temperature-experiment": {
+      "detected": true,
+      "rules": [
+        "no ranking or unsafe action prompts"
+      ]
+    },
+    "option-shuffle-is-not-new-task": {
+      "detected": true
+    },
+    "round-shuffle-is-not-new-worksheet": {
+      "detected": true
+    }
+  },
+  "negativeFixturesPassed": true,
+  "sha256": {
+    "expansion-categories.json": "5586f5be8d6db28ee426528c932383f2936285cf7cec531628f95f4a414ce2c7",
+    "expansion-worksheets.json": "8c0271e53ca3ec80d3df1f2ed9c7e9804e5d658a58aace25a77167cbf3288ffc"
+  },
+  "limits": [
+    "Illustration identity and crop fidelity require visual review.",
+    "This audit checks authored language completeness and semantic consistency, not a child’s development or professional translation certification."
+  ]
+}

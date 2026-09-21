@@ -1,0 +1,110 @@
+{
+  "valid": true,
+  "categories": 4,
+  "worksheets": 96,
+  "rounds": 384,
+  "languages": [
+    "id",
+    "en",
+    "zh",
+    "ar"
+  ],
+  "perCategory": [
+    {
+      "id": "food-indonesia",
+      "worksheets": 24,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "choose-many"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ]
+    },
+    {
+      "id": "food-world",
+      "worksheets": 24,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "choose-many"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ]
+    },
+    {
+      "id": "jobs-people",
+      "worksheets": 24,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "choose-many"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ]
+    },
+    {
+      "id": "jobs-tools",
+      "worksheets": 24,
+      "rounds": 96,
+      "activityKinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ]
+    }
+  ],
+  "checks": [
+    "four semantic rounds per worksheet",
+    "no duplicate worksheet task sets per category",
+    "complete four-language fields",
+    "valid answer IDs and pair targets",
+    "three positive matches in multi-select",
+    "no healthcare-role ambiguity in clue options",
+    "food clues checked against both generated atlases",
+    "steamer food named bao to match its pictured form",
+    "four-language plain names for all 28 new assets"
+  ],
+  "editorialScope": "Original practice variations; translations and artwork require integration review. Food origins are not tested.",
+  "sources": [
+    {
+      "url": "https://www.indonesia.travel/nl/nl/news-update/once-again-indonesia-s-rendang-and-nasi-goreng-crowned-world-s-best-foods",
+      "publisher": "Indonesia Ministry of Tourism",
+      "supports": "Nasi goreng, rendang, soto, sate and gado-gado as Indonesian culinary examples. No rankings copied."
+    }
+  ]
+}

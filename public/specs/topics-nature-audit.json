@@ -1,0 +1,130 @@
+{
+  "worksheets": 96,
+  "rounds": 384,
+  "categories": [
+    {
+      "id": "weather-signs",
+      "worksheets": 24,
+      "rounds": 96,
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "uniqueWorksheetTasksets": 24
+    },
+    {
+      "id": "weather-kit",
+      "worksheets": 24,
+      "rounds": 96,
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "uniqueWorksheetTasksets": 24
+    },
+    {
+      "id": "seasons-world",
+      "worksheets": 24,
+      "rounds": 96,
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "uniqueWorksheetTasksets": 24
+    },
+    {
+      "id": "seasons-indonesia",
+      "worksheets": 24,
+      "rounds": 96,
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "uniqueWorksheetTasksets": 24
+    }
+  ],
+  "languages": [
+    "id",
+    "en",
+    "zh",
+    "ar"
+  ],
+  "checks": [
+    "four semantically distinct rounds per worksheet",
+    "unique whole tasksets ignoring option order and IDs",
+    "choice answer counts and membership",
+    "pair and sorting referential integrity",
+    "four-language text coverage"
+  ],
+  "facts": [
+    "Four-season illustrations describe examples in some regions, not a universal calendar.",
+    "Rainy/dry season timing varies across Indonesia; rain can occur during the dry season.",
+    "No month, medical, or development outcome claims."
+  ],
+  "sources": [
+    {
+      "title": "BMKG Prediksi Musim",
+      "url": "https://www.bmkg.go.id/iklim/prediksi-musim",
+      "verified": "2026-09-18",
+      "supports": "Rainy and dry seasons in Indonesia; regional timing variation."
+    },
+    {
+      "title": "NASA Space Place: What Causes the Seasons?",
+      "url": "https://spaceplace.nasa.gov/seasons/en/",
+      "verified": "2026-09-18",
+      "supports": "Four-season cycle and geographic differences; no calendar claims used."
+    }
+  ]
+}

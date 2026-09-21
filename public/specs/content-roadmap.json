@@ -1,0 +1,252 @@
+{
+  "status": "planning_only_no_activities_implemented_by_this_brief",
+  "target_unique_activities": 1200,
+  "counting_policy": "Count a distinct learning objective, meaningful task or sequence, readiness demand, or real-world application. Do not count translations, shuffle orders, cosmetic changes, or trivial asset swaps as new activity types.",
+  "initial_build_target": {
+    "functional_demo_activities": 48,
+    "distinct_functional_engines_minimum": 12,
+    "note": "Demo implementation is not equivalent to educator, safety, or religious approval."
+  },
+  "packs": [
+    {
+      "id": "language-conversation",
+      "title": "Language and conversation",
+      "planned_unique_activities": 65,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "alphabet-sounds",
+      "title": "Alphabet and sound awareness",
+      "planned_unique_activities": 55,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "early-math",
+      "title": "Counting and early mathematics",
+      "planned_unique_activities": 85,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "shapes-colors-size",
+      "title": "Shapes, colors, size, and sorting",
+      "planned_unique_activities": 65,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "patterns-logic",
+      "title": "Patterns, logic, and puzzles",
+      "planned_unique_activities": 60,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "practical-life",
+      "title": "Practical life and independence",
+      "planned_unique_activities": 60,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "fine-motor",
+      "title": "Fine-motor invitations",
+      "planned_unique_activities": 50,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "gross-motor",
+      "title": "Gross-motor movement play",
+      "planned_unique_activities": 50,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "sensory",
+      "title": "Sensory discovery",
+      "planned_unique_activities": 50,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "art-creativity",
+      "title": "Art and creativity",
+      "planned_unique_activities": 60,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "music-rhythm",
+      "title": "Music and rhythm",
+      "planned_unique_activities": 30,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "animals-habitats",
+      "title": "Animals and habitats",
+      "planned_unique_activities": 40,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "plants-gardening",
+      "title": "Plants and gardening",
+      "planned_unique_activities": 40,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "nature-weather",
+      "title": "Nature, weather, and seasons",
+      "planned_unique_activities": 35,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "flags-geography",
+      "title": "Flags, geography, and cultures",
+      "planned_unique_activities": 30,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "kindergarten-readiness",
+      "title": "Kindergarten readiness",
+      "planned_unique_activities": 40,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "first-school-day",
+      "title": "First day of school",
+      "planned_unique_activities": 25,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "bucket-list",
+      "title": "Children's bucket-list adventures",
+      "planned_unique_activities": 25,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "scavenger-hunts",
+      "title": "Scavenger hunts",
+      "planned_unique_activities": 35,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "rainy-day",
+      "title": "Rainy-day challenges",
+      "planned_unique_activities": 25,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "quran-stories",
+      "title": "Quran stories and values",
+      "planned_unique_activities": 30,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "potty-routines",
+      "title": "Potty routines and optional rewards",
+      "planned_unique_activities": 20,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "chore-adventure",
+      "title": "Chore-chart adventures",
+      "planned_unique_activities": 25,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "trip-countdown",
+      "title": "Trip countdowns and preparation",
+      "planned_unique_activities": 20,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "homeschool",
+      "title": "Homeschool mixed-practice activities",
+      "planned_unique_activities": 30,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "new-sibling",
+      "title": "New-sibling feelings",
+      "planned_unique_activities": 25,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "social-emotional",
+      "title": "Social skills and emotional expression",
+      "planned_unique_activities": 35,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "body-self-care",
+      "title": "Body awareness, self-care, and asking for help",
+      "planned_unique_activities": 30,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "science",
+      "title": "Simple science and cause-and-effect",
+      "planned_unique_activities": 35,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    },
+    {
+      "id": "executive-function",
+      "title": "Memory, flexible thinking, and simple planning",
+      "planned_unique_activities": 25,
+      "authored_count": 0,
+      "implemented_count": 0,
+      "published_count": 0
+    }
+  ]
+}

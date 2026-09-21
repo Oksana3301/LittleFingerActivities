@@ -1,0 +1,35 @@
+{
+  "schema": "normalized Worksheet with root equal to first round",
+  "categoryCount": 20,
+  "worksheetCount": 480,
+  "roundCount": 1920,
+  "existingIds": "untouched; this generator writes expansion files only",
+  "sourceFacts": [
+    {
+      "title": "NASA: About the Planets",
+      "url": "https://science.nasa.gov/solar-system/planets/",
+      "supports": "eight planet names, ordinal positions, Mercury nearest/smallest, Jupiter largest, Neptune farthest"
+    },
+    {
+      "title": "NASA: Earth Facts",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "supports": "home planet, land and oceans"
+    },
+    {
+      "title": "NASA: Mars Facts",
+      "url": "https://science.nasa.gov/mars/facts/",
+      "supports": "Red Planet nickname"
+    },
+    {
+      "title": "NASA: Saturn Facts",
+      "url": "https://science.nasa.gov/saturn/facts/",
+      "supports": "prominent ring system"
+    }
+  ],
+  "illustrations": "not to scale; no answer relies on exact color, distance, or physical planet size",
+  "sha256": {
+    "expansion-categories.json": "8adf18e83d445d4362d0754b9934192922ad7a6258ae0edd9bfa576e483a76bf",
+    "expansion-worksheets.json": "1685e5fd35d01fb9a585a7f39eb8f60f561289ce3014129d6a07cd607af360b3",
+    "semantic-audit.json": "2bcca25ac767a8aa3cf0c7df49951844a46653ee73c1b73293e249846e906c3b"
+  }
+}

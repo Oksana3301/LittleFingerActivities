@@ -1,0 +1,7606 @@
+{
+  "valid": true,
+  "counts": {
+    "categories": 116,
+    "records": 2784,
+    "rounds": 11136,
+    "changedRecords": 1164,
+    "errors": 0,
+    "warnings": 78,
+    "duplicateRoundRecords": 78,
+    "duplicateTaskSetGroups": 202,
+    "duplicateTaskSetsChangedAndRetained": 0,
+    "duplicateTaskSetsChangedOnly": 172
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "air-water-vehicles-02",
+      "detail": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "air-water-vehicles-03",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "air-water-vehicles-04",
+      "detail": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "air-water-vehicles-05",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "air-water-vehicles-10",
+      "detail": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "air-water-vehicles-11",
+      "detail": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "air-water-vehicles-12",
+      "detail": [
+        [
+          1,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "air-water-vehicles-13",
+      "detail": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "air-water-vehicles-14",
+      "detail": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "air-water-vehicles-15",
+      "detail": [
+        [
+          1,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-01",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-02",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-03",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-04",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-05",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-06",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-07",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-08",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-09",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-10",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-11",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-12",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-13",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-14",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-15",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "construction-vehicles-16",
+      "detail": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "machine-parts-03",
+      "detail": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "machine-parts-05",
+      "detail": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "machine-parts-15",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-01",
+      "detail": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-02",
+      "detail": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-03",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-04",
+      "detail": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-05",
+      "detail": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-06",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-07",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-08",
+      "detail": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-09",
+      "detail": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-10",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-11",
+      "detail": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-12",
+      "detail": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-13",
+      "detail": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-14",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-15",
+      "detail": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "dinosaur-names-16",
+      "detail": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "adventure-sort-09",
+      "detail": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "space-pairs-01",
+      "detail": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "space-pairs-02",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "space-pairs-05",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "space-pairs-08",
+      "detail": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "space-pairs-09",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "space-pairs-12",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "space-pairs-15",
+      "detail": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "space-pairs-16",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-01",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-02",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-03",
+      "detail": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-05",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-06",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-07",
+      "detail": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-09",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-10",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-11",
+      "detail": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-13",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-14",
+      "detail": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "family-pairs-15",
+      "detail": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "size-07",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "length-09",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "length-10",
+      "detail": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "thickness-06",
+      "detail": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "color-pairs-02",
+      "detail": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "color-pairs-09",
+      "detail": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "color-pairs-12",
+      "detail": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "ascending-03",
+      "detail": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "growing-pattern-03",
+      "detail": [
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "memory-shapes-06",
+      "detail": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "memory-shapes-09",
+      "detail": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "code": "DUPLICATE_ROUND_TASK",
+      "at": "memory-colors-03",
+      "detail": [
+        [
+          1,
+          2
+        ]
+      ]
+    }
+  ],
+  "categoryStats": [
+    {
+      "id": "temperature",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "soft-hard",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "smooth-rough",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "wet-dry",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "open-closed",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "full-empty",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "heavy-light",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "bright-dim",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "fast-slow",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "loud-quiet",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "tidy-messy",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "kind-descriptions",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "brush-teeth",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "bath-routine",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "wash-hands",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "toilet-care",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "mealtime-habits",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "bedtime-routine",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sequence"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "tidy-toys",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sort"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "polite-words",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "helping-family",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "gentle-with-younger",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "friendly-choices",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "daily-routine",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sequence"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "road-vehicles",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "air-water-vehicles",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "construction-vehicles",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "vehicle-count",
+      "records": 24,
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "garage-tools",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "machine-parts",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "build-a-vehicle",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "workshop-sort",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern",
+        "sort"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "sports-kit",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "camping-kit",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "hobby-patterns",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "vehicle-paths",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "dinosaur-names",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "robot-drawing",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "build-blocks",
+      "records": 24,
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "adventure-sort",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern",
+        "sort"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern",
+        "sort"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "planet-names",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "planet-facts",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "space-pairs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "body-parts",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "five-senses",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "body-care",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "family-members",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "family-pairs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "kind-words",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "taking-turns",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "room-objects",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "school-objects",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "object-functions",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "living-nonliving",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "plant-needs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "weather-choices",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "math-more-less",
+      "records": 24,
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "math-equal",
+      "records": 24,
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "number-neighbors",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "math-stories",
+      "records": 24,
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "animal-names",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "produce-names",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "garden-names",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "vehicle-names",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "sky-names",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "home-names",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "match",
+        "memory",
+        "pattern"
+      ],
+      "changed": 8
+    },
+    {
+      "id": "colors",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "shapes",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "size",
+      "records": 24,
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "length",
+      "records": 24,
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "height",
+      "records": 24,
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "thickness",
+      "records": 24,
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "same-different",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "directions",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "positions",
+      "records": 24,
+      "engines": [
+        "draw",
+        "identify",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "clue",
+        "draw",
+        "match"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "symmetry",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "object-pairs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "silhouette-pairs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "memory",
+        "odd-one-out",
+        "shadow-match"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "color-pairs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "shape-pairs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "number-pairs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "uppercase-pairs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "lowercase-pairs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "letter-case",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "initial-letters",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "vowels",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "consonants",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "count-to-5",
+      "records": 24,
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "count-to-10",
+      "records": 24,
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "count-6-to-15",
+      "records": 24,
+      "engines": [
+        "count",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "count",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "quantity-pairs",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "compare-quantity",
+      "records": 24,
+      "engines": [
+        "compare",
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "choose-one",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "ascending",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "descending",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "missing-number",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "add-to-5",
+      "records": 24,
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "add-to-10",
+      "records": 24,
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "subtract-to-5",
+      "records": 24,
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "subtract-to-10",
+      "records": 24,
+      "engines": [
+        "count",
+        "identify",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "count",
+        "match",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "pattern-ab",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "pattern-abc",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "pattern-aab-abb",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "pattern"
+      ],
+      "kinds": [
+        "choose-many",
+        "clue",
+        "match",
+        "odd-one-out",
+        "pattern"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "growing-pattern",
+      "records": 24,
+      "engines": [
+        "identify",
+        "pair",
+        "pattern",
+        "sequence"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "odd-one-out",
+        "pattern",
+        "sequence"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "memory-objects",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "memory-shapes",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "memory-colors",
+      "records": 24,
+      "engines": [
+        "identify",
+        "memory",
+        "pair"
+      ],
+      "kinds": [
+        "choose-many",
+        "match",
+        "memory",
+        "odd-one-out"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "trace-lines",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "trace-curves",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "trace-shapes",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "trace-numbers",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "trace-letters",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "finish-picture",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "draw-to-count",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "draw-pattern",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "spatial-drawing",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    },
+    {
+      "id": "imagine-draw",
+      "records": 24,
+      "engines": [
+        "draw",
+        "pair",
+        "pattern",
+        "trace"
+      ],
+      "kinds": [
+        "draw",
+        "match",
+        "pattern",
+        "trace"
+      ],
+      "changed": 12
+    }
+  ],
+  "roundDuplicates": [
+    {
+      "id": "air-water-vehicles-02",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "air-water-vehicles-03",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "air-water-vehicles-04",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "air-water-vehicles-05",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "air-water-vehicles-10",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "air-water-vehicles-11",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "air-water-vehicles-12",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "air-water-vehicles-13",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "air-water-vehicles-14",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "air-water-vehicles-15",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-01",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-02",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-03",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-04",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-05",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-06",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-07",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-08",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-09",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-10",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-11",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-12",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-13",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-14",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-15",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "construction-vehicles-16",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "machine-parts-03",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "machine-parts-05",
+      "changed": false,
+      "rounds": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "machine-parts-15",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-01",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-02",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-03",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-04",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-05",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-06",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-07",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-08",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-09",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-10",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-11",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-12",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-13",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-14",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-15",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "dinosaur-names-16",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "adventure-sort-09",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "space-pairs-01",
+      "changed": false,
+      "rounds": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "space-pairs-02",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "space-pairs-05",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "space-pairs-08",
+      "changed": false,
+      "rounds": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "space-pairs-09",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "space-pairs-12",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "space-pairs-15",
+      "changed": false,
+      "rounds": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "space-pairs-16",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-01",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-02",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-03",
+      "changed": false,
+      "rounds": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-05",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-06",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-07",
+      "changed": false,
+      "rounds": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-09",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-10",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-11",
+      "changed": false,
+      "rounds": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-13",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-14",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "family-pairs-15",
+      "changed": false,
+      "rounds": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "size-07",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "length-09",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "length-10",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "thickness-06",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "color-pairs-02",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "color-pairs-09",
+      "changed": false,
+      "rounds": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "color-pairs-12",
+      "changed": false,
+      "rounds": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "ascending-03",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "growing-pattern-03",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "memory-shapes-06",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "memory-shapes-09",
+      "changed": false,
+      "rounds": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "memory-colors-03",
+      "changed": false,
+      "rounds": [
+        [
+          1,
+          2
+        ]
+      ]
+    }
+  ],
+  "duplicateTaskSets": [
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "brush-teeth-20",
+          "category": "brush-teeth",
+          "changed": true
+        },
+        {
+          "id": "bath-routine-20",
+          "category": "bath-routine",
+          "changed": true
+        },
+        {
+          "id": "wash-hands-20",
+          "category": "wash-hands",
+          "changed": true
+        },
+        {
+          "id": "toilet-care-20",
+          "category": "toilet-care",
+          "changed": true
+        },
+        {
+          "id": "body-care-20",
+          "category": "body-care",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "brush-teeth-23",
+          "category": "brush-teeth",
+          "changed": true
+        },
+        {
+          "id": "bath-routine-23",
+          "category": "bath-routine",
+          "changed": true
+        },
+        {
+          "id": "wash-hands-23",
+          "category": "wash-hands",
+          "changed": true
+        },
+        {
+          "id": "toilet-care-23",
+          "category": "toilet-care",
+          "changed": true
+        },
+        {
+          "id": "body-care-23",
+          "category": "body-care",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "bath-routine-17",
+          "category": "bath-routine",
+          "changed": true
+        },
+        {
+          "id": "wash-hands-17",
+          "category": "wash-hands",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "bath-routine-18",
+          "category": "bath-routine",
+          "changed": true
+        },
+        {
+          "id": "wash-hands-18",
+          "category": "wash-hands",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "bath-routine-19",
+          "category": "bath-routine",
+          "changed": true
+        },
+        {
+          "id": "wash-hands-19",
+          "category": "wash-hands",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "bath-routine-21",
+          "category": "bath-routine",
+          "changed": true
+        },
+        {
+          "id": "wash-hands-21",
+          "category": "wash-hands",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "bath-routine-22",
+          "category": "bath-routine",
+          "changed": true
+        },
+        {
+          "id": "wash-hands-22",
+          "category": "wash-hands",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "bath-routine-24",
+          "category": "bath-routine",
+          "changed": true
+        },
+        {
+          "id": "wash-hands-24",
+          "category": "wash-hands",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "polite-words-17",
+          "category": "polite-words",
+          "changed": true
+        },
+        {
+          "id": "kind-words-17",
+          "category": "kind-words",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "polite-words-18",
+          "category": "polite-words",
+          "changed": true
+        },
+        {
+          "id": "kind-words-18",
+          "category": "kind-words",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "polite-words-19",
+          "category": "polite-words",
+          "changed": true
+        },
+        {
+          "id": "kind-words-19",
+          "category": "kind-words",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "polite-words-20",
+          "category": "polite-words",
+          "changed": true
+        },
+        {
+          "id": "kind-words-20",
+          "category": "kind-words",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "polite-words-21",
+          "category": "polite-words",
+          "changed": true
+        },
+        {
+          "id": "kind-words-21",
+          "category": "kind-words",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "polite-words-22",
+          "category": "polite-words",
+          "changed": true
+        },
+        {
+          "id": "kind-words-22",
+          "category": "kind-words",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "polite-words-23",
+          "category": "polite-words",
+          "changed": true
+        },
+        {
+          "id": "kind-words-23",
+          "category": "kind-words",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "polite-words-24",
+          "category": "polite-words",
+          "changed": true
+        },
+        {
+          "id": "kind-words-24",
+          "category": "kind-words",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "gentle-with-younger-17",
+          "category": "gentle-with-younger",
+          "changed": true
+        },
+        {
+          "id": "friendly-choices-17",
+          "category": "friendly-choices",
+          "changed": true
+        },
+        {
+          "id": "taking-turns-17",
+          "category": "taking-turns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "gentle-with-younger-18",
+          "category": "gentle-with-younger",
+          "changed": true
+        },
+        {
+          "id": "friendly-choices-18",
+          "category": "friendly-choices",
+          "changed": true
+        },
+        {
+          "id": "taking-turns-18",
+          "category": "taking-turns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "gentle-with-younger-19",
+          "category": "gentle-with-younger",
+          "changed": true
+        },
+        {
+          "id": "friendly-choices-19",
+          "category": "friendly-choices",
+          "changed": true
+        },
+        {
+          "id": "taking-turns-19",
+          "category": "taking-turns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "gentle-with-younger-20",
+          "category": "gentle-with-younger",
+          "changed": true
+        },
+        {
+          "id": "friendly-choices-20",
+          "category": "friendly-choices",
+          "changed": true
+        },
+        {
+          "id": "taking-turns-20",
+          "category": "taking-turns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "gentle-with-younger-21",
+          "category": "gentle-with-younger",
+          "changed": true
+        },
+        {
+          "id": "friendly-choices-21",
+          "category": "friendly-choices",
+          "changed": true
+        },
+        {
+          "id": "taking-turns-21",
+          "category": "taking-turns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "gentle-with-younger-22",
+          "category": "gentle-with-younger",
+          "changed": true
+        },
+        {
+          "id": "friendly-choices-22",
+          "category": "friendly-choices",
+          "changed": true
+        },
+        {
+          "id": "taking-turns-22",
+          "category": "taking-turns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "gentle-with-younger-23",
+          "category": "gentle-with-younger",
+          "changed": true
+        },
+        {
+          "id": "friendly-choices-23",
+          "category": "friendly-choices",
+          "changed": true
+        },
+        {
+          "id": "taking-turns-23",
+          "category": "taking-turns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "gentle-with-younger-24",
+          "category": "gentle-with-younger",
+          "changed": true
+        },
+        {
+          "id": "friendly-choices-24",
+          "category": "friendly-choices",
+          "changed": true
+        },
+        {
+          "id": "taking-turns-24",
+          "category": "taking-turns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "road-vehicles-20",
+          "category": "road-vehicles",
+          "changed": true
+        },
+        {
+          "id": "vehicle-names-20",
+          "category": "vehicle-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "road-vehicles-23",
+          "category": "road-vehicles",
+          "changed": true
+        },
+        {
+          "id": "vehicle-names-23",
+          "category": "vehicle-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "air-water-vehicles-01",
+          "category": "air-water-vehicles",
+          "changed": false
+        },
+        {
+          "id": "air-water-vehicles-07",
+          "category": "air-water-vehicles",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "construction-vehicles-13",
+          "category": "construction-vehicles",
+          "changed": false
+        },
+        {
+          "id": "construction-vehicles-16",
+          "category": "construction-vehicles",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "garage-tools-17",
+          "category": "garage-tools",
+          "changed": true
+        },
+        {
+          "id": "workshop-sort-17",
+          "category": "workshop-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "garage-tools-20",
+          "category": "garage-tools",
+          "changed": true
+        },
+        {
+          "id": "workshop-sort-20",
+          "category": "workshop-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "garage-tools-21",
+          "category": "garage-tools",
+          "changed": true
+        },
+        {
+          "id": "workshop-sort-21",
+          "category": "workshop-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "garage-tools-23",
+          "category": "garage-tools",
+          "changed": true
+        },
+        {
+          "id": "workshop-sort-23",
+          "category": "workshop-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "machine-parts-17",
+          "category": "machine-parts",
+          "changed": true
+        },
+        {
+          "id": "build-a-vehicle-17",
+          "category": "build-a-vehicle",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "machine-parts-18",
+          "category": "machine-parts",
+          "changed": true
+        },
+        {
+          "id": "build-a-vehicle-18",
+          "category": "build-a-vehicle",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "machine-parts-19",
+          "category": "machine-parts",
+          "changed": true
+        },
+        {
+          "id": "build-a-vehicle-19",
+          "category": "build-a-vehicle",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "machine-parts-20",
+          "category": "machine-parts",
+          "changed": true
+        },
+        {
+          "id": "build-a-vehicle-20",
+          "category": "build-a-vehicle",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "machine-parts-21",
+          "category": "machine-parts",
+          "changed": true
+        },
+        {
+          "id": "build-a-vehicle-21",
+          "category": "build-a-vehicle",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "machine-parts-22",
+          "category": "machine-parts",
+          "changed": true
+        },
+        {
+          "id": "build-a-vehicle-22",
+          "category": "build-a-vehicle",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "machine-parts-23",
+          "category": "machine-parts",
+          "changed": true
+        },
+        {
+          "id": "build-a-vehicle-23",
+          "category": "build-a-vehicle",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "machine-parts-24",
+          "category": "machine-parts",
+          "changed": true
+        },
+        {
+          "id": "build-a-vehicle-24",
+          "category": "build-a-vehicle",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "sports-kit-17",
+          "category": "sports-kit",
+          "changed": true
+        },
+        {
+          "id": "hobby-patterns-17",
+          "category": "hobby-patterns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "sports-kit-18",
+          "category": "sports-kit",
+          "changed": true
+        },
+        {
+          "id": "hobby-patterns-18",
+          "category": "hobby-patterns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "sports-kit-19",
+          "category": "sports-kit",
+          "changed": true
+        },
+        {
+          "id": "hobby-patterns-19",
+          "category": "hobby-patterns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "sports-kit-20",
+          "category": "sports-kit",
+          "changed": true
+        },
+        {
+          "id": "hobby-patterns-20",
+          "category": "hobby-patterns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "sports-kit-21",
+          "category": "sports-kit",
+          "changed": true
+        },
+        {
+          "id": "hobby-patterns-21",
+          "category": "hobby-patterns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "sports-kit-22",
+          "category": "sports-kit",
+          "changed": true
+        },
+        {
+          "id": "hobby-patterns-22",
+          "category": "hobby-patterns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "sports-kit-23",
+          "category": "sports-kit",
+          "changed": true
+        },
+        {
+          "id": "hobby-patterns-23",
+          "category": "hobby-patterns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "sports-kit-24",
+          "category": "sports-kit",
+          "changed": true
+        },
+        {
+          "id": "hobby-patterns-24",
+          "category": "hobby-patterns",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "camping-kit-17",
+          "category": "camping-kit",
+          "changed": true
+        },
+        {
+          "id": "adventure-sort-17",
+          "category": "adventure-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "camping-kit-18",
+          "category": "camping-kit",
+          "changed": true
+        },
+        {
+          "id": "adventure-sort-18",
+          "category": "adventure-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "camping-kit-19",
+          "category": "camping-kit",
+          "changed": true
+        },
+        {
+          "id": "adventure-sort-19",
+          "category": "adventure-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "camping-kit-20",
+          "category": "camping-kit",
+          "changed": true
+        },
+        {
+          "id": "adventure-sort-20",
+          "category": "adventure-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "camping-kit-21",
+          "category": "camping-kit",
+          "changed": true
+        },
+        {
+          "id": "adventure-sort-21",
+          "category": "adventure-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "camping-kit-22",
+          "category": "camping-kit",
+          "changed": true
+        },
+        {
+          "id": "adventure-sort-22",
+          "category": "adventure-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "camping-kit-23",
+          "category": "camping-kit",
+          "changed": true
+        },
+        {
+          "id": "adventure-sort-23",
+          "category": "adventure-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "camping-kit-24",
+          "category": "camping-kit",
+          "changed": true
+        },
+        {
+          "id": "adventure-sort-24",
+          "category": "adventure-sort",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "dinosaur-names-01",
+          "category": "dinosaur-names",
+          "changed": false
+        },
+        {
+          "id": "dinosaur-names-06",
+          "category": "dinosaur-names",
+          "changed": false
+        },
+        {
+          "id": "dinosaur-names-14",
+          "category": "dinosaur-names",
+          "changed": false
+        },
+        {
+          "id": "dinosaur-names-16",
+          "category": "dinosaur-names",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "dinosaur-names-02",
+          "category": "dinosaur-names",
+          "changed": false
+        },
+        {
+          "id": "dinosaur-names-09",
+          "category": "dinosaur-names",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "dinosaur-names-03",
+          "category": "dinosaur-names",
+          "changed": false
+        },
+        {
+          "id": "dinosaur-names-11",
+          "category": "dinosaur-names",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "dinosaur-names-05",
+          "category": "dinosaur-names",
+          "changed": false
+        },
+        {
+          "id": "dinosaur-names-07",
+          "category": "dinosaur-names",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "dinosaur-names-10",
+          "category": "dinosaur-names",
+          "changed": false
+        },
+        {
+          "id": "dinosaur-names-15",
+          "category": "dinosaur-names",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "planet-names-17",
+          "category": "planet-names",
+          "changed": true
+        },
+        {
+          "id": "planet-facts-17",
+          "category": "planet-facts",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "planet-names-18",
+          "category": "planet-names",
+          "changed": true
+        },
+        {
+          "id": "planet-facts-18",
+          "category": "planet-facts",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "planet-names-19",
+          "category": "planet-names",
+          "changed": true
+        },
+        {
+          "id": "planet-facts-19",
+          "category": "planet-facts",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "planet-names-20",
+          "category": "planet-names",
+          "changed": true
+        },
+        {
+          "id": "planet-facts-20",
+          "category": "planet-facts",
+          "changed": true
+        },
+        {
+          "id": "space-pairs-20",
+          "category": "space-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "planet-names-21",
+          "category": "planet-names",
+          "changed": true
+        },
+        {
+          "id": "planet-facts-21",
+          "category": "planet-facts",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "planet-names-22",
+          "category": "planet-names",
+          "changed": true
+        },
+        {
+          "id": "planet-facts-22",
+          "category": "planet-facts",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "planet-names-23",
+          "category": "planet-names",
+          "changed": true
+        },
+        {
+          "id": "planet-facts-23",
+          "category": "planet-facts",
+          "changed": true
+        },
+        {
+          "id": "space-pairs-23",
+          "category": "space-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "planet-names-24",
+          "category": "planet-names",
+          "changed": true
+        },
+        {
+          "id": "planet-facts-24",
+          "category": "planet-facts",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "space-pairs-01",
+          "category": "space-pairs",
+          "changed": false
+        },
+        {
+          "id": "space-pairs-09",
+          "category": "space-pairs",
+          "changed": false
+        },
+        {
+          "id": "space-pairs-15",
+          "category": "space-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "space-pairs-02",
+          "category": "space-pairs",
+          "changed": false
+        },
+        {
+          "id": "space-pairs-08",
+          "category": "space-pairs",
+          "changed": false
+        },
+        {
+          "id": "space-pairs-16",
+          "category": "space-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "space-pairs-03",
+          "category": "space-pairs",
+          "changed": false
+        },
+        {
+          "id": "space-pairs-07",
+          "category": "space-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "space-pairs-04",
+          "category": "space-pairs",
+          "changed": false
+        },
+        {
+          "id": "space-pairs-06",
+          "category": "space-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "space-pairs-10",
+          "category": "space-pairs",
+          "changed": false
+        },
+        {
+          "id": "space-pairs-14",
+          "category": "space-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "space-pairs-11",
+          "category": "space-pairs",
+          "changed": false
+        },
+        {
+          "id": "space-pairs-13",
+          "category": "space-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "body-parts-17",
+          "category": "body-parts",
+          "changed": true
+        },
+        {
+          "id": "five-senses-17",
+          "category": "five-senses",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "body-parts-18",
+          "category": "body-parts",
+          "changed": true
+        },
+        {
+          "id": "five-senses-18",
+          "category": "five-senses",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "body-parts-19",
+          "category": "body-parts",
+          "changed": true
+        },
+        {
+          "id": "five-senses-19",
+          "category": "five-senses",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "body-parts-20",
+          "category": "body-parts",
+          "changed": true
+        },
+        {
+          "id": "five-senses-20",
+          "category": "five-senses",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "body-parts-21",
+          "category": "body-parts",
+          "changed": true
+        },
+        {
+          "id": "five-senses-21",
+          "category": "five-senses",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "body-parts-22",
+          "category": "body-parts",
+          "changed": true
+        },
+        {
+          "id": "five-senses-22",
+          "category": "five-senses",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "body-parts-23",
+          "category": "body-parts",
+          "changed": true
+        },
+        {
+          "id": "five-senses-23",
+          "category": "five-senses",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "body-parts-24",
+          "category": "body-parts",
+          "changed": true
+        },
+        {
+          "id": "five-senses-24",
+          "category": "five-senses",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "family-members-17",
+          "category": "family-members",
+          "changed": true
+        },
+        {
+          "id": "family-pairs-17",
+          "category": "family-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "family-members-18",
+          "category": "family-members",
+          "changed": true
+        },
+        {
+          "id": "family-pairs-18",
+          "category": "family-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "family-members-19",
+          "category": "family-members",
+          "changed": true
+        },
+        {
+          "id": "family-pairs-19",
+          "category": "family-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "family-members-20",
+          "category": "family-members",
+          "changed": true
+        },
+        {
+          "id": "family-pairs-20",
+          "category": "family-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "family-members-21",
+          "category": "family-members",
+          "changed": true
+        },
+        {
+          "id": "family-pairs-21",
+          "category": "family-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "family-members-22",
+          "category": "family-members",
+          "changed": true
+        },
+        {
+          "id": "family-pairs-22",
+          "category": "family-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "family-members-23",
+          "category": "family-members",
+          "changed": true
+        },
+        {
+          "id": "family-pairs-23",
+          "category": "family-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "family-members-24",
+          "category": "family-members",
+          "changed": true
+        },
+        {
+          "id": "family-pairs-24",
+          "category": "family-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "family-pairs-01",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-03",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-09",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-11",
+          "category": "family-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "family-pairs-02",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-10",
+          "category": "family-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "family-pairs-04",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-08",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-12",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-16",
+          "category": "family-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "family-pairs-05",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-07",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-13",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-15",
+          "category": "family-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "family-pairs-06",
+          "category": "family-pairs",
+          "changed": false
+        },
+        {
+          "id": "family-pairs-14",
+          "category": "family-pairs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "kind-words-09",
+          "category": "kind-words",
+          "changed": false
+        },
+        {
+          "id": "kind-words-12",
+          "category": "kind-words",
+          "changed": false
+        },
+        {
+          "id": "kind-words-15",
+          "category": "kind-words",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "kind-words-10",
+          "category": "kind-words",
+          "changed": false
+        },
+        {
+          "id": "kind-words-13",
+          "category": "kind-words",
+          "changed": false
+        },
+        {
+          "id": "kind-words-16",
+          "category": "kind-words",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "kind-words-11",
+          "category": "kind-words",
+          "changed": false
+        },
+        {
+          "id": "kind-words-14",
+          "category": "kind-words",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "taking-turns-09",
+          "category": "taking-turns",
+          "changed": false
+        },
+        {
+          "id": "taking-turns-12",
+          "category": "taking-turns",
+          "changed": false
+        },
+        {
+          "id": "taking-turns-15",
+          "category": "taking-turns",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "taking-turns-10",
+          "category": "taking-turns",
+          "changed": false
+        },
+        {
+          "id": "taking-turns-13",
+          "category": "taking-turns",
+          "changed": false
+        },
+        {
+          "id": "taking-turns-16",
+          "category": "taking-turns",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "taking-turns-11",
+          "category": "taking-turns",
+          "changed": false
+        },
+        {
+          "id": "taking-turns-14",
+          "category": "taking-turns",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "living-nonliving-17",
+          "category": "living-nonliving",
+          "changed": true
+        },
+        {
+          "id": "animal-names-17",
+          "category": "animal-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "living-nonliving-20",
+          "category": "living-nonliving",
+          "changed": true
+        },
+        {
+          "id": "animal-names-20",
+          "category": "animal-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "living-nonliving-21",
+          "category": "living-nonliving",
+          "changed": true
+        },
+        {
+          "id": "animal-names-21",
+          "category": "animal-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "living-nonliving-23",
+          "category": "living-nonliving",
+          "changed": true
+        },
+        {
+          "id": "animal-names-23",
+          "category": "animal-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "plant-needs-09",
+          "category": "plant-needs",
+          "changed": false
+        },
+        {
+          "id": "plant-needs-12",
+          "category": "plant-needs",
+          "changed": false
+        },
+        {
+          "id": "plant-needs-15",
+          "category": "plant-needs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "plant-needs-10",
+          "category": "plant-needs",
+          "changed": false
+        },
+        {
+          "id": "plant-needs-13",
+          "category": "plant-needs",
+          "changed": false
+        },
+        {
+          "id": "plant-needs-16",
+          "category": "plant-needs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "plant-needs-11",
+          "category": "plant-needs",
+          "changed": false
+        },
+        {
+          "id": "plant-needs-14",
+          "category": "plant-needs",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "plant-needs-17",
+          "category": "plant-needs",
+          "changed": true
+        },
+        {
+          "id": "garden-names-17",
+          "category": "garden-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "plant-needs-18",
+          "category": "plant-needs",
+          "changed": true
+        },
+        {
+          "id": "garden-names-18",
+          "category": "garden-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "plant-needs-19",
+          "category": "plant-needs",
+          "changed": true
+        },
+        {
+          "id": "garden-names-19",
+          "category": "garden-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "plant-needs-20",
+          "category": "plant-needs",
+          "changed": true
+        },
+        {
+          "id": "garden-names-20",
+          "category": "garden-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "plant-needs-21",
+          "category": "plant-needs",
+          "changed": true
+        },
+        {
+          "id": "garden-names-21",
+          "category": "garden-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "plant-needs-22",
+          "category": "plant-needs",
+          "changed": true
+        },
+        {
+          "id": "garden-names-22",
+          "category": "garden-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "plant-needs-23",
+          "category": "plant-needs",
+          "changed": true
+        },
+        {
+          "id": "garden-names-23",
+          "category": "garden-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "plant-needs-24",
+          "category": "plant-needs",
+          "changed": true
+        },
+        {
+          "id": "garden-names-24",
+          "category": "garden-names",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "weather-choices-09",
+          "category": "weather-choices",
+          "changed": false
+        },
+        {
+          "id": "weather-choices-12",
+          "category": "weather-choices",
+          "changed": false
+        },
+        {
+          "id": "weather-choices-15",
+          "category": "weather-choices",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "weather-choices-10",
+          "category": "weather-choices",
+          "changed": false
+        },
+        {
+          "id": "weather-choices-13",
+          "category": "weather-choices",
+          "changed": false
+        },
+        {
+          "id": "weather-choices-16",
+          "category": "weather-choices",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "retained-only",
+      "records": [
+        {
+          "id": "weather-choices-11",
+          "category": "weather-choices",
+          "changed": false
+        },
+        {
+          "id": "weather-choices-14",
+          "category": "weather-choices",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-13",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-13",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-14",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "math-equal-14",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-14",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-5-14",
+          "category": "count-to-5",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-14",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-14",
+          "category": "quantity-pairs",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-14",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-15",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "math-equal-15",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-15",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-15",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-15",
+          "category": "quantity-pairs",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-15",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-16",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-16",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-17",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-17",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-18",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "math-equal-18",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-18",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-18",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-18",
+          "category": "quantity-pairs",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-18",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-19",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "math-equal-19",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-19",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-19",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-19",
+          "category": "quantity-pairs",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-19",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-20",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-20",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-21",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-21",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-22",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "math-equal-22",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-22",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-22",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-22",
+          "category": "quantity-pairs",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-22",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-23",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "math-equal-23",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-23",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-23",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-23",
+          "category": "quantity-pairs",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-23",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-more-less-24",
+          "category": "math-more-less",
+          "changed": true
+        },
+        {
+          "id": "compare-quantity-24",
+          "category": "compare-quantity",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-equal-13",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-13",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-5-13",
+          "category": "count-to-5",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-13",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-13",
+          "category": "quantity-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-equal-16",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-neighbors-16",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-16",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-16",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-16",
+          "category": "quantity-pairs",
+          "changed": true
+        },
+        {
+          "id": "ascending-16",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-16",
+          "category": "missing-number",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-equal-17",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-17",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-17",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-17",
+          "category": "quantity-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-equal-20",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-20",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-20",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-20",
+          "category": "quantity-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-equal-21",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-21",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-21",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-21",
+          "category": "quantity-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "math-equal-24",
+          "category": "math-equal",
+          "changed": true
+        },
+        {
+          "id": "number-pairs-24",
+          "category": "number-pairs",
+          "changed": true
+        },
+        {
+          "id": "count-to-10-24",
+          "category": "count-to-10",
+          "changed": true
+        },
+        {
+          "id": "quantity-pairs-24",
+          "category": "quantity-pairs",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-13",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-13",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-13",
+          "category": "missing-number",
+          "changed": true
+        },
+        {
+          "id": "growing-pattern-13",
+          "category": "growing-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-14",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-14",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "descending-14",
+          "category": "descending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-14",
+          "category": "missing-number",
+          "changed": true
+        },
+        {
+          "id": "growing-pattern-14",
+          "category": "growing-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-15",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-15",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-15",
+          "category": "missing-number",
+          "changed": true
+        },
+        {
+          "id": "growing-pattern-15",
+          "category": "growing-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-17",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-17",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-17",
+          "category": "missing-number",
+          "changed": true
+        },
+        {
+          "id": "growing-pattern-17",
+          "category": "growing-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-18",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-18",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "descending-18",
+          "category": "descending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-18",
+          "category": "missing-number",
+          "changed": true
+        },
+        {
+          "id": "growing-pattern-18",
+          "category": "growing-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-19",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-19",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-19",
+          "category": "missing-number",
+          "changed": true
+        },
+        {
+          "id": "growing-pattern-19",
+          "category": "growing-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-20",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-20",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-20",
+          "category": "missing-number",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-21",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-21",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-21",
+          "category": "missing-number",
+          "changed": true
+        },
+        {
+          "id": "growing-pattern-21",
+          "category": "growing-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-22",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-22",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "descending-22",
+          "category": "descending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-22",
+          "category": "missing-number",
+          "changed": true
+        },
+        {
+          "id": "growing-pattern-22",
+          "category": "growing-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-23",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-23",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-23",
+          "category": "missing-number",
+          "changed": true
+        },
+        {
+          "id": "growing-pattern-23",
+          "category": "growing-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "number-neighbors-24",
+          "category": "number-neighbors",
+          "changed": true
+        },
+        {
+          "id": "ascending-24",
+          "category": "ascending",
+          "changed": true
+        },
+        {
+          "id": "missing-number-24",
+          "category": "missing-number",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-13",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-13",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-13",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-14",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-14",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-14",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-15",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-15",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-15",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-16",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-16",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-16",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-17",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-17",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-17",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-18",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-18",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-18",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-19",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-19",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-19",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-20",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-20",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-20",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-21",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-21",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-21",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-22",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-22",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-22",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-23",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-23",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-23",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "colors-24",
+          "category": "colors",
+          "changed": true
+        },
+        {
+          "id": "color-pairs-24",
+          "category": "color-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-colors-24",
+          "category": "memory-colors",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-13",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-13",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-13",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-14",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-14",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-14",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-15",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-15",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-15",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-16",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-16",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-16",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-17",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-17",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-17",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-18",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-18",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-18",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-19",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-19",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-19",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-20",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-20",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-20",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-21",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-21",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-21",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-22",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-22",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-22",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-23",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-23",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-23",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "shapes-24",
+          "category": "shapes",
+          "changed": true
+        },
+        {
+          "id": "shape-pairs-24",
+          "category": "shape-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-shapes-24",
+          "category": "memory-shapes",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-13",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-13",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-13",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-14",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-14",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-14",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-15",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-15",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-15",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-16",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-16",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-16",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-17",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-17",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-17",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-18",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-18",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-18",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-19",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-19",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-19",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-20",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-20",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-20",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-21",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-21",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-21",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-22",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-22",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-22",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-23",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-23",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-23",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "same-different-24",
+          "category": "same-different",
+          "changed": true
+        },
+        {
+          "id": "object-pairs-24",
+          "category": "object-pairs",
+          "changed": true
+        },
+        {
+          "id": "memory-objects-24",
+          "category": "memory-objects",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "uppercase-pairs-13",
+          "category": "uppercase-pairs",
+          "changed": true
+        },
+        {
+          "id": "letter-case-13",
+          "category": "letter-case",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "uppercase-pairs-14",
+          "category": "uppercase-pairs",
+          "changed": true
+        },
+        {
+          "id": "letter-case-14",
+          "category": "letter-case",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "uppercase-pairs-16",
+          "category": "uppercase-pairs",
+          "changed": true
+        },
+        {
+          "id": "letter-case-16",
+          "category": "letter-case",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "uppercase-pairs-17",
+          "category": "uppercase-pairs",
+          "changed": true
+        },
+        {
+          "id": "letter-case-17",
+          "category": "letter-case",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "uppercase-pairs-18",
+          "category": "uppercase-pairs",
+          "changed": true
+        },
+        {
+          "id": "letter-case-18",
+          "category": "letter-case",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "uppercase-pairs-20",
+          "category": "uppercase-pairs",
+          "changed": true
+        },
+        {
+          "id": "letter-case-20",
+          "category": "letter-case",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "uppercase-pairs-21",
+          "category": "uppercase-pairs",
+          "changed": true
+        },
+        {
+          "id": "letter-case-21",
+          "category": "letter-case",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "uppercase-pairs-22",
+          "category": "uppercase-pairs",
+          "changed": true
+        },
+        {
+          "id": "letter-case-22",
+          "category": "letter-case",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "uppercase-pairs-24",
+          "category": "uppercase-pairs",
+          "changed": true
+        },
+        {
+          "id": "letter-case-24",
+          "category": "letter-case",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "trace-shapes-13",
+          "category": "trace-shapes",
+          "changed": true
+        },
+        {
+          "id": "draw-pattern-13",
+          "category": "draw-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "trace-shapes-14",
+          "category": "trace-shapes",
+          "changed": true
+        },
+        {
+          "id": "draw-pattern-14",
+          "category": "draw-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "trace-shapes-15",
+          "category": "trace-shapes",
+          "changed": true
+        },
+        {
+          "id": "draw-pattern-15",
+          "category": "draw-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "trace-shapes-16",
+          "category": "trace-shapes",
+          "changed": true
+        },
+        {
+          "id": "draw-pattern-16",
+          "category": "draw-pattern",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "trace-shapes-17",
+          "category": "trace-shapes",
+          "changed": true
+        },
+        {
+          "id": "finish-picture-17",
+          "category": "finish-picture",
+          "changed": true
+        },
+        {
+          "id": "draw-pattern-17",
+          "category": "draw-pattern",
+          "changed": true
+        },
+        {
+          "id": "imagine-draw-17",
+          "category": "imagine-draw",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "trace-shapes-18",
+          "category": "trace-shapes",
+          "changed": true
+        },
+        {
+          "id": "finish-picture-18",
+          "category": "finish-picture",
+          "changed": true
+        },
+        {
+          "id": "draw-pattern-18",
+          "category": "draw-pattern",
+          "changed": true
+        },
+        {
+          "id": "imagine-draw-18",
+          "category": "imagine-draw",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "trace-shapes-19",
+          "category": "trace-shapes",
+          "changed": true
+        },
+        {
+          "id": "finish-picture-19",
+          "category": "finish-picture",
+          "changed": true
+        },
+        {
+          "id": "draw-pattern-19",
+          "category": "draw-pattern",
+          "changed": true
+        },
+        {
+          "id": "imagine-draw-19",
+          "category": "imagine-draw",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "relation": "changed-only",
+      "records": [
+        {
+          "id": "trace-shapes-20",
+          "category": "trace-shapes",
+          "changed": true
+        },
+        {
+          "id": "finish-picture-20",
+          "category": "finish-picture",
+          "changed": true
+        },
+        {
+          "id": "draw-pattern-20",
+          "category": "draw-pattern",
+          "changed": true
+        },
+        {
+          "id": "imagine-draw-20",
+          "category": "imagine-draw",
+          "changed": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Structural and presentation checks do not certify real-world semantic truth or translation accuracy.",
+    "Changed records require four distinct rounds; pre-existing repeated rounds are reported as warnings.",
+    "Whole-record duplicate task sets are review findings, not failures; the report distinguishes changed and retained records.",
+    "RGB shadow atlases are supported by the existing high-contrast CSS; alpha is not an unconditional requirement."
+  ],
+  "finalReview": {
+    "minimumKinds": 4,
+    "minimumEngines": 3,
+    "changedRounds": 4656,
+    "withinCategoryChangedDuplicateTaskSets": [],
+    "formalObjectiveChecks": {
+      "checks": 936,
+      "errors": [],
+      "families": [
+        "Indonesian initial letters",
+        "Indonesian initial matching",
+        "arithmetic matching",
+        "arithmetic selection",
+        "color matching",
+        "pattern unit matching",
+        "shape matching",
+        "stated pattern missing item",
+        "stated pattern selection",
+        "value matching"
+      ]
+    },
+    "creativeObjectiveChecks": {
+      "checks": 660,
+      "errors": [],
+      "families": [
+        "creative exact matching",
+        "quantity-number matching",
+        "vertical mirror matching",
+        "repeating or mirror pattern gap"
+      ]
+    },
+    "manualReview": "Reviewed representative revised formal and creative tasks, including color/shape/measurement rules, directions and positions, Indonesian initial letters, arithmetic, visual patterns, symmetry, drawing guides, and adjective clue/odd-one-out prompts. No obvious ambiguous correct answer found in these samples. Four-language presence is checked; this is not a full translation certification."
+  }
+}

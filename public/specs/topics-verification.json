@@ -1,0 +1,41 @@
+{
+  "catalogue": {
+    "worksheets": 3192,
+    "categories": 133,
+    "rounds": 12768,
+    "newWorksheets": 288,
+    "newCategories": 12,
+    "newRounds": 1152
+  },
+  "content": {
+    "structuralValidation": "passed",
+    "fourLanguageNarrationTextChecks": 78434,
+    "missingNarrationText": 0,
+    "newTasksetUniqueness": "passed",
+    "independentFoodJobFlagReview": "no concrete content errors found"
+  },
+  "browser": {
+    "mapWrongAnswerRejected": true,
+    "mapCorrectAnswerAccepted": true,
+    "mapNextRoundClearsSelection": true,
+    "foodThreeAnswerSelectionAccepted": true,
+    "newThemeFilterAndCategoryKinds": "passed",
+    "viewportWidths": [
+      320,
+      768,
+      1440,
+      1920
+    ],
+    "shortLandscape": [
+      740,
+      360
+    ],
+    "horizontalOverflow": false,
+    "phoneMapTouchTargetsPx": 44,
+    "countryMarkers": "approximate interior locations"
+  },
+  "limits": [
+    "Responsive checks use browser viewports, not physical devices.",
+    "Narration text coverage and controls checked; audible pronunciation depends on installed device voices."
+  ]
+}

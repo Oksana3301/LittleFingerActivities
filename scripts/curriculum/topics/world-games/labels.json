@@ -1,0 +1,278 @@
+{
+  "flag-id": {
+    "id": "Indonesia",
+    "en": "Indonesia",
+    "zh": "印度尼西亚",
+    "ar": "إندونيسيا"
+  },
+  "flag-jp": {
+    "id": "Jepang",
+    "en": "Japan",
+    "zh": "日本",
+    "ar": "اليابان"
+  },
+  "flag-cn": {
+    "id": "Tiongkok",
+    "en": "China",
+    "zh": "中国",
+    "ar": "الصين"
+  },
+  "flag-in": {
+    "id": "India",
+    "en": "India",
+    "zh": "印度",
+    "ar": "الهند"
+  },
+  "flag-sa": {
+    "id": "Arab Saudi",
+    "en": "Saudi Arabia",
+    "zh": "沙特阿拉伯",
+    "ar": "السعودية"
+  },
+  "flag-tr": {
+    "id": "Turki",
+    "en": "Türkiye",
+    "zh": "土耳其",
+    "ar": "تركيا"
+  },
+  "flag-au": {
+    "id": "Australia",
+    "en": "Australia",
+    "zh": "澳大利亚",
+    "ar": "أستراليا"
+  },
+  "flag-nz": {
+    "id": "Selandia Baru",
+    "en": "New Zealand",
+    "zh": "新西兰",
+    "ar": "نيوزيلندا"
+  },
+  "flag-us": {
+    "id": "Amerika Serikat",
+    "en": "United States",
+    "zh": "美国",
+    "ar": "الولايات المتحدة"
+  },
+  "flag-ca": {
+    "id": "Kanada",
+    "en": "Canada",
+    "zh": "加拿大",
+    "ar": "كندا"
+  },
+  "flag-mx": {
+    "id": "Meksiko",
+    "en": "Mexico",
+    "zh": "墨西哥",
+    "ar": "المكسيك"
+  },
+  "flag-br": {
+    "id": "Brasil",
+    "en": "Brazil",
+    "zh": "巴西",
+    "ar": "البرازيل"
+  },
+  "flag-ar": {
+    "id": "Argentina",
+    "en": "Argentina",
+    "zh": "阿根廷",
+    "ar": "الأرجنتين"
+  },
+  "flag-gb": {
+    "id": "Britania Raya dan Irlandia Utara",
+    "en": "United Kingdom",
+    "zh": "英国",
+    "ar": "المملكة المتحدة"
+  },
+  "flag-fr": {
+    "id": "Prancis",
+    "en": "France",
+    "zh": "法国",
+    "ar": "فرنسا"
+  },
+  "flag-it": {
+    "id": "Italia",
+    "en": "Italy",
+    "zh": "意大利",
+    "ar": "إيطاليا"
+  },
+  "flag-de": {
+    "id": "Jerman",
+    "en": "Germany",
+    "zh": "德国",
+    "ar": "ألمانيا"
+  },
+  "flag-es": {
+    "id": "Spanyol",
+    "en": "Spain",
+    "zh": "西班牙",
+    "ar": "إسبانيا"
+  },
+  "flag-eg": {
+    "id": "Mesir",
+    "en": "Egypt",
+    "zh": "埃及",
+    "ar": "مصر"
+  },
+  "flag-ke": {
+    "id": "Kenya",
+    "en": "Kenya",
+    "zh": "肯尼亚",
+    "ar": "كينيا"
+  },
+  "flag-za": {
+    "id": "Afrika Selatan",
+    "en": "South Africa",
+    "zh": "南非",
+    "ar": "جنوب أفريقيا"
+  },
+  "flag-ng": {
+    "id": "Nigeria",
+    "en": "Nigeria",
+    "zh": "尼日利亚",
+    "ar": "نيجيريا"
+  },
+  "flag-th": {
+    "id": "Thailand",
+    "en": "Thailand",
+    "zh": "泰国",
+    "ar": "تايلاند"
+  },
+  "flag-my": {
+    "id": "Malaysia",
+    "en": "Malaysia",
+    "zh": "马来西亚",
+    "ar": "ماليزيا"
+  },
+  "game-top": {
+    "id": "Gasing",
+    "en": "Spinning top",
+    "zh": "陀螺",
+    "ar": "بلبل دوار"
+  },
+  "game-congklak": {
+    "id": "Congklak",
+    "en": "Congklak board",
+    "zh": "康克拉棋盘",
+    "ar": "لوح لعبة كونغكلاك"
+  },
+  "game-hopscotch": {
+    "id": "Engklek",
+    "en": "Hopscotch",
+    "zh": "跳房子",
+    "ar": "الحجلة"
+  },
+  "game-puzzle": {
+    "id": "Puzzle gambar",
+    "en": "Jigsaw puzzle",
+    "zh": "拼图",
+    "ar": "أحجية الصور"
+  },
+  "football": {
+    "id": "Bola sepak",
+    "en": "Football",
+    "zh": "足球",
+    "ar": "كرة قدم"
+  },
+  "basketball": {
+    "id": "Bola basket",
+    "en": "Basketball",
+    "zh": "篮球",
+    "ar": "كرة سلة"
+  },
+  "badminton-racket": {
+    "id": "Raket bulu tangkis",
+    "en": "Badminton racket",
+    "zh": "羽毛球拍",
+    "ar": "مضرب ريشة"
+  },
+  "tennis-racket": {
+    "id": "Raket tenis",
+    "en": "Tennis racket",
+    "zh": "网球拍",
+    "ar": "مضرب تنس"
+  },
+  "kite": {
+    "id": "Layang-layang",
+    "en": "Kite",
+    "zh": "风筝",
+    "ar": "طائرة ورقية"
+  },
+  "building-blocks": {
+    "id": "Balok mainan",
+    "en": "Building blocks",
+    "zh": "积木",
+    "ar": "مكعبات لعب"
+  },
+  "skateboard": {
+    "id": "Papan luncur",
+    "en": "Skateboard",
+    "zh": "滑板",
+    "ar": "لوح تزلج"
+  },
+  "tent": {
+    "id": "Tenda",
+    "en": "Tent",
+    "zh": "帐篷",
+    "ar": "خيمة"
+  },
+  "habit-sharing": {
+    "id": "Berbagi balok",
+    "en": "Sharing blocks",
+    "zh": "分享积木",
+    "ar": "مشاركة المكعبات"
+  },
+  "habit-waiting": {
+    "id": "Menunggu giliran",
+    "en": "Waiting for a turn",
+    "zh": "等待轮到自己",
+    "ar": "انتظار الدور"
+  },
+  "habit-tidying": {
+    "id": "Merapikan mainan",
+    "en": "Putting toys away",
+    "zh": "收好玩具",
+    "ar": "ترتيب الألعاب"
+  },
+  "habit-helping": {
+    "id": "Membantu membawa bantal",
+    "en": "Helping carry a cushion",
+    "zh": "帮忙搬靠垫",
+    "ar": "المساعدة في حمل وسادة"
+  },
+  "habit-greeting": {
+    "id": "Menyapa dengan ramah",
+    "en": "Greeting kindly",
+    "zh": "友好地打招呼",
+    "ar": "إلقاء التحية بلطف"
+  },
+  "habit-thanking": {
+    "id": "Mengucapkan terima kasih",
+    "en": "Saying thank you",
+    "zh": "说谢谢",
+    "ar": "قول شكرا"
+  },
+  "habit-asking-help": {
+    "id": "Meminta bantuan pendamping",
+    "en": "Asking a grown-up for help",
+    "zh": "请大人帮忙",
+    "ar": "طلب المساعدة من شخص بالغ"
+  },
+  "habit-gentle": {
+    "id": "Bermain lembut bersama adik",
+    "en": "Playing gently with a younger child",
+    "zh": "温柔地陪小朋友玩",
+    "ar": "اللعب برفق مع طفل أصغر"
+  },
+  "habit-apologizing": {
+    "id": "Mengucapkan maaf",
+    "en": "Saying sorry",
+    "zh": "说对不起",
+    "ar": "قول آسف"
+  },
+  "habit-toy-basket": {
+    "id": "Keranjang mainan",
+    "en": "Toy basket",
+    "zh": "玩具篮",
+    "ar": "سلة الألعاب"
+  }
+}

@@ -1,0 +1,4 @@
+import {z} from 'zod';
+export function normalizeWhatsApp(value:string){const n=value.replace(/[\s().-]/g,'');return n.startsWith('08')?'62'+n.slice(1):n.startsWith('+')?n.slice(1):n}
+export const preorderSchema=z.object({name:z.string().trim().min(2,'Isi nama minimal 2 karakter.').max(80),whatsapp:z.string().max(25).transform(normalizeWhatsApp).refine(v=>/^[1-9]\d{9,14}$/.test(v),'Isi nomor WhatsApp dengan kode negara, misalnya 0812… atau +62812….'),consent:z.boolean().refine(v=>v,"Centang persetujuan untuk menerima kabar preorder."),website:z.string().max(0).optional()});
+export function validGroupUrl(value:string){try{const url=new URL(value);return url.protocol==='https:'&&url.hostname==='chat.whatsapp.com'&&/^\/[A-Za-z0-9_-]{10,100}$/.test(url.pathname)&&!url.username&&!url.password?url.origin+url.pathname:null}catch{return null}}

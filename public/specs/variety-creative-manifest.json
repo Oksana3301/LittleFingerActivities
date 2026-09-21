@@ -1,0 +1,755 @@
+{
+  "owner": "creative",
+  "categories": {
+    "trace-lines": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "trace-lines-13",
+        "trace-lines-14",
+        "trace-lines-15",
+        "trace-lines-16",
+        "trace-lines-17",
+        "trace-lines-18",
+        "trace-lines-19",
+        "trace-lines-20",
+        "trace-lines-21",
+        "trace-lines-22",
+        "trace-lines-23",
+        "trace-lines-24"
+      ],
+      "engines": {
+        "trace": 12,
+        "pair": 4,
+        "pattern": 4,
+        "draw": 4
+      },
+      "activityKinds": {
+        "trace": 12,
+        "match": 4,
+        "pattern": 4,
+        "draw": 4
+      }
+    },
+    "trace-curves": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "trace-curves-13",
+        "trace-curves-14",
+        "trace-curves-15",
+        "trace-curves-16",
+        "trace-curves-17",
+        "trace-curves-18",
+        "trace-curves-19",
+        "trace-curves-20",
+        "trace-curves-21",
+        "trace-curves-22",
+        "trace-curves-23",
+        "trace-curves-24"
+      ],
+      "engines": {
+        "trace": 12,
+        "pair": 4,
+        "pattern": 4,
+        "draw": 4
+      },
+      "activityKinds": {
+        "trace": 12,
+        "match": 4,
+        "pattern": 4,
+        "draw": 4
+      }
+    },
+    "trace-shapes": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "trace-shapes-13",
+        "trace-shapes-14",
+        "trace-shapes-15",
+        "trace-shapes-16",
+        "trace-shapes-17",
+        "trace-shapes-18",
+        "trace-shapes-19",
+        "trace-shapes-20",
+        "trace-shapes-21",
+        "trace-shapes-22",
+        "trace-shapes-23",
+        "trace-shapes-24"
+      ],
+      "engines": {
+        "trace": 12,
+        "pair": 4,
+        "pattern": 4,
+        "draw": 4
+      },
+      "activityKinds": {
+        "trace": 12,
+        "match": 4,
+        "pattern": 4,
+        "draw": 4
+      }
+    },
+    "trace-numbers": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "trace-numbers-13",
+        "trace-numbers-14",
+        "trace-numbers-15",
+        "trace-numbers-16",
+        "trace-numbers-17",
+        "trace-numbers-18",
+        "trace-numbers-19",
+        "trace-numbers-20",
+        "trace-numbers-21",
+        "trace-numbers-22",
+        "trace-numbers-23",
+        "trace-numbers-24"
+      ],
+      "engines": {
+        "trace": 12,
+        "pair": 4,
+        "pattern": 4,
+        "draw": 4
+      },
+      "activityKinds": {
+        "trace": 12,
+        "match": 4,
+        "pattern": 4,
+        "draw": 4
+      }
+    },
+    "trace-letters": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "trace-letters-13",
+        "trace-letters-14",
+        "trace-letters-15",
+        "trace-letters-16",
+        "trace-letters-17",
+        "trace-letters-18",
+        "trace-letters-19",
+        "trace-letters-20",
+        "trace-letters-21",
+        "trace-letters-22",
+        "trace-letters-23",
+        "trace-letters-24"
+      ],
+      "engines": {
+        "trace": 12,
+        "pair": 4,
+        "pattern": 4,
+        "draw": 4
+      },
+      "activityKinds": {
+        "trace": 12,
+        "match": 4,
+        "pattern": 4,
+        "draw": 4
+      }
+    },
+    "finish-picture": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "finish-picture-13",
+        "finish-picture-14",
+        "finish-picture-15",
+        "finish-picture-16",
+        "finish-picture-17",
+        "finish-picture-18",
+        "finish-picture-19",
+        "finish-picture-20",
+        "finish-picture-21",
+        "finish-picture-22",
+        "finish-picture-23",
+        "finish-picture-24"
+      ],
+      "engines": {
+        "draw": 12,
+        "pair": 4,
+        "pattern": 4,
+        "trace": 4
+      },
+      "activityKinds": {
+        "draw": 12,
+        "match": 4,
+        "pattern": 4,
+        "trace": 4
+      }
+    },
+    "draw-to-count": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "draw-to-count-13",
+        "draw-to-count-14",
+        "draw-to-count-15",
+        "draw-to-count-16",
+        "draw-to-count-17",
+        "draw-to-count-18",
+        "draw-to-count-19",
+        "draw-to-count-20",
+        "draw-to-count-21",
+        "draw-to-count-22",
+        "draw-to-count-23",
+        "draw-to-count-24"
+      ],
+      "engines": {
+        "draw": 12,
+        "pair": 4,
+        "pattern": 4,
+        "trace": 4
+      },
+      "activityKinds": {
+        "draw": 12,
+        "match": 4,
+        "pattern": 4,
+        "trace": 4
+      }
+    },
+    "draw-pattern": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "draw-pattern-13",
+        "draw-pattern-14",
+        "draw-pattern-15",
+        "draw-pattern-16",
+        "draw-pattern-17",
+        "draw-pattern-18",
+        "draw-pattern-19",
+        "draw-pattern-20",
+        "draw-pattern-21",
+        "draw-pattern-22",
+        "draw-pattern-23",
+        "draw-pattern-24"
+      ],
+      "engines": {
+        "draw": 12,
+        "pair": 4,
+        "pattern": 4,
+        "trace": 4
+      },
+      "activityKinds": {
+        "draw": 12,
+        "match": 4,
+        "pattern": 4,
+        "trace": 4
+      }
+    },
+    "spatial-drawing": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "spatial-drawing-13",
+        "spatial-drawing-14",
+        "spatial-drawing-15",
+        "spatial-drawing-16",
+        "spatial-drawing-17",
+        "spatial-drawing-18",
+        "spatial-drawing-19",
+        "spatial-drawing-20",
+        "spatial-drawing-21",
+        "spatial-drawing-22",
+        "spatial-drawing-23",
+        "spatial-drawing-24"
+      ],
+      "engines": {
+        "draw": 12,
+        "pair": 4,
+        "pattern": 4,
+        "trace": 4
+      },
+      "activityKinds": {
+        "draw": 12,
+        "match": 4,
+        "pattern": 4,
+        "trace": 4
+      }
+    },
+    "imagine-draw": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "imagine-draw-13",
+        "imagine-draw-14",
+        "imagine-draw-15",
+        "imagine-draw-16",
+        "imagine-draw-17",
+        "imagine-draw-18",
+        "imagine-draw-19",
+        "imagine-draw-20",
+        "imagine-draw-21",
+        "imagine-draw-22",
+        "imagine-draw-23",
+        "imagine-draw-24"
+      ],
+      "engines": {
+        "draw": 12,
+        "pair": 4,
+        "pattern": 4,
+        "trace": 4
+      },
+      "activityKinds": {
+        "draw": 12,
+        "match": 4,
+        "pattern": 4,
+        "trace": 4
+      }
+    },
+    "symmetry": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "symmetry-13",
+        "symmetry-14",
+        "symmetry-15",
+        "symmetry-16",
+        "symmetry-17",
+        "symmetry-18",
+        "symmetry-19",
+        "symmetry-20",
+        "symmetry-21",
+        "symmetry-22",
+        "symmetry-23",
+        "symmetry-24"
+      ],
+      "engines": {
+        "draw": 12,
+        "pair": 4,
+        "pattern": 4,
+        "trace": 4
+      },
+      "activityKinds": {
+        "draw": 12,
+        "match": 4,
+        "pattern": 4,
+        "trace": 4
+      }
+    },
+    "vehicle-paths": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "vehicle-paths-13",
+        "vehicle-paths-14",
+        "vehicle-paths-15",
+        "vehicle-paths-16",
+        "vehicle-paths-17",
+        "vehicle-paths-18",
+        "vehicle-paths-19",
+        "vehicle-paths-20",
+        "vehicle-paths-21",
+        "vehicle-paths-22",
+        "vehicle-paths-23",
+        "vehicle-paths-24"
+      ],
+      "engines": {
+        "trace": 12,
+        "pair": 4,
+        "pattern": 4,
+        "draw": 4
+      },
+      "activityKinds": {
+        "trace": 12,
+        "match": 4,
+        "pattern": 4,
+        "draw": 4
+      }
+    },
+    "robot-drawing": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 12,
+      "changedIds": [
+        "robot-drawing-13",
+        "robot-drawing-14",
+        "robot-drawing-15",
+        "robot-drawing-16",
+        "robot-drawing-17",
+        "robot-drawing-18",
+        "robot-drawing-19",
+        "robot-drawing-20",
+        "robot-drawing-21",
+        "robot-drawing-22",
+        "robot-drawing-23",
+        "robot-drawing-24"
+      ],
+      "engines": {
+        "draw": 12,
+        "pair": 4,
+        "pattern": 4,
+        "trace": 4
+      },
+      "activityKinds": {
+        "draw": 12,
+        "match": 4,
+        "pattern": 4,
+        "trace": 4
+      }
+    },
+    "temperature": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "temperature-01",
+        "temperature-02",
+        "temperature-03",
+        "temperature-04",
+        "temperature-05",
+        "temperature-06",
+        "temperature-07",
+        "temperature-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "memory": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "memory": 4,
+        "pattern": 4
+      }
+    },
+    "soft-hard": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "soft-hard-01",
+        "soft-hard-02",
+        "soft-hard-03",
+        "soft-hard-04",
+        "soft-hard-05",
+        "soft-hard-06",
+        "soft-hard-07",
+        "soft-hard-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "memory": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "memory": 4,
+        "pattern": 4
+      }
+    },
+    "smooth-rough": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "smooth-rough-01",
+        "smooth-rough-02",
+        "smooth-rough-03",
+        "smooth-rough-04",
+        "smooth-rough-05",
+        "smooth-rough-06",
+        "smooth-rough-07",
+        "smooth-rough-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "memory": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "memory": 4,
+        "pattern": 4
+      }
+    },
+    "wet-dry": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "wet-dry-01",
+        "wet-dry-02",
+        "wet-dry-03",
+        "wet-dry-04",
+        "wet-dry-05",
+        "wet-dry-06",
+        "wet-dry-07",
+        "wet-dry-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "memory": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "memory": 4,
+        "pattern": 4
+      }
+    },
+    "open-closed": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "open-closed-01",
+        "open-closed-02",
+        "open-closed-03",
+        "open-closed-04",
+        "open-closed-05",
+        "open-closed-06",
+        "open-closed-07",
+        "open-closed-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "sort": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "sort": 4,
+        "pattern": 4
+      }
+    },
+    "full-empty": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "full-empty-01",
+        "full-empty-02",
+        "full-empty-03",
+        "full-empty-04",
+        "full-empty-05",
+        "full-empty-06",
+        "full-empty-07",
+        "full-empty-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "sort": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "sort": 4,
+        "pattern": 4
+      }
+    },
+    "heavy-light": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "heavy-light-01",
+        "heavy-light-02",
+        "heavy-light-03",
+        "heavy-light-04",
+        "heavy-light-05",
+        "heavy-light-06",
+        "heavy-light-07",
+        "heavy-light-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "memory": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "memory": 4,
+        "pattern": 4
+      }
+    },
+    "bright-dim": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "bright-dim-01",
+        "bright-dim-02",
+        "bright-dim-03",
+        "bright-dim-04",
+        "bright-dim-05",
+        "bright-dim-06",
+        "bright-dim-07",
+        "bright-dim-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "memory": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "memory": 4,
+        "pattern": 4
+      }
+    },
+    "fast-slow": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "fast-slow-01",
+        "fast-slow-02",
+        "fast-slow-03",
+        "fast-slow-04",
+        "fast-slow-05",
+        "fast-slow-06",
+        "fast-slow-07",
+        "fast-slow-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "memory": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "memory": 4,
+        "pattern": 4
+      }
+    },
+    "loud-quiet": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "loud-quiet-01",
+        "loud-quiet-02",
+        "loud-quiet-03",
+        "loud-quiet-04",
+        "loud-quiet-05",
+        "loud-quiet-06",
+        "loud-quiet-07",
+        "loud-quiet-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "memory": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "memory": 4,
+        "pattern": 4
+      }
+    },
+    "tidy-messy": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "tidy-messy-01",
+        "tidy-messy-02",
+        "tidy-messy-03",
+        "tidy-messy-04",
+        "tidy-messy-05",
+        "tidy-messy-06",
+        "tidy-messy-07",
+        "tidy-messy-08"
+      ],
+      "engines": {
+        "identify": 8,
+        "pair": 8,
+        "memory": 4,
+        "pattern": 4
+      },
+      "activityKinds": {
+        "clue": 4,
+        "odd-one-out": 4,
+        "match": 8,
+        "memory": 4,
+        "pattern": 4
+      }
+    },
+    "kind-descriptions": {
+      "worksheets": 24,
+      "rounds": 96,
+      "preserved": 16,
+      "changedIds": [
+        "kind-descriptions-05",
+        "kind-descriptions-06",
+        "kind-descriptions-07",
+        "kind-descriptions-08",
+        "kind-descriptions-09",
+        "kind-descriptions-10",
+        "kind-descriptions-11",
+        "kind-descriptions-12"
+      ],
+      "engines": {
+        "identify": 4,
+        "memory": 4,
+        "pattern": 4,
+        "pair": 12
+      },
+      "activityKinds": {
+        "choose-one": 4,
+        "memory": 4,
+        "pattern": 4,
+        "match": 12
+      }
+    }
+  },
+  "semanticAssertions": 1008,
+  "negativeFixtures": {
+    "wrong-reflection": "rejected",
+    "wrong-pattern": "rejected",
+    "missing-arabic": "rejected",
+    "wrong-adjective-outsider": "rejected",
+    "ambiguous-memory-art": "rejected"
+  },
+  "totalWorksheets": 600,
+  "changedWorksheets": 252,
+  "sameCategoryDuplicateChangedWorksheets": 0,
+  "status": "passed"
+}
