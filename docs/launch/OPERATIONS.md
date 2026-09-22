@@ -16,6 +16,8 @@ The existing verified owner address is provisioned in `private.owner_allowlist` 
 
 Open `/account/admin`, find the customer, check their payment independently, then confirm the payment reference and amount. Activation grants exactly 365 days from activation. An early renewal preserves remaining time; a late renewal begins immediately. Retrying the same confirmed action reuses its key. Do not manually edit access dates to work around an error.
 
+An active `account_access.admin_role` grants all product activities without a paid subscription. The same entitlement function governs worksheets, legacy activities, voice saving and cloud progress. A verified live session is still required; suspended/blocked accounts and revoked admin roles lose this exception immediately. Admins continue to use their own family profiles and cannot read or overwrite another family's workbook. The account page displays admin access instead of annual billing dates or a payment request.
+
 Subscription requests are stored in Supabase and visible in the owner list. They do not charge a card or send an email/WhatsApp message. Automatic payment collection, renewal reminders, marketing email campaigns, scheduled monitoring and a tested backup/restore drill remain future work.
 
 Account suspension/blocking and immutable auditing exist in the protected database operations; the current customer list focuses on activation and renewal. A complete audit viewer and customer-support status UI remain future work.
@@ -33,7 +35,7 @@ node scripts/verify-parent-voice.cjs
 node scripts/verify-auth-flows.cjs
 ```
 
-Run the two `supabase/tests/*.sql` scripts against the intended project as privileged transaction-only tests; they end with rollback. The live BFF script needs two explicitly disposable confirmed Auth users named `lf-qa-<hex>@example.invalid` and an external JSON fixture file, never committed. It runs phases `pending`, `active`, then `expired`; privileged fixture changes between phases must target only those exact IDs. Its optional `LF_TEST_HTTP=python` transport uses real HTTPS through the managed runtime proxy. Delete the test Auth users and temporary credential/state files afterward.
+Run the `supabase/tests/*.sql` scripts against the intended project as privileged transaction-only tests; they end with rollback. The live BFF script needs two explicitly disposable confirmed Auth users named `lf-qa-<hex>@example.invalid` and an external JSON fixture file, never committed. It runs phases `pending`, `active`, then `expired`; privileged fixture changes between phases must target only those exact IDs. Its optional `LF_TEST_HTTP=python` transport uses real HTTPS through the managed runtime proxy. Delete the test Auth users and temporary credential/state files afterward.
 
 `verify-auth-flows.cjs` checks signup, verified/unverified login, callback routing and client failures with controlled Auth responses. It sends no email and does not establish SMTP readiness. The account UI distinguishes configuration loading/failure from a closed registration service, lets visitors retry the status check, preserves only the entered email in tab session storage for verification, and directs unverified logins to verification. A failed recovery callback returns to password recovery. Credentials are never stored in browser storage.
 
